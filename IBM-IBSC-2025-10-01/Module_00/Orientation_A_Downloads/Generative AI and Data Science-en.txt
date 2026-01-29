@@ -1,0 +1,55 @@
+Welcome to Generative AI and Data Science. After watching this video, you will be able
+to: Describe generative AI and
+Explain how data scientists use generative AI in data science.
+Generative AI is a subset of artificial intelligence that focuses on producing new data rather than
+just analyzing existing data.
+It allows machines to create content, including images, music, language, computer code, and
+more, mimicking creations by people.
+How does generative AI operate, though?
+Deep learning models like Generative Adversarial Networks (GANs) and Variational Autoencoders
+(VAEs) are at the foundation of this technique.
+These models create new instances that replicate the underlying distribution of the original
+data by learning patterns from enormous volumes of data.
+Generative AI has found diverse applications across various industries.
+Let’s look at some fascinating examples!
+Natural language processing like OpenAI’s GPT-3 can generate human-like text, revolutionizing
+content creation, and chatbots.
+In healthcare, Generative AI can synthesize medical images, aiding in the training of
+medical professionals.
+Generative AI can create unique and visually stunning artworks, generating endless creative
+visual compositions.
+Game developers use Generative AI to generate realistic environments, characters, and game
+levels.
+Generative AI assists in fashion by designing new styles and creating personalized shopping
+recommendations.
+Now, let's discuss how data scientists use Generative AI.
+Training and testing a model takes lots of data.
+Sometimes, the data you want to study doesn’t have enough observations to build a model.
+Interest in synthetic data as a tool for analysis and model creation has increased due to the recent
+developments in generative AI.
+Data scientists can augment their data sets using generative AI to create synthetic data.
+It creates this data with similar properties as the real data, such as its distribution,
+clustering, and many other factors the AI learned about the real data set.
+Data scientists can then use the synthetic data along with the real data for model training
+and testing.
+Data scientists, researchers, and analysts frequently find themselves confined by time
+when examining data patterns and insights.
+Due to this restriction, they can only conceive, develop, and evaluate a small number of hypotheses,
+leaving many other possibilities untested.
+With generative AI, data scientists can leverage generative AI to generate and test software
+code for constructing analytical models.
+Coding automation has the potential to revolutionize the field of analytics, allowing the data
+scientist to focus on higher-level tasks such as identifying and clarifying the problem
+the models intend to solve and evaluating hypotheses from a wider range of data sources.
+Generative AI can generate accurate business insights and comprehensive reports, making
+it possible to update these insights as the data evolves.
+Furthermore, it can autonomously explore data to uncover hidden patterns and insights that
+might go unnoticed during manual analysis and enhance decision-making.
+For instance, IBM’s Cognos Analytics, which provides AI-powered automation, enables you
+to unlock the full potential of your data with the help of its natural language AI assistant.
+You describe the question you are looking to answer or the hypothesis you want to test,
+and it helps generate the insights you need.
+In this video, you learned that: Generative AI, a subset of artificial intelligence,
+focuses on producing new data rather than analyzing existing data.
+Generative AI augments data science efforts, enabling deeper insights, addressing data
+limitations, and improving the overall quality of data-driven outcomes.

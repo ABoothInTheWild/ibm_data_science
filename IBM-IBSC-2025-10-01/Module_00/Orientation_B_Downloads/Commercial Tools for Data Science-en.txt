@@ -1,0 +1,83 @@
+Welcome to “Commercial Tools for Data Science.”
+After watching this video, you will be able to:
+List the commercial data management tools,
+List the commercial data integration and transformation tools
+List the data visualization tools
+List the model tools for building, deployment, monitoring, and assessment, and
+List tools for code asset management, data asset management, development environment,
+and fully integrated visual.
+Let’s revisit the overview of different tool categories.
+In data management, most of the enterprise’s relevant data is stored in an Oracle Database,
+in Microsoft SQL Server, or an IBM Db2.
+Although open-source databases are coming to the forefront, these three data management
+products are considered industry-standard and will be around for a while.
+In addition, it’s not only about functionality.
+Since data is the heart of every organization, commercial support availability plays a major role.
+Commercial supports are delivered directly from software vendors, influential partners,
+and support networks.
+Let’s start with commercial data integration tools that comprise extract, transform, and load (ETL) tools.
+According to a Gartner Magic Quadrant, Informatica PowerCenter and IBM InfoSphere DataStage are the leaders.
+These are followed by SAP, Oracle, SAS, Talend, and Microsoft products.
+These tools support the design and deployment of ETL data processing pipelines through a
+graphical interface.
+They bring along connectors to most of the commercial and open-source target information systems.
+Finally, Watson Studio Desktop includes a component called Data Refinery, which enables
+definition and execution of data integration processes in a spreadsheet-style.
+In the commercial environment, data visualizations use business intelligence (BI) tools.
+The focus of these tools is to create visual reports and live dashboards.
+The most prominent commercial representatives are:
+Tableau, Microsoft Power BI, and IBM Cognos Analytics.
+Another type of visualization targets data scientists rather than end users.
+For example, the visualization can show relationships between different columns in a table.
+This functionality is contained in Watson Studio Desktop.
+If you want to build a machine learning model with a commercial tool, you should use a data
+mining product.
+The most prominent products in that space are:
+SPSS Modeler and SAS enterprise miner.
+In addition, SPSS Modeler is also available in Watson Studio Desktop, based on the tool’s cloud version.
+Now, Model deployment in commercial software is tightly integrated into the model-building process.
+Here is an example of the SPSS Collaboration and Deployment Services, which is used to
+deploy any type of asset created by the SPSS software tools suite.
+The same holds for other vendors.
+Also, commercial software can export models in an open format.
+For example, SPSS Modeler supports exporting models as predictive model markup language
+(PMML), which an abundance of other commercial and open software packages can read.
+Model monitoring is a very new discipline.
+Currently, relevant commercial tools are not available.
+Therefore, open source is the first choice.
+The same is true for code asset management.
+Open source with Git and GitHub is the de facto standard.
+Data asset management, often called data governance or data lineage, is a crucial part of enterprise-grade
+data science.
+Data must be versioned and annotated with metadata.
+Vendors, including Informatica Enterprise Data Governance
+and IBM, provides tools for these specific tasks.
+The Information Governance Catalog covers functions like a data dictionary, which facilitates
+the discovery of data assets.
+Each data asset is assigned to a data steward or the data owner.
+The data owner is responsible for that data asset and can be contacted.
+Then, data lineage is covered, allowing tracking back the transformation steps in creating
+the data assets.
+The data lineage also includes a reference to the actual source data.
+And rules and policies can be added to reflect complex regulatory and business requirements
+for data privacy and retention.
+Watson Studio is a fully integrated development environment for data scientists.
+Most people consume it through the cloud.
+And there is also a desktop version available.
+Watson Studio Desktop combines Jupyter Notebooks with graphical tools to maximize the performance
+of data scientists.
+Watson Studio, together with Watson Open Scale, is a fully integrated tool covering the data
+science life cycle involving all tasks discussed previously.
+They can be deployed in a local data center, on top of Kubernetes / RedHat OpenShift.
+Another example of a fully integrated commercial tool is
+H2O Driverless AI, which covers the complete data science life cycle.
+In this video, you learned that: Commercial tools support the most common tasks
+in data science.
+Data management tools are Oracle Database, Microsoft SQL Server, and IBM Db2.
+Data integration tools are mainly provided by Informatica PowerCenter and IBM InfoSphere DataStage.
+These are followed by products from SAP, Oracle, SAS, Talend, Microsoft, and Watson Studio Desktop.
+Model building tools are SPSS Modeler, and SAS enterprise miner.
+SPSS Modeler is also available in Watson Studio Desktop.
+Informatica and IBM provide data asset management tools.
+And finally, Watson Studio, together with Watson Open Scale is a fully integrated tool covering the data
+science life cycle.

@@ -1,6 +1,6 @@
-# IBM Data Science Course - October 2025 Session
+# IBM Data Science Course - January 2026 Session
 
-This folder contains all course materials, labs, exercises, and resources for the IBM Data Science course session starting October 2025.
+This folder contains all course materials, labs, exercises, and resources for the IBM Data Science course session starting January 2026.
 
 ## Course Overview
 
@@ -8,7 +8,7 @@ This comprehensive data science course covers the full spectrum of data science 
 
 ## Module Structure
 
-### Module 00: Orientation
+### Module 0: Orientation
 
 * Course handbook and orientation materials
 * Getting started with Jupyter Notebook
@@ -131,3 +131,4 @@ This comprehensive data science course covers the full spectrum of data science 
 * Some modules may reference external datasets or resources
 * Live session folders contain both solved and unsolved versions of labs
 * Final assignments are typically located in the later modules (3, 4, 9, 10)
+* This course is currently in progress - additional modules will be added as the course progresses

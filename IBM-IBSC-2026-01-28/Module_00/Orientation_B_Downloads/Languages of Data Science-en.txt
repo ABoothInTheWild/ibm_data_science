@@ -1,0 +1,41 @@
+Welcome to Languages of Data Science.
+After watching this video, you will be able to
+identify the criteria for determining the language to learn, and
+list the roles involved in data science.
+For users who are just starting on their data science journey,
+the range of available technical options can be overwhelming.
+There are literally thousands of different programming languages
+with their own strengths and weaknesses.
+So, which language should you learn first?
+The answer to that question depends largely on your needs,
+the problems you are trying to solve, and who you are solving them for.
+First and foremost, we recommend considering the Python, R, and SQL languages.
+However, other languages such as Scala, Java, C++, and Julia with specific features are also popular.
+JavaScript, PHP, Go, Ruby, and Visual Basic all have their own unique cases as well.
+Now the language you choose to learn will depend on the things you need
+to accomplish and the problems you need to solve.
+The problems can be related to the company you work for,
+what role you have,
+and the age of your existing application.
+So, what problems do you need to solve?
+We’ll have a better insight into the answers to this question as we learn
+more about the popular languages in the data science industry.
+There are many roles available for people who are interested in getting involved in data science,
+and they include:
+Business Analyst,
+Database Engineer,
+Data Analyst,
+Data Engineer,
+Data Scientist,
+Research Scientist,
+Software Engineer,
+Statistician,
+Product Manager,
+Project Manager, and so on.
+In this video, you learned that
+you should select a language to learn depending on your needs,
+the problems you are trying to solve, and who you are solving them for.
+The popular languages are Python, R, SQL, Scala, Java, C++, and Julia.
+JavaScript, PHP, Go, Ruby, and Visual Basic all have their own unique use cases as well.
+The problems you need to solve can be related to your company,
+role, and age of the existing application.

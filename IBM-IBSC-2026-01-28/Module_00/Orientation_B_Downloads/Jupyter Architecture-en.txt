@@ -1,0 +1,24 @@
+Welcome to “Jupyter Architecture.”
+After watching this video, you will be able to
+describe the basic Jupyter architecture, and
+explain Jupyter architecture for conversion to a file format.
+Jupyter architecture implements a two-process model with a kernel and a client.
+The client is the interface offering the user the ability to send code to the kernel.
+It is the browser in a Jupyter Notebook.
+The kernel executes the code and returns the result to the client for display.
+Jupyter Notebooks represent your code, metadata, contents, and outputs.
+When you save the Notebook, it is sent from your browser to the Notebook server.
+It saves the notebook file on a disk as a JSON file with
+a .ipynb (pronounced as dot i PI NB) extension.
+The Notebook server is responsible for saving and loading the notebooks.
+And the kernel executes the cells of code contained in the Notebook when the user runs them.
+The Jupyter architecture uses the NB convert tool to convert files to other formats.
+For example, if we want to convert a notebook file into an HTML file, the notebook is first
+modified by a preprocessor, then an exporter converts the notebook to the new file format.
+Finally, a postprocessor will work on the exported file to give the final output.
+After conversion, on giving the url of the file, the HTML file displays.
+In this video, you learned that:
+Jupyter implements a two-process model with a kernel and a client.
+The Notebook server is responsible for saving and loading the notebooks.
+The kernel executes the cells of code contained in the Notebook.
+And the Jupyter architecture uses the NB convert tool to convert files to other formats.

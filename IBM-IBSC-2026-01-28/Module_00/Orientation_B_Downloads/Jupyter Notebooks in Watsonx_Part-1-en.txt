@@ -1,0 +1,116 @@
+Welcome to Jupyter Notebooks in WatsonX, Part 1.
+After watching this video, you will be able to
+Create a Jupyter Notebook and load a data file
+Share a Jupyter Notebook with others
+and
+Create a job and schedule it to run
+In the previous video, you learned how to create a project.
+Once created, you will see this page.
+Click Assets and click New Asset
+to add or create a new notebook.
+Under Work with Models, select
+Work with Data and Models in Python or R Notebooks
+to create a new notebook.
+Now you can create a sample notebook,
+upload a notebook file from your local file system,
+or upload a notebook file from a URL.
+In this video, you will create a blank notebook.
+First, provide a notebook name and description,
+then click Create to create a notebook.
+It is best practice to include a description
+of the notebook's purpose and functionality before executing.
+Now, change the cell type to Markdown,
+so this cell will not be treated as code.
+In the Markdown cell,
+describe what the notebook does and run it.
+After you create a notebook, you will upload the data.
+Ensure the data you load and the code commands
+you use to analyze that data
+match the kernel-slash-runtime language you selected
+when you created your notebook.
+Click Data Asset icon to upload the data.
+Click Drop Data File Here or Browse for files to upload.
+In the Data pane,
+browse for the files or drag them onto the pane.
+You must stay on the page until the upload is complete.
+You have the option to cancel an ongoing upload process if need be.
+Once the dataset is loaded, it is displayed as Uploaded.
+After uploading the data,
+click the Code icon and then click Read Data.
+Click Select Data from Project.
+Click Data Assets.
+Then select the uploaded data and click Select.
+Now, the data is available to work on.
+Select Pandas Data Frame.
+Click Insert Code to sell.
+Now, a new cell will be added
+and the corresponding code will be automatically inserted into it.
+The inserted code loads the dataset into a data frame.
+Run the code cell to display the first five rows of the dataset.
+From the File tab,
+select the Save Notebook Version option
+to save the latest changes in the notebook.
+Click the project name to return to the project homepage.
+Back on the project homepage,
+under the Assets tab,
+select the notebooks in the left navigation pane.
+You'll find the notebook on which you have recently worked.
+Click to open it.
+The notebook will open in a read-only mode.
+To edit, click the pencil icon in the notebook action bar.
+When the View Notebook Info icon is selected,
+under the General tab,
+you can change the name and description of your notebook
+and also see the last editor,
+last modified date,
+and the creation date.
+On the Environment tab,
+you can see the environment template used to open the notebook.
+Change the template, view the environment details,
+and check the runtime status.
+You can create a URL to share the notebook on social media
+or with people outside of Watson Studio.
+The URL shows a read-only view of the notebook.
+Anyone who has the URL can view or download the notebook.
+Click the Share icon in the notebook action bar
+to see sharing options in a pop-up window.
+If you want to share a read-only version of the notebook
+in the dialog box,
+enable the option Share with Anyone Who Has a Link.
+You can select how much of the content you'd like to share.
+You can select Only Text and Output,
+All Content Excluding Sensitive Code Cells,
+or All Content Including Code in the sharing options.
+You can then share the notebook either through a link
+or on social media.
+Then click Close.
+The Jobs feature provides an efficient way to run,
+schedule, and monitor jobs in a Watson X project.
+Click the Create a Job icon from the notebook action bar
+and click Create a Job.
+On the Define Details page,
+enter the job name and description and then click Next.
+In the Configure page,
+check all the required details and then click Next.
+On the Schedule page,
+you can select any one run after job creation
+or run on a schedule as required.
+Then click Next.
+If you require a notification for this job,
+enable the Notification option and then click Next.
+Review the job details and click Create.
+After the job is successfully created,
+a pop-up window will appear with the message
+The job was successfully created.
+Click the project name to return to the project homepage.
+Go to the Jobs tab to view the job you created.
+You can edit and delete the job from here.
+In this video, you learned that.
+You can add or create a new notebook
+by clicking New Asset on the project homepage
+under the Assets tab.
+You can share your notebook without sharing the sensitive cells.
+Jobs are created and scheduled
+from the Create a Job icon in the notebook action bar.
+And jobs can be viewed, edited or deleted
+on the project homepage under the Jobs tab.

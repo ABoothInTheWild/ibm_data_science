@@ -1,0 +1,74 @@
+[MUSIC]
+Welcome to the Careers and Recruiting and Data Science, Lesson Summary video.
+In this lesson, you investigated what companies seek in a competent,
+experienced data scientist.
+You learned how to position yourself to get hired as a data scientist.
+Amidst the diverse backgrounds from which data scientists emerge,
+you also find they share qualities and
+skills that consistently set them apart from other data related roles.
+Companies recruiting data scientists may seem to want data scientists to
+have it all.
+They may seek a person who has all the desired skills, ranging from domain
+specific knowledge to proficiency in analyzing both structured and
+unstructured data, as well as skills in presenting and storytelling.
+Realistically, this person is a rare find.
+Instead, companies need to develop teams of people who work together who have these
+skills rather than seeking out individuals who have all of these qualities.
+They also may need to seek out individuals with potential and
+help them develop the skills they need.
+What really matters is they find someone passionate about the kind of business
+that they do.
+Companies should look for
+someone excited about working with the data in their particular industry.
+They should seek out someone curious who can ask interesting,
+meaningful questions about the types of data they intend to collect.
+For example, a person who could be a great data scientist in the retail environment
+may not be excited about working in IT related firms or
+working with gigabytes of health related web logs.
+Companies will find that excitement results in high productivity.
+That excitement also relates back to curiosity,
+which we discussed in another lesson as an important trait for a data scientist.
+Someone excited about their field is likely to be curious and
+find the right questions to ask.
+Constantly wondering why things are the way that they are helps you stay motivated
+and engaged.
+Similarly, self-learning and tinkering are also helpful traits.
+As a data scientist, you should love to play with data and
+create data visualizations.
+You need to think analytically and computationally.
+You need a strong background in mathematics, statistics, and
+probability to reach valid conclusions with that data.
+You also need computer programming skills.
+Tools may vary with the type of data that you'll work with.
+Though common languages include Python and
+R, an open source programming language developed for statistical analysis.
+Because data scientists work with large quantities of stored data,
+you must also understand data storage and retrieval systems with structured and
+unstructured data.
+With artificial intelligence, you also need to know common machine learning
+algorithms to gain insights from their data.
+One or more persons from the data science team at an organization will write
+a report as the final step of the analysis, so communication, instructional
+and presentational skills, and storytelling skills are also important.
+The report synthesizes these large amounts of data to create a narrative that engages
+and surprises the reader.
+A clearly organized and logical report should communicate the following to
+the reader, what they gain by reading the report, clearly defined goals,
+the significance of your contribution.
+Appropriate context by giving sufficient background,
+why this work is practical and useful, and
+conjugate plausible future developments that might result from your work.
+As Dr. Haider explained, imagine your reader is driving on a mountain.
+There's a sharp turn ahead, and they can't see what's beyond the turn.
+They go around the curve and suddenly they see a tremendous valley in front of them,
+they experience this great sense of awe.
+So, when you were presenting this great finding and communicating it well,
+this is what people feel because they were not expecting it.
+In summary, companies need to look for individuals to create a data science team
+and be cautious about trying to find all the desired skills in a single individual.
+On that team, they should have curious people who understand the subject matter
+well, people who love working with the data and those with statistics,
+mathematics, machine learning and computer programming expertise.
+Lastly and possibly most importantly, they need a skilled storyteller who can present
+the team's findings in a creative and engaging way.
+[MUSIC]

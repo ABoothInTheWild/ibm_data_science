@@ -1,0 +1,54 @@
+Welcome to the data science application lesson summary video.
+In this video, let’s review what you’ve learned in this lesson about the power of
+data science applications and how organizations leverage this power to drive business goals,
+improve efficiency, make predictions, and even save lives. You also reviewed the process
+that you will follow as a data scientist to help your organization accomplish these ends.
+All organizations ultimately use data science for the same reason— to discover optimal
+solutions to existing problems. But to discover these solutions, your organization should
+identify the problem and establish a clear understanding of it.
+Measurement is the first step for an organization to solve its problems using data.
+You need to capture and gather your data. If something is not measured, it’s challenging
+to improve or change it. If your organization isn’t capturing the data, help them to figure
+out how to capture it. Never overwrite old data – it’s always
+relevant and never gets old. Once you have the data, you can start looking
+at it and cleaning it. As a data scientist, it’s your job to help
+your organization identify tools and develop an analysis strategy. Consider case studies
+when customizing a potential solution. Identify your analysis tools, and then develop
+your machine learning and statistical models. It will take time for your organization to
+refine data strategy best practices, but the benefits are worth it.
+Everyone who uses the Internet generates mass amounts of data daily, often without being
+aware of it. Your company can leverage that data to reveal
+patterns. Take, for instance, a company like Amazon.
+You’ll notice that it starts making recommendations related to your search.
+That’s called a recommendation engine; data scientists build those engines using machine
+learning and statistical models. Companies like UPS use data science to inform
+their business decisions. They use data from customers, drivers, and
+vehicles to create routes for their drivers, making more efficient use of the drivers’
+time, money, and fuel.  Uber uses data to put the correct number of drivers in the right
+place at the right time, for a price the rider is willing to pay. Initiatives
+like this show how data science fundamentally changes how businesses compete and operate.
+Businesses also use data science to gain competitive advantages. Take streaming companies as an
+example. They collect and analyze massive amounts of data from millions of users, including
+which shows they watch and what time of day.
+They detect when people pause, rewind, and fast-forward. They collect information such
+as which directors and actors they search for.
+A streaming company can confidently predict the success of a show before filming begins
+by thoroughly analyzing its users’ preferences and behaviors.
+Beyond helping businesses with their bottom line, data science helps companies and organizations
+save lives. In healthcare, data scientists use predictive analytics developed from data
+mining, data modeling, statistics, and machine learning to find the best options for patients.
+This type of predictive analytics examines factors for a disease, including  gene markers,
+associated conditions, and environmental factors. Data scientists use their models to help physicians,
+recommend appropriate tests, suitable trials, and suggest treatments.
+Developing more extensive data analytics capabilities supports healthcare organizations move from
+basic descriptive analytics towards predictive insights, thanks to data science.
+Data science tools enable organizations to analyze vast amounts of data from various
+sources. Large, high-quality data sets can help predict the occurrence of natural disasters
+such as earthquakes, hurricanes, tornados, floods, and volcanic eruptions. The data scientists
+present that information in a way that allows organizations to gain new understandings
+and, in some cases, save lives. When presenting your findings, you will provide
+your organizations with a final deliverable that explains and summarizes their conclusions.
+In academia, the final deliverable comprises research papers and reports. You often present
+the final deliverable illustrated with tables and plots in consulting and business. You
+will generate analytics-driven reports to communicate your findings to your organization
+and, in the process, establish powerful, convincing, and evidence-based narratives.

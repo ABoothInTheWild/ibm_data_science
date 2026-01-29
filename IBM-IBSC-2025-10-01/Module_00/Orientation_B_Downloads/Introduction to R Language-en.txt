@@ -1,0 +1,51 @@
+Welcome to “Introduction to R Language”.
+After watching this video, you will be able to:
+compare open source with free software,
+identify the users of the R language,
+list the benefits of using R, and
+list the global communities for connecting with other R users.
+According to the results of the 2019 Kaggle Data Science survey, which had over ten
+thousand respondents worldwide, learning three languages can earn you an increment!
+And R offers many possibilities.
+Now, Python is open source, while R is free software. Let us compare the open source and free software.
+The similarities are that both are free to use.
+Both commonly refer to the same set of licenses.
+For example, many open-source projects use the General Public License (GNU).
+Both support collaboration.
+And in many cases, these terms can be used interchangeably (but not all).
+Now, let’s discuss the differences between open source and free software.
+The Open-Source Initiative (OSI) champions open source,
+while the Free Software Foundation (FSF) defines free software.
+Open source is more business focused, while free software is more focused on a set of values.
+So, why R? You should learn R because it is free software.
+You can use the language in the same way that you contribute to open source.
+In addition, it allows for private use, commercial use, and public collaboration.
+R is another language supported by a wide global
+community of people who want to use the language to solve big problems.
+Statisticians, mathematicians, and data miners use R to develop
+statistical software, graphing, and data analysis.
+R Language's array-oriented syntax makes it easier to translate from
+math to code for learners with no or minimal programming background.
+According to Kaggle’s Data Science and Machine Learning survey,
+most programmers learn R after a few years into their data science career.
+And R is mostly popular in academia.
+In addition, companies that use R include IBM, Google,
+Facebook, Microsoft, Bank of America, Ford, TechCrunch, Uber, and Trulia.
+R has become the world’s largest repository of statistical knowledge.
+As of 2018, R has more than 15,000 publicly released packages making it
+possible to conduct complex exploratory data analysis.
+R integrates well with other computer languages like C++, Java, C, .Net, and Python.
+Using R, common mathematical operations like matrix multiplication give immediate results.
+And R has stronger object-oriented
+programming facilities than most statistical computing languages.
+Now, there are many ways to connect with other R users around the globe.
+For connecting to other users, you can use communities such as useR,
+WhyR, SatRdays, and R-ladies.
+And in addition, you can check out the R project website for R conferences and events.
+In this video, you learned that:
+The Open-Source Initiative (OSI) champions open source,
+while the Free Software Foundation (FSF) defines free software.
+Python is open source, and R is free software.
+R language’s array-oriented syntax makes it easier to translate from
+math to code for learners with none or minimal programming background.
+And R has become the world’s largest repository of statistical knowledge.

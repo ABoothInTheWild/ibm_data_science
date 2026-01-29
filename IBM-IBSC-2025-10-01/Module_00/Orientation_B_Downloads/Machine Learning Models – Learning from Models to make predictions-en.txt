@@ -1,0 +1,93 @@
+Welcome to “Machine Learning Models – Learning from models to make predictions.”
+After watching this video, you will be able to
+define a machine learning model,
+describe the different learning model types, and
+describe how to use a learning model to solve a problem.
+Now data contains a wealth of information that can be used to solve certain types of problems.
+Traditional data analysis approaches can be a person manually inspecting the data
+or a specialized computer program that automates the human analysis.
+These approaches reach their limits due to
+the amount of data to be analyzed or the complexity of the problem.
+Machine learning (ML) uses algorithms – also known as “models” - to identify patterns in the data.
+The process by which the model learns these patterns from data is called “model training”.
+So once a model is trained, it can then be used to make predictions.
+When the model is presented with new data,
+it tries to make predictions or decisions based on the patterns it has learned from past data.
+Machine Learning models can be divided into three basic classes:
+Supervised Learning, Unsupervised Learning, and Reinforcement Learning.
+The most commonly used type of machine learning is Supervised Learning.
+In Supervised Learning, a human provides input data and correct outputs.
+The model tries to identify relationships and
+dependencies between the input data and the correct output.
+This type of learning comprises two types of models, regression and classification.
+Regression models are used to predict a numeric (or “real”) value.
+For example, if information is given about past home sales,
+such as geographic location, size, number of bedrooms, and sales price,
+you can train a model to predict the estimated
+sales price for other homes with similar characteristics.
+Classification models are used to predict whether some information
+or data belongs to a category (or “class”).
+For example, for a set of emails along with a designation you can
+classify whether they are to be considered as spam or not.
+And so, you can train an algorithm to identify unsolicited emails.
+In Unsupervised Learning, the data is not labeled by a human.
+The models must analyze the data and try to
+identify patterns and structure within the data based on its characteristics.
+Clustering is an example of this learning style.
+Clustering models are used to divide each record of a dataset into one of a similar group.
+An example of a clustering model could be providing purchase recommendations
+for an e-commerce store, based on past shopping behavior and the content of a shopping basket.
+Another example is anomaly detection that identifies outliers in a dataset,
+such as fraudulent credit card transactions or suspicious online log-in attempts.
+And the third type of learning, Reinforcement Learning,
+is loosely based on the way human beings and other organisms learn.
+So, think about a mouse in a maze.
+If the mouse gets to the end of the maze, it gets a piece of cheese.
+This is the “reward” for completing a task.
+The mouse learns through trial and error how to
+get through the maze to get as much cheese as it can.
+In a similar way, a reinforcement learning model learns the best set of actions to take,
+given its current environment, to get the most rewards over time.
+This type of learning has recently been very successful in beating the
+best human players in games such as Go, chess and popular strategy video games.
+Deep learning is a specialized type of machine learning.
+It refers to a general set of models and techniques that loosely emulate the way
+the human brain solves a wide range of problems.
+It is commonly used to analyze natural language (both spoken and text),
+images, audio, and video, to forecast time series data and much more.
+Deep learning has recently been very successful in these and other
+areas and hence is becoming an increasingly popular and important tool for data science.
+It requires large datasets of labeled data to train a model, is compute intensive,
+and usually requires special purpose hardware to achieve acceptable training times.
+Now you can build a custom Deep Learning model from
+scratch or use pre-trained models from public model repositories.
+Deep Learning models are implemented using popular frameworks such as TensorFlow, PyTorch and Keras.
+The learning frameworks provide a Python API and many support other
+programming languages, such as C++ and JavaScript.
+You can download pre-trained state-of-the-art
+models from repositories that are commonly referred to as model zoos.
+Popular model zoos include those provided by TensorFlow, PyTorch, Keras, and ONNX.
+Models are also published by academic and commercial research groups.
+Let’s briefly outline the high-level tasks involved in building a model using an example.
+Assume you want to enable an application
+to identify objects in images by training a deep learning model.
+First, you collect and prepare data that will be used to train a model.
+Data preparation can be a time-consuming and labor-intensive process.
+In order to train a model to detect objects in images, you need to label the raw training data.
+For example, you can draw bounding boxes around objects and label them.
+Next, you build a model from scratch or select an existing model that might be
+well suited to the task from a public or private resource.
+You can then train the model on your prepared data.
+During training, your model learns from the labeled data
+how to identify objects that are depicted in an image.
+And once training has commenced, you analyze the training results and
+repeat the process until the trained model performance meets your requirements.
+When the trained model performs as desired,
+you deploy it to make it available to your applications.
+In this video you learned that:
+Machine learning (ML) uses algorithms – also known as “models” ‒ to identify patterns in the data.
+The process by which the model learns data patterns is called “model training”.
+Types of ML are Supervised, Unsupervised, and Reinforcement.
+Supervised learning comprises two types of models, regression and classification.
+And deep learning refers to a general set of models and techniques that loosely
+emulate the way the human brain solves a wide range of problems.

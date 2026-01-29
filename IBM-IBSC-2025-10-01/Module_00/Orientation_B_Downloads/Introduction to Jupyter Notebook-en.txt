@@ -1,0 +1,46 @@
+Welcome to “Introduction to Jupyter Notebooks.”
+After watching this video, you will be able to
+define a Jupyter Notebook,
+explain how to use JupyterLab, and
+describe how to use the notebooks in JupyterLab.
+Jupyter Notebooks originated as “iPython,” originally developed for Python programming.
+Later, when it started supporting additional languages, it was renamed
+Jupyter, which stands for Julia, Python, and R.
+However, now, it supports many other languages.
+A Jupyter Notebook is a browser-based application that allows you to create
+and share documents containing code, equations, visualizations, narrative text links, and more.
+It is like a scientist’s lab notebook, where a scientist records all steps to
+perform their experiments and the results they can reproduce.
+In the same way, a Jupyter Notebook allows a Data Scientist to record
+their data experiments and results that others can reuse.
+Now a Jupyter Notebook file allows you to combine descriptive text,
+code blocks, and code output in a single file.
+When you run the code, it generates the output,
+including plots and tables, within the notebook file.
+And you can then export the notebook to a PDF
+or HTML file format that can then be shared with anyone.
+Next, let’s learn about Jupyter Lab.
+Jupyter Lab is a browser-based application that allows you
+to access multiple Jupyter Notebook files, other code, and data files.
+In addition, it extends the functionalities of
+Jupyter Notebooks by enabling you to work with multiple notebooks,
+text editors, terminals, and custom components in a flexible, integrated, and extensible manner.
+It is compatible with several file formats like CSV, JSON, PDF, Vega, and so on.
+And it is also an open source.
+Jupyter Notebooks can be used with cloud-based services like IBM and Google Colab.
+They don't require any installation on your local machine.
+They give you access to the Jupyter Notebook environment and allow you to
+import and export notebooks using the standard IPython Notebook file format.
+Also, these services support the Python language and other languages as well.
+Jupyter Notebooks can be installed via the command line using the pip install function.
+It can also be downloaded locally on
+your laptop through the Anaconda Platform from Anaconda.com.
+Anaconda is one of the popular distributions which includes Jupyter and Jupyterlab.
+So, for this course, you have access to a hosted version of JupyterLab in Skills Network Labs,
+so you do not require any installations on your own device to complete the hands-on labs.
+As shown here, you will see a screen that will launch the Jupyter Lab in the virtual environment.
+Simply click the Open tool tab.
+In this video, you learned that
+Jupyter Notebooks are used in Data Science for recording experiments and projects.
+Jupyter Lab is compatible with many files and Data Science languages.
+And there are different ways to install and use Jupyter Notebooks.

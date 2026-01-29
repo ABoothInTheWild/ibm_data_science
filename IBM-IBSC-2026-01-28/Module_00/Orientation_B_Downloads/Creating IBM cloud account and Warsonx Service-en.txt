@@ -1,0 +1,62 @@
+Welcome to Creating an IBM Cloud Account and a Watson X Service.
+After watching this video, you will be able to
+Create an IBM Cloud Account,
+Create an IBM Watson X Service,
+and Create a Project in Watson X.
+To create an IBM Cloud Account,
+go to the IBM Cloud Registration page,
+enter your email and password,
+and then click Next.
+Verify your email using the 7-digit code
+sent to the email address you entered,
+then click Next.
+Once your email is successfully verified,
+enter your First Name, Last Name,
+and Country or Region,
+then click Next.
+Review the Account Notice.
+Opt-in for the email updates if you desire,
+and accept the terms and conditions,
+then click Continue.
+Review the Privacy Notice and accept it.
+Click Continue to create the account.
+It will take a few seconds to create and set up your account.
+In the Apply Code section,
+you will see that the feature code has been applied to your account.
+Click the Create Account button to continue.
+It may take a few minutes to create your account.
+Once your IBM Cloud account is created,
+you will see the IBM Cloud Dashboard.
+To use the Watson Studio Service,
+click the Catalog option.
+Scroll down and select AI-slash-Machine Learning,
+then select Watson Studio.
+This will load the Watson Studio creation page.
+Select Dallas or London under the Location option.
+To avoid any charges, select the Lite plan,
+then accept the license agreements,
+and click the Create button.
+Then, click Launch in IBM Watson X.
+Provide a company name and phone number,
+and select the contact options you prefer,
+then click Continue.
+On the next screen, click I Agree to the Terms.
+Click Close icon.
+You have successfully created an account for IBM Watson Studio
+and are ready to use the Watson X service.
+IBM Watson X homepage appears as follows.
+Now, let's start creating a project.
+Click Create a new project.
+Provide the project name and description.
+The cloud object storage has already been added.
+Click Create to create a project.
+It will take a few seconds to create a project.
+Once created, the project will look like this.
+The next video will show you how to add a notebook to the project.
+So, without further delay, let's begin exploring Watson X.
+In this video, you learned that
+you must create an IBM Cloud account to use Watson X.
+You can open Watson Studio by clicking Catalog on the IBM Cloud Dashboard,
+and then AI slash Machine Learning.
+You can create an empty project or a project from a sample or file
+by clicking the Create a new project option.

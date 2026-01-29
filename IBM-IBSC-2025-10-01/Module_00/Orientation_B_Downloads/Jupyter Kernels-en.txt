@@ -1,0 +1,28 @@
+Welcome to “Jupyter Kernels.”
+After watching this video, you will be able to
+define a kernel, and
+describe how to work with kernels.
+A notebook kernel is a computational engine that executes the code contained in a Notebook file.
+Jupyter Kernels for many languages exist,
+and we will explore some that are relevant in Data Science.
+So when a Notebook document opens, the related kernel launches automatically.
+When the Notebook is executed, the kernel performs the computation and produces the results.
+Now depending on your settings,
+you may need to install other notebook languages in your Jupyter environment.
+In the Skills Network lab environment, a few languages have been pre-installed for you.
+The first one is the Python kernel.
+When you launch a notebook, pick the language you are interested in for your Data Science project.
+The Python kernel allows you to run python cells.
+You can run the Python script in the cells to produce an output.
+The top right corner of the Notebook shows the name of the kernel.
+Here it shows the Python kernel.
+You do have the option to run other kernels.
+The Skills Network virtual Jupyter environment has Apache, Julia, R, and Swift.
+You can use any language to execute your code, either by selecting the kernel on the
+launch page or clicking the top right icon and selecting the kernel from the drop-down menu.
+If running the kernel on your local machine,
+you will need to manually install the languages through your command line interface (CLI).
+In this video, you learned that
+The kernel acts like a computational engine and executes the code in a Notebook file.
+Jupyter Notebook supports different languages, and
+you can switch to a different kernel as per your requirement.

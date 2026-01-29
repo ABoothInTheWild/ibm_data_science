@@ -1,0 +1,43 @@
+Welcome to “Plotting in RStudio.”
+After watching this video, you will be able to:
+List the R data visualization packages,
+Use the inbuilt R plot function,
+Use the R ggplot library to add functions and arguments to the plot,
+And, add titles and names to the plot.
+With the influx of data, one of your many jobs as data scientists is to produce insights using visualizations.
+R has different packages for data visualization that you can use based on your requirement.
+To install these packages in your R environment,
+use the install.packages and the package name command.
+Examples of R packages include the following. ggplot is used for data visualizations such
+as histograms, bar charts, scatterplots, and so on.
+It allows adding layers and components to a single visualization.
+Plotly is used for web-based data visualizations that can be displayed or saved as individual HTML files.
+Lattice is used to implement complex, multi-variable data sets.
+It is a high-level data visualization library that can handle graphics without customizations.
+And, Leaflet is used for creating interactive plots.
+R has inbuilt functions to create plots and visualization.
+For example, you can create a plot using the definition shown here.
+The plot function returns a scatterplot of the values vs. the index.
+You can also add lines to the function and a title to make the visualization easier to read and understand.
+To add a line, you specify the type and to add a title, you specify the title function.
+And now in the plot, you have added a line and a title.
+You can create informative visualizations using the ggplot library of R.
+It can handle complex requests by adding layers to plots using different functions and arguments.
+For example, to create a scatter plot, let’s use the inbuilt dataset Mtcars.
+You will first read the ggplot library into the memory using the library function.
+Next, use the ggplot function on the data
+frame MTcars, specify the X axis as miles per gallon and the Y axis as weight.
+Then add the geom point function to specify a scatter plot; otherwise, it will return an empty plot.
+The output will be an easier-to-read plot.
+In addition, you can add titles and change the axis name by using the Ggtitle argument
+and the lab’s argument to specify appropriate names for both axes.
+The result will be a graph with meaningful titles.
+Now in the lab, you will recreate the graphics
+with ggplot and the extension library called GGally.
+GGally extends ggplot by adding several functions to reduce the complexity of combining geometric
+objects with transformed data.
+In this video, you learned about:
+Popular data visualization packages in R,
+Plotting with the inbuilt R plot function,
+Plotting with ggplot,
+and Adding titles and changing the axis names using the ggtitle and lab’s function.

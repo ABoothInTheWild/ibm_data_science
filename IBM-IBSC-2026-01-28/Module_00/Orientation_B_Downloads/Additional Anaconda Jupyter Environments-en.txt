@@ -1,0 +1,74 @@
+Welcome to Additional Anaconda Jupyter Environments
+After watching this video, you will be able to
+describe Anaconda and its data science features,
+describe Anaconda Jupyter environments, and
+identify tools in Anaconda Jupyter environments.
+Computational notebooks combine code, computational output, explanatory text,
+and multimedia resources into a single document.
+Jupyter Notebook is a popular type of computational notebook because
+it supports dozens of programming languages.
+JupyterLab and VS Code are popular environments for
+creating and modifying Jupyter Notebooks on a local device.
+JupyterLab is an open-source, web-based application based on Jupyter Notebook.
+You can create code, interactive visualizations,
+text, and equations, just like with Jupyter Notebook.
+JupyterLab includes expanded features with some of Anaconda's most extensive
+pre-installed Python libraries, including NumPy, Pandas, and Matplotlib.
+Anaconda is a free and open-source distributor for Python and R,
+the top languages used in data science and machine learning.
+Anaconda has fifteen hundred plus libraries.
+It is free to install and has free community support for any users who need help with Python.
+The downloadable Anaconda Navigator graphical user interface allows users to install new
+packages on their local device without using a command line interface or ‘CLI.’
+You can download Anaconda Navigator from the given URL.
+Here is the home page of the Anaconda Navigator.
+To launch JupyterLab, click Launch in the JupyterLab box.
+If the Launch button is missing, click Install first, and then click Launch.
+To start with the Jupyter Notebook,
+type Jupyter Notebook(anaconda3) in the search bar and press enter.
+The JupyterLab dashboard opens in the browser on the localhost.
+It is specifically designed to manage Jupyter Notebooks.
+To create a new Jupyter Notebook, click New and select Python 3.
+This opens a new notebook in a new tab.
+Now you will see the URL, which shows the filename and the kernel.
+It also shows the Last Checkpoint.
+Let’s rename your notebook by clicking Untitled.
+Type a name for the notebook and click Rename.
+Next, you will review two main cell types: Code and Markdown.
+In the dropdown menu, select Code.
+A code cell contains code to be executed in the kernel and displays its output.
+To execute the cell, click Run.
+Now alternatively, in the dropdown menu, select Markdown.
+A Markdown cell contains rich text and displays its output in place when it executes.
+To download a notebook, go to File and click Download as.
+And you will see several download options.
+You can select the option that you want.
+VS Code is a free, open-source code editor for debugging and task-running operations.
+VS code works on Linux, Windows, and macOS.
+It supports multiple languages, syntax highlighting, auto-indentation, and more.
+VS Code is one of the most popular development environment tools.
+If you prefer to install VS code separately,
+without using Anaconda Navigator, you can go to code.visualstudio.com,
+click the download option that applies to your device, and then follow the install instructions.
+A separate installation of VS Code will work the same as in Anaconda Navigator,
+but it will not configure for Anaconda, Python, or Jupyter Notebooks.
+To open VS Code using Anaconda Navigator,
+open Anaconda Navigator, find the VS Code application, and click Launch.
+Once installed, you will see the Get Started screen.
+Now you do need to install a few extensions to execute Python code in VS Code.
+First, click Extensions or use Ctrl + Shift + X keys to open Extensions.
+Then search for “Python”; all the extensions related to Python will appear.
+Once you install the extensions, click File.
+Then select New File.
+In New File, select Jupyter Notebook.
+The notebook will look like this.
+Notice that the kernel is Python. Write your code and then execute it using the RUN icon.
+You will get a confirmation that your code has been executed successfully.
+And finally, navigate to File and select Save.
+In this video, you learned that
+Jupyter is a popular computational notebook tool
+because it supports dozens of programming languages.
+The Anaconda Navigator GUI can launch multiple applications on a local device.
+Jupyter environments in the Anaconda Navigator include JupyterLab and VS Code.
+And you can download Jupyter environments separately from the Anaconda Navigator,
+but they may not be configured properly.

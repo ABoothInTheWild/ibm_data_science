@@ -1,0 +1,92 @@
+[MUSIC]
+Welcome to the big data and data mining lesson summary video.
+In this lesson, you gained insights into the impact of big data on various aspects
+of society, from business operations to sports.
+And developed an understanding of key attributes and
+challenges associated with big data.
+In this video, we will recap fundamentals of big data and
+how big data drives digital transformation.
+How data scientists leverage the essential characteristics of the Cloud to gain
+insights from big data, the data mining process, and
+common tools used to process big data.
+The availability of vast amounts of data, resulting in what we now call big data,
+is driving transformation in business and industry and consequently,
+how we live our daily lives.
+Organizations realize that we require fundamental changes to their approach to
+business, impacting every aspect of the organization.
+The availability of so many disparate amounts of data created by people,
+tools and machines requires new, innovative, and scalable technology.
+Big data drives us to derive real time business insights
+relating to consumers risk, profit, performance productivity management,
+and ultimately enhancing business values.
+Not everyone agrees on the definition of big data, but
+people generally agree on the five characteristics of this data value,
+volume, velocity, variety and veracity.
+People expect investing time in studying big data will create value.
+Volume refers to the scale of the data, drivers of volume include increasing
+collectible data sources and scalable infrastructure.
+Velocity indicates ever increasing sources of nonstop processes that generate data
+quickly.
+Variety reflects that related data comes from different sources,
+both structured and unstructured.
+Veracity refers to the quality and origin of data and
+that it accurately conforms to facts.
+The development of cloud and
+cloud technologies enables us to work with big data.
+Cloud refers to the delivery of on-demand computing resources on
+a pay-for-use basis.
+Cloud computing has five essential characteristics, on-demand,
+network access, resource pooling, elasticity, and measured service.
+On-demand means access to processing, power, storage and network that you need.
+These computing resources can be accessed via a network with Internet access.
+Resource pooling allows providers to service multiple consumers with
+the resources dynamically assigned according to demand,
+making cloud computing cost efficient.
+Elasticity means that you can access resources as you need them and
+automatically scale back when you don't.
+With measured service, you only pay for what you use or reserve as you go.
+You also gain an understanding of how cloud computing addresses challenges
+related to scalability, collaboration, accessibility.
+And software maintenance, making it a valuable resource for
+data analysis and other computational tasks.
+The Cloud gives you instant access to technologies without needing to install or
+configure them, and
+provides updated versions of these tools as they get released.
+Popular open source tools to compute using big data include Apache Hadoop,
+Apache Hive, and Apache Spark.
+Hadoop provides distributed storage and
+processing tools across clusters of computers.
+Hive is a data warehouse for data query and analysis built on top of Hadoop.
+Hive allows you to read, write and manage large datasets directly in
+the Hadoop File system or HDFS or Apache HBase.
+Spark provides a general purpose data processing engine designed to extract and
+process large volumes of data for a wide range of applications.
+Big data requires a process called data mining to make use of.
+This six step process includes goal setting, selecting data sources,
+preprocessing, transforming, mining, and evaluation.
+In the first step, goal setting, you identify key questions you want to answer,
+concerns about cost and benefits should inform this step.
+Once you identify the questions, select the data by identifying sources or
+planning data collection initiatives.
+In the next step, preprocessing, you identify irrelevant attributes of data and
+erroneous aspects of the data by flagging them as necessary.
+After preprocessing,
+you transform the data by determining the appropriate format to store the data.
+Now you get to mine the data, which includes determining analysis methods and
+the machine learning algorithms you will use to process the data.
+Once the data has been mined, you finally must evaluate your outcomes.
+By testing the predictive capabilities of the models on the observed data to find
+effectiveness and efficiency of your algorithms.
+In addition, you share your results with stakeholders.
+This entire process should be conducted iteratively as your results from
+this iteration will inform further data mining efforts.
+In summary, big data characteristics that data scientists agree on,
+even though they might not agree on the exact definition, include value, volume,
+velocity, and veracity.
+Data with these qualities is driving transformation across industries and
+in our daily lives.
+In large part, cloud technologies enable us to handle big data because they
+provide ubiquitous access to computational power and storage capacity.
+Open source cloud tools such as Hadoop, Hive, and Spark leverage these advantages,
+allowing us to effectively and efficiently mine big data.
+[MUSIC]

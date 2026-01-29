@@ -1,0 +1,47 @@
+Welcome to the Deep Learning and Machine Learning lesson summary.
+In this video, we’ll review what you learned about Deep Learning and Machine Learning from
+the videos and reading in this lesson.
+We will recap: Many of the terms commonly used in artificial
+intelligence and how to differentiate them, How data scientists use Artificial intelligence
+OR AI, The relationship between machine learning
+and data science, AND The regression model used to show relationships
+between things.
+Artificial intelligence (AI) has boomed and become accessible to almost everyone.
+Data scientists use AI regularly when analyzing data.
+Let’s discuss some of the terms used in this lesson related to AI, such as machine
+learning, deep learning, neural networks, and generative AI.
+AI is the branch of computer science that includes the development of systems that can
+mimic many of the tasks associated with human intelligence.
+Machine learning is a subset of AI that uses computer algorithms to learn about data and
+make predictions with it without needing to explicitly program the analysis methods into
+the system.
+Deep learning is a subset of machine learning that uses layered neural networks to simulate
+human decision-making.
+A neural network is a collection of small computing units, called neurons, that take
+incoming data and learn to make decisions over time, such as the difference between
+a dog and a cat.
+Deep learning algorithms become more efficient as the amount of data increases in volume,
+unlike other machine learning algorithms, which tend to plateau.
+Another subset of AI, generative AI, focuses on producing new data rather than just analyzing
+existing data.
+It allows machines to create content, including images, music, languages, and computer code,
+mimicking human creations.
+Generative AI also can make data sets with similar traits to a raw data set.
+Sometimes, data scientists, when they do not have enough data, can create synthetic data
+and use it to train and test their models.
+As a data scientist, you will use machine learning algorithms to derive insights from
+data.
+You will frequently apply machine learning algorithms for predictive analytics or make
+recommendations.
+For example, you may also use these algorithms for fraud detection to identify fraudulent
+credit card purchases based on previous purchasing habits.
+Machine learning algorithms rely heavily on statistical technique called regression.
+Regression identifies the strength and amount of the correlation between one or more inputs
+and an output.
+For instance, how much does the price of a house increase based on its square footage
+and number of bedrooms, and how confident can you be of this relationship?
+In summary, Generative AI produces new data like a raw data set.
+deep learning is a subset of machine learning, and machine learning is a subset of artificial
+intelligence.
+Deep learning utilizes neural networks to teach itself patterns in inputs and outputs.
+Using big data, data scientists use all of these areas of AI to make predictions.

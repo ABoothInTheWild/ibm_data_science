@@ -1,0 +1,58 @@
+[MUSIC]
+Welcome to "Sharing Enterprise Data: Data Asset Exchange." After watching this video,
+you will be able to navigate around IBM's open data repository,
+the Data Asset Exchange, explore open data sets on the Data Asset Exchange,
+and identify the notebook associated with a data set in Watson Studio.
+Now there are many open data sets available to the public, but
+it can be difficult to find datasets that are both high-quality and
+have clearly defined license and usage terms.
+To help solve this challenge, IBM created the data asset exchange or DAX.
+DAX provides a curated collection of open data sets both from IBM research and
+trusted third-party sources.
+These data sets are ready for use in enterprise applications with a wide
+variety of application types, including images, video, text, and audio.
+DAX aims to foster data sharing and collaboration by keeping data sets
+available under a community data license agreement or CDLA.
+DAX makes it easier for developers to get started with data sets because it
+provides a single place to access unique,
+high-quality data sets from trusted sources like IBM research.
+It also provides tutorial notebooks that walk through the basics of data cleaning,
+pre-processing and exploratory analysis.
+Certain data sets include advanced notebooks that explain how to perform more
+complex tasks like creating charts, training machine learning models,
+integrating deep learning via the model asset exchange, and
+running statistical analysis and time-series analysis.
+The Data Asset Exchange and
+the Model Asset Exchange are both available on the IBM Developer Website.
+With these resources, developers can create end-to-end analytic and
+machine learning workflows and consume open data and
+models with confidence under clearly defined license terms.
+In the Data Asset Exchange, multiple open data sets are available for
+you to explore.
+Let's say you found a data set that might be very interesting to you,
+the NOAA weather data, JFK airport database,
+which contains data from a weather station at the John F.
+Kennedy Airport in New York.
+On this data set page, you can click "get this data set" to download the NOAA
+data set from the cloud storage, run data set notebooks to access
+the notebooks associated with the data set in Watson and preview the data and
+notebooks to explore DAX metadata, glossary and the notebook.
+Now, most data sets on DAX are complemented by one or more notebooks.
+Click "assets" to view all the Jupyter notebooks and data available.
+You can click the source code to view all the notebooks associated with your NOAA
+project.
+You can execute all the notebooks in Watson Studio to perform data cleaning,
+pre-processing and exploratory analysis.
+If you are already familiar with opening the notebooks in Watson Studio,
+you can log into your IBM cloud account, create a project and
+load all the notebooks into the project.
+Data sets on DAX also consist of one or more data files.
+Click the data option to view the data files available in your project.
+In this video, you learned that the IBM Data Asset Exchange or
+DAX site contains high quality open data sets.
+DAX open data sets include tutorial notebooks that provide basic and
+advanced walkthroughs for developers.
+DAX and MAX are available on the IBM Developer Website.
+You can get, run, and preview data sets and notebooks on DAX and
+DAX notebooks are opened in Watson Studio.
+[MUSIC]

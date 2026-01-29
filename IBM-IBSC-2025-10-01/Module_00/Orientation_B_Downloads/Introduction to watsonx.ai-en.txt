@@ -1,0 +1,95 @@
+Welcome to Introduction to watsonx.ai.
+After watching this video, you will be able to explain what watsonx.ai is and who uses
+it.
+List the components of IBM Cloud Pak for Data.
+List common resources in watsonx.ai and IBM Cloud Pak for Data, and build models and manage
+services and integrations.
+watsonx.ai is a collaborative platform for the data science community and is used by
+data analysts, data scientists, generative AI engineers, data engineers, developers,
+and data stewards to analyze data and construct models.
+With watsonx.ai, you can create projects to organize data connections, assets, and
+Jupyter notebooks.
+You can upload files to your project and clean and shape the data to refine it for analysis.
+In addition, you can create and share data visualizations via dashboards without using
+any coding.
+IBM Knowledge Catalog provides a secure enterprise catalog management platform to deliver trusted
+and meaningful data.
+You can build, train, and deploy machine learning models.
+You can do prompt engineering and prompt tuning against large language models.
+watsonx.ai is available for use in many form factors, which support many different usage
+needs.
+IBM watsonx.ai is available as a software-as-a-service offering on both IBM Cloud and AWS.
+This is the easiest way to get started.
+IBM watsonx.ai is available on Cloud Pak for Data, which provides built-in integration
+with a number of other data services.
+IBM watsonx.ai can be installed on OpenShift, which means it can be deployed on any private
+or public cloud with an OpenShift environment.
+Cloud Pak for Data is a secure, seamless data access and integration platform that enables
+a single view of the data, regardless of the number of data sources you are working with.
+It's available as a service on Cloud, and it's also available on private and public
+clouds when installed on OpenShift.
+You can use watsonx.ai on Cloud Pak for Data, along with other data services.
+It includes IBM watsonx.ai, IBM Watson Knowledge Catalog, IBM Watson Machine Learning, and
+more.
+In IBM watsonx.ai, you can customize the view of different tools that are quickly available
+for use within a project.
+You can perform tasks for data science, data engineering, data curation, or machine learning
+and AI.
+You can open recently used projects and documents, and the navigation menu is on the upper left.
+In the navigation menu, Projects shows projects and jobs you have created.
+In Deployments, you can train, deploy, and manage machine learning models in collaborative
+deployment spaces.
+Projects Hub shows a collection of datasets, notebooks, industry accelerators, and sample
+projects.
+To create a project, click the plus sign under the Project section from the watsonx.ai homepage.
+The Create a Project window will appear.
+First, assign the project a name.
+Second, assign an object storage bucket to the project.
+Projects require an object storage bucket as it is needed to store project artifacts.
+The Overview page keeps you updated with recent assets you created, the resource usage of
+the project, and readme for your project description, and a project history.
+The Assets tab is where data scientists will be creating and managing their project assets,
+such as datasets, models, and pipelines.
+The New Asset button lets you use data and tools to create analytical assets, such as
+flows, visualizations, experiments, or notebooks.
+The Import Asset button lets you import assets.
+Use the Context Information and Actions menu from anywhere in the project to view the project
+information or load data files as assets.
+The RStudio Integrated Development Environment, IDE, is included with IBM Watson Studio so
+that you can use R notebooks and scripts in your projects.
+Launch RStudio from the Launch IDE menu after you create a project.
+A job is a way of running assets, such as data refinery flows or notebooks in a project.
+Under the Jobs tab, you can run a job immediately or schedule a job.
+You can manage your projects under the Manage tab.
+You can control access with user groups, define environments and monitor active runtimes,
+see resource usage, and see tools and processing power using services and integrations.
+In Services and Integrations, you can associate IBM Cloud Services with your project to add
+tools, environments, and capabilities.
+You can also use third-party integrations so your project can interact with external
+tools.
+For example, you can integrate with a Git repository to export the project, work with
+documents and notebooks in JupyterLab, or backup the project.
+When creating a new asset, there are multiple types of tools available.
+Here are the data preparation tools.
+There is a Connections tool, where you can make connections to data sources.
+You can generate synthetic data using the Synthetic Data Generation tool.
+And you can prepare and visualize data using the Data Refinery tool.
+These are more than just data preparation tools.
+In the Work with Models menu, there are many model-related tools.
+Included are Generative AI tools, the Prompt Lab, and Tuning Studio.
+And here are some highlights in the Data Science tools.
+Decision Optimization is a graphical tool to solve optimization scenarios.
+SPSS Modeler can quickly develop predictive models and deploy them into business operations
+to improve decision-making.
+Studio AI is a wizard-based tool for automatic training of machine learning models.
+And Jupyter Notebooks provides a programmatic approach to training machine learning models.
+Other tools are available as well.
+Here is the final asset type.
+Under Automate Model Lifecycles, there is a Pipeline Management tool, which enables
+the building of pipelines to automate model lifecycles.
+In this video, you learned that.
+IBM watsonx.ai is a helpful tool for analyzing and viewing data, cleaning and shaping data,
+embedding data into streams, creating, training, and deploying.
+Learning watsonx.ai promotes career growth.
+Learning watsonx.ai is easy and requires no special skills.
+watsonx.ai offers many available resources.
