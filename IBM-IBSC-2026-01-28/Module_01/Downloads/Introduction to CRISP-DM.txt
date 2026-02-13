@@ -1,0 +1,35 @@
+Welcome to an introduction to CRISP-DM. After watching this video, you'll be able to define CRISP-DM, list and describe the six stages of the CRISP-DM model, and explain what happens after the final CRISP-DM stage.
+
+CRISP-DM, which stands for Cross-Industry Standard Process for Data Mining, is an industry-proven way to guide your data mining efforts. CRISP-DM is an iterative data mining mode and is a comprehensive methodology for data mining projects, which provides a structured approach to guide data-driven decision-making. As a data methodology, a study of the CRISP-DM model includes six data mining stages, their descriptions, and provides explanations of the relationships between tasks and stages.
+
+And as a process model, CRISP-DM provides high-level insights into the data mining life cycle. Like other data mining science methodologies, CRISP-DM requires flexibility at each stage and communication with peers, management, and stakeholders to keep the project on track.
+
+After any of the following six stages, data scientists might need to revisit an earlier stage and make changes. The business understanding stage is the most important because this stage sets and outlines the intentions of the data analysis project. This stage is common to both John Rollins's data science methodology and CRISP-DM methodology.
+
+This stage requires communication and clarity to overcome stakeholders' differing objectives, biases, and information-related modalities.
+
+Without a clear, concise, and complete understanding of the business problem and project goals, the project effort will waste time and resources.
+
+Then, CRISP-DM combines the stages of data requirements, data collection, and data understanding from John Rollins's methodology outlined into a single data understanding stage. During this stage, data scientists decide on data sources and acquire data.
+
+Next, during the data preparation stage, data scientists transform the collected data into a usable data subset and determine if they need more data. With data collection complete, data scientists select a dataset and address questionable, missing, or ambiguous data values.
+
+Data preparation is common to foundational data methodology in CRISP-DM.
+
+The modeling stage fulfills the purpose of data mining and creates data models that reveal patterns and structures within the data. These patterns and structures provide knowledge and insights that address the stated business problem and goals.
+
+Data scientists select models based on subsets of the data and adjust the models as needed. Model selection is an art and science. Both foundational methodology and CRISP-DM focus on creating knowledge information that has meaning and utility.
+
+During the evaluation stage, data scientists test the selected model. Data scientists usually prepare a preselected test to run the trained model.
+
+The test platform sees the data as new, and data scientists then assess the model's effectiveness.
+
+These testing results determine the model's efficacy and foreshadow the model's role in the next and final stage. Finally, during the deployment stage, data scientists and stakeholders use the model on new data outside of the scope of the dataset.
+
+New interactions during this stage might reveal the new variables and need for a different dataset and model.
+
+Remember that the CRISP-DM model is iterative and cyclical. Deployment results might initiate revisions to the business needs and actions, the model and data, or any combination of these items.
+
+After completing all six stages, you'll have another business understanding meeting with the stakeholders to discuss the results. In CRISP-DM, the stage is not named. However, in John Rollins's data science methodology model, the stage is explicitly named the feedback stage. You'll continue the CRISP-DM process stages until the stakeholders, management, and you agree that the data model and its analysis provide the stakeholder with the answers they need to resolve their business problems and attain their business goals. In this video, you learned that CRISP-DM stands for Cross-Industry Standard Process for Data Mining.
+
+The CRISP-DM model consolidates the steps outlined in foundational data methodology into the following six stages: business understanding, data understanding, data preparation, modeling, evaluation, and deployment. You'll continue the CRISP-DM process until the stakeholders, management, and you agree that the data model and its analysis answer the business questions.

@@ -1,0 +1,112 @@
+Dependencies or libraries are
+pre written code to help solve problems.
+In this video, we will introduce pandas,
+a popular library for data analysis.
+You can import the library or
+dependency like pandas using the following command.
+Start with the import command
+followed by the name of the library.
+You now have access to a large number of
+pre-built classes and functions.
+This assumes the library is installed.
+In our lab environment,
+all the necessary libraries are installed.
+Let us say we would like to load a CSV file
+using pandas build in function, read_csv.
+A CSV is a typical file type used to store data.
+Simply type the word pandas,
+then a dot and the name of
+the function with all the inputs.
+Typing pandas all the time make it difficult,
+so you can use the As
+statement to shorten the name of the library.
+In this case, use the standard abbreviation pd.
+Now type pd, next,
+type a dot followed by the name
+of the function you would like to use.
+In this case, read_csv.
+You are not limited to the abbreviation pd.
+In this case, we use the term banana.
+However, we will stick with
+pd for the rest of this video.
+Let us examine this code in more detail.
+One way pandas allows you to
+work with data is in a dataframe.
+Let us review the process of going from
+a CSV file to a dataframe.
+This variable stores the path of the CSV.
+It is used as an argument to the read_csv function.
+The result is stored to the variable df.
+This is short for dataframe.
+Now that you have the data in
+a dataframe, you can work with it.
+You can use the method head to examine
+the first five rows of a dataframe.
+The process for loading an Excel file is similar.
+Use the path of the Excel file, the function read_excel.
+The result is a dataframe.
+A dataframe is comprised of rows and columns.
+You can create a dataframe out of a dictionary.
+The keys correspond to the column labels.
+The values are lists corresponding to the rows.
+You can then cast the dictionary to
+a dataframe using the function DataFrame.
+Notice the direct correspondence between the table.
+The keys correspond to the table headers.
+The values are lists corresponding to the rows.
+Create a new dataframe consisting of one column.
+Enclose the dataframe name,
+in this case df,
+and the name of the column header in double brackets.
+The result is a new dataframe
+comprised of the original column.
+You can do the same thing for multiple columns.
+Enclose the dataframe name,
+in this case df,
+and the name of multiple column headers
+in double brackets.
+The result is a new dataframe
+comprised of the specified columns.
+One way to access
+unique elements is with the iloc method.
+The first input is an integer representing the row index,
+and the second is the integer
+representing the column index.
+You can access the first row and first column as follows.
+You can access the second
+row and first column as follows.
+You can access the first row,
+third column as follows
+and you can access the second row,
+third column as follows.
+You can use the name of
+the row index and the column as well.
+You can access the first row of the column
+named artist as follows.
+Similarly, you can access
+the second row of the column named artist.
+You can do the same for the column released.
+Loc can also be used if the index is not an integer.
+We create a new dataframe called df_new.
+We replace the index 1, 2,
+3 and so on with a, b,
+c. You can access the index a,
+that is the first row of the column
+named artist as follows.
+Similarly, you can access
+the index b or the second row of the column named artist.
+You can do the same for the column released.
+You can also slice dataframes and
+assign the values to a new dataframe.
+Assign the first two rows and
+the first three columns to the variable z.
+The result is a dataframe
+comprised of the selected rows and columns.
+You can also slice dataframes and assign
+the values to a new dataframe using loc.
+The code assigns the first three rows and
+all columns in between
+the columns named artist and released.
+The result is a new dataframe,
+z, with the corresponding values.
+Check out the labs for more examples.
