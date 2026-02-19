@@ -92,6 +92,16 @@ The module culminates in a **capstone assignment** that ties everything together
 
 You combine **API-style data** (yfinance) and **scraped data** (BeautifulSoup) into a single analysis and visualization workflow.
 
+**Sample outputs from the final assignment:**
+
+#### Tesla
+
+![Tesla stock and revenue](3.04/tesla.png)
+
+#### GameStop
+
+![GameStop stock and revenue](3.04/gamestop.png)
+
 ---
 
 ## Key Takeaways
