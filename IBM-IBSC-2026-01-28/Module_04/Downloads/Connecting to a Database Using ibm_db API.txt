@@ -1,0 +1,37 @@
+Hello, and welcome to connecting to a database using the ibm_db API.
+After completing this lesson,
+you will be able to understand the ibm_db API,
+as well as the credentials required to connect to a database using Python.
+We will also demonstrate how to connect to
+an IBM DB2 database using Python code written on a Jupyter notebook.
+The ibm_db API provides a variety of
+useful Python functions for accessing and
+manipulating data in an IBM data server database,
+including functions for connecting to a database,
+preparing and issuing SQL statements,
+fetching rows from result sets, calling stored procedures,
+committing and rolling back transactions,
+handling errors and retrieving metadata.
+The ibm_db API uses the IBM Data Server Driver for ODBC,
+and CLI APIs to connect to IBM, DB2, and Informix.
+We import the ibm_db library into our Python application.
+Connecting to the DB2 requires
+the following information: a driver name, a database name,
+a host DNS name or IP address, a host port,
+a connection protocol, a user ID,
+and a user password.
+Here is an example of creating a DB2 database connection in Python.
+We create a connection object DSN,
+which stores the connection credentials.
+The connect function of
+the ibm_db API will be used to create a non persistent connection.
+The DSN object is passed as a parameter to the connection function.
+If a connection has been established with the database,
+then the code returns connected,
+as the output otherwise,
+the output will be unable to connect to database.
+Then we free all resources by closing the connection.
+Remember that it is always important to close
+connections so that we can avoid unused connections taking up resources.
+Thank you for watching this video.
+(Music)

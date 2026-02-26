@@ -1,0 +1,62 @@
+Hello and welcome to Grouping Select Statement Result Sets.
+In this video, we will learn about some advanced techniques
+in retrieving data from a relational database table,
+and sorting, and grouping how the results set displays.
+At the end of this lesson,
+you will be able to explain how to eliminate duplicates from
+a result set and describe how to further restrict a result set.
+At times, a select statement result set can contain duplicate values.
+Based on our simplified library database model,
+in the author table example,
+the country column lists the two-letter country code of the author's country.
+If we select just the country column,
+we get a list of all of the countries.
+For example, select country from author order by 1.
+The order by clause sorts the result set.
+This result set lists the countries the authors belong to,
+sorted alphabetically by country.
+In this case, the result set displays 20 rows,
+one row for each of the 20 authors.
+But some of the authors come from the same country,
+so the result set contains duplicates.
+However, all we need is a list of countries the authors come from.
+So in this case, duplicates do not make sense.
+To eliminate duplicates, we use the keyword distinct.
+Using the keyword "distinct" reduces the result set to just six rows.
+But what if we wanted to also know how many authors come from the same country?
+So now we know that the 20 authors come from six different countries.
+But we might want to also know how many authors come from the same country.
+To display the result set listing
+the country and number of authors that come from that country,
+we add the "group by" clause to the select statement.
+The "group by" clause groups a result into
+subsets that has matching values for one or more columns.
+In this example, countries are grouped and then counted using the count function.
+Notice the column heading for the second column and the result set.
+The numeric value "2" displays as
+a column name because the column name is not directly available in the table.
+The second column in the result set was calculated by the count function.
+Instead of using the column named "2,"
+we can assign a column name to the result set.
+We do this using the "as" keyword.
+In this example, we change the derived column name
+"2" to column name "Count" using the "as count" keyword.
+This helps clarify the meaning of the result set.
+Now that we have the count of authors from different countries,
+we can further restrict the number of rows by passing some conditions.
+For example, we can check if there are more than four authors from the same country.
+To set a condition to a "group by" clause,
+we use the keyword "having".
+The "having" clause is used in combination with the "group by" clause.
+It is very important to note that the "where" clause is for the entire result set,
+but the "having" clause works only with the "group by" clause.
+To check if there are more than four authors from the same country,
+we add the following to the select statement,
+having count country greater than four.
+Only countries that have five or more authors
+from that country are listed in the result set.
+In this example, those countries are China with six authors and India,
+also with six authors.
+Now you can explain how to eliminate duplicates from
+a result set and describe how to further restrict a result set.
+Thanks for watching this video.

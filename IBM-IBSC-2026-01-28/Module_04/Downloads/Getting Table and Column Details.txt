@@ -1,0 +1,31 @@
+[MUSIC]
+Hello and welcome.
+In this video we'll look at how to get information about tables and
+their columns in a database.
+What you will learn at the end of this video,
+you will be able to, discuss how to get a list of tables in a database,
+discuss how to get a list of tables in an SQLite3 database.
+Now, how do you get a list of tables in the database?
+Sometimes your database may contain several tables and
+you may not remember the correct name.
+For example, you may wonder whether the table is called dog, dogs,
+or four-legged mammals.
+Database systems typically contain system or catalog tables from where you can
+query the list of tables and get their properties.
+In DB2, this catalog is called SYSCAT.TABLES, in SQL Server,
+it's information_Schema.tables, in SQLite3,
+it is sqlite_master, and in MySQL, it is SHOW TABLES.
+To get a list of tables in an SQLite3 database, you can run the following query.
+SELECT name FROM sqlite_master WHERE type='table'.
+The same can be done in a MySQL interface using the statement, SHOW TABLES.
+To extract the attributes or column headers of the dataset tables you can make
+use of specific commands in each type of servers.
+For instance, in SQLite3 you can use the command PRAGMA table_info.
+In MySQL, the command can be used for this is, DESCRIBE table_name.
+Know you know that, database systems typically contain system or catalog tables
+from where you can query the list of tables and get their properties.
+To get a list of tables in SQLite3 database,
+use SELECT name FROM sqlite_master WHERE type="table".
+To extract the attributes in SQLite3,
+use PRAGMA table_info(table_name).
+[MUSIC]

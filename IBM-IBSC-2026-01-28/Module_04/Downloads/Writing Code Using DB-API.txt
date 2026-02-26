@@ -1,0 +1,109 @@
+Hello and welcome to writing code using DB-API.
+After completing this video,
+you will be able to explain the basic concepts related to
+the Python DB-API and database cursors,
+and also write code using DB-APIs.
+As we saw in the beginning of this module,
+the user writes Python programs using a Jupyter Notebook.
+There is a mechanism by which the
+Python code communicates with the DBMS.
+The Python code connects to
+the database using DB API calls.
+DB API is Python standard API
+for accessing relational databases.
+It is a standard that allows you to write
+a single program that works with multiple kinds
+of relational databases instead
+of writing a separate program for each one.
+If you learn the DB-API functions,
+then you can apply that knowledge
+to use any database with Python.
+Here are some advantages of using the DB-API.
+It's easy to implement and understand.
+This API has been defined to encourage similarity
+between the Python modules that
+are used to access databases.
+It achieves consistency which
+leads to more easily understood modules.
+The code is generally more portable across databases,
+and it has a broader reach of
+database connectivity from Python.
+As we know, each database system has its own library.
+As you can see, the table shows
+a list of a few databases and
+corresponding DB-APIs to connect to Python applications.
+The IBM underscore DB library is
+used to connect to an IBM DB2 database.
+The mySQL connector Python library is
+used to connect to a compose from mySQL database.
+The psychopg2 library is used to
+connect to a compose from PostgreSQL database.
+Finally, the PyMongo library is used to
+connect to a compose from Mongo DB database.
+The two main concepts in
+the Python DB-API are
+connection objects and query objects.
+You use connection objects to connect to
+a database and manage your transactions.
+Cursor objects are used to run queries.
+You open a cursor object and then run queries.
+The cursor works similar to
+a cursor in a text processing system,
+where you scroll down in your result
+set and get your data into the application.
+Cursors are used to scan
+through the results of a database.
+The DB-API includes a connect constructor
+for creating a connection to the database.
+It returns a connection object which
+is then used by the various connection methods.
+These connection methods are the cursor method,
+which returns a new cursor object using the connection.
+The commit method, which is used to
+commit any pending transaction to the database.
+The rollback method, which causes the database to
+roll back to the start of any pending transaction.
+The close method, which is
+used to close a database connection.
+These objects represent a database cursor which
+is used to manage the content of a fetch operation.
+Cursors created from
+the same connection are not isolated.
+That is, any changes done to the database by
+a cursor are immediately visible by the other cursors.
+Cursors created from different connections
+can or cannot be
+isolated depending on how
+the transaction support is implemented.
+A database cursor is a control structure that
+enables transversal over the records in a database.
+It behaves like a file name or
+file handle in a programming language.
+Just as a program opens a file to access its contents,
+it opens a cursor to gain access to the query results.
+Similarly, the program closes a file to end its access,
+and closes a cursor to end access to the query results.
+Another similarity is that just as file handle
+keeps track of the program's current position
+within an open file,
+a cursor keeps track of
+the program's current position within the query results.
+Let's walk through a Python application that
+uses the DB- API to query a database.
+First, you import your database module
+by using the connect API from that module.
+To open a connection to the database,
+you use the connect constructor
+and pass in the parameters,
+that is database name, username, and password.
+The connect function returns connection object.
+After this, you create
+a cursor object on the connection object.
+The cursor is used to run queries and fetch
+results after running the queries using the cursor.
+We also use the cursor to fetch the results of the query.
+Finally, when the system is done running the queries,
+it frees all resources by closing the connection.
+Remember that it is always important to close connections
+to avoid unused connections taking up resources.
+Thanks for watching this video.

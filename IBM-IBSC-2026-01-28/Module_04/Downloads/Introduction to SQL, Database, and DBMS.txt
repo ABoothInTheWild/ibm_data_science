@@ -1,0 +1,75 @@
+What is SQL? SQL is a language used for
+relational databases to query
+or get data out of a database.
+SQL is also referred to
+as SQL and is short for its original name,
+Structured Query Language.
+SQL Is a language used for a database to query data.
+But what is data and what is a database?
+Data is a collection of facts in the form of words,
+numbers, or even pictures.
+Data is one of the most critical assets of any business.
+It is used and collected practically everywhere.
+Your bank stores data about you, your name,
+address, phone number, account numbers, etc.
+Your credit card company and
+your PayPal accounts also store data about you.
+Data is important so it needs to be
+secure and it needs to be stored and access quickly.
+The answer is a database.
+So what is a database?
+Databases are everywhere and used every day,
+but they are largely taken for granted.
+A database is a repository of data,
+it is a program that stores data.
+A database also provides the functionality for adding,
+modifying, and querying that data.
+There are different kinds of databases
+of different requirements.
+The data can be stored in various forms.
+When data is stored in tabular form,
+the data is organized in tables like in a spreadsheet,
+which is columns and rows, that's relational database.
+The columns contain properties
+about the item such as LastName,
+FirstName, e-mail address, city.
+A table is a collection of related things,
+like a list of employees or a list of book authors.
+In a relational database,
+you can form relationships between tables.
+So a database is a repository of data.
+A set of software tools for the data in
+the database is called a database management system,
+or DBMS, for short.
+The terms database, database server, database system,
+data server and database
+management systems are often used interchangeably.
+For relational databases, it's called
+a relational database management system or RDBMS.
+RDBMS is a set of software tools that controls the data,
+such as access, organization, and storage.
+An RDBMS serves as the backbone
+of applications in many industries,
+including banking, transportation, health, and so on.
+Examples of relational database
+management systems are MySQL,
+Oracle database, DB2 warehouse,
+and DB2 on Cloud.
+For the majority of people using a database,
+there are five simple commands to create a table,
+Insert data to populate the table,
+Select data from the table,
+Update data in the table,
+Delete data from the table.
+You can now describe what is SQL,
+what is data, what is a database,
+and what is a relational database.
+You know, the RDBMS stands for
+Relational Database Management System
+and you can list
+five basic SQL commands to create a table,
+Insert data to populate the table,
+Select data from the table,
+Update data in the table,
+and Delete data from the table.
+Thanks for watching this video.

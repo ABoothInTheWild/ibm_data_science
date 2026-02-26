@@ -1,0 +1,130 @@
+(Music)
+Hello and welcome.
+This video will cover
+the key concepts around databases in the Cloud.
+In order to learn SQL,
+you first need to have a database
+available to practice your SQL queries.
+An easy way to do so is to create an instance of
+a database in the Cloud and
+use it to execute your SQL queries.
+After completing this lesson,
+you will be able to understand
+basic concepts related to Cloud databases,
+list a few Cloud databases,
+describe database service instances,
+as well as demonstrate how to create
+a service instance on an IBM Db2 on Cloud.
+A Cloud database is a database service
+built and accessed through a Cloud platform.
+It serves many of the same functions as
+traditional databases with
+the added flexibility of Cloud computing.
+Some advantages of using
+Cloud databases include; ease of use,
+users can access Cloud databases from virtually
+anywhere using a vendor's API or web interface,
+or your own applications whether on Cloud or Remote.
+Scalability.
+Cloud databases can expand
+and shrink their storage and compute
+capacities during runtime to
+accommodate changing needs and usage demands,
+so organizations only pay for what they actually use.
+Disaster recovery.
+In the event of a natural disaster
+or equipment failure or power outage,
+data is kept secure through backups on Remote Servers
+on Cloud in geographically distributed regions.
+A few examples of relational databases on Cloud include,
+IBM Db2 on Cloud,
+databases for PostgreSQL on IBM Cloud,
+Oracle Database Cloud Service,
+Microsoft Azure SQL Database,
+and Amazon Relational Database Services.
+These Cloud databases can run in
+the Cloud either as a Virtual Machine,
+which you can manage,
+or delivered as a Managed Service
+depending on the vendor.
+The database services can either be single
+or multi-tenant depending on the service plan.
+To run a database in Cloud,
+you must first provision an instance of
+the database service on
+the Cloud platform of your choice.
+An instance of a Database-as-a-Service or
+DBaaS provides users with
+access to database resources in Cloud
+without the need for setting
+up of the underlying hardware,
+installing the database software,
+and administering the database.
+The database service instance will
+hold your data in related tables.
+Once your data is loaded into the database instance,
+you can connect to the database instance using
+a web interface or APIs in your applications.
+Once connected, your application can send
+SQL queries across to the database instance.
+The database instance then
+resolves the SQL statements into
+operations against the data and objects in the database.
+Any data retrieved is returned
+to the application as a result set.
+Now let's see how a database instance
+is created for Db2 on Cloud.
+IBM Db2 on Cloud is
+a SQL database provisioned for you in the Cloud.
+You can use Db2 on Cloud
+just as you would use any database software,
+but without the overhead and
+expensive hardware setup or
+software installation and maintenance.
+Now let's see how we can set up
+a service instance of Db2.
+Navigate to IBM Cloud catalog and select the Db2 service.
+Note there are several variations of the Db2 service,
+including Db2 Hosted and Db2 Warehouse.
+For our purposes, we will choose
+the Db2 service which comes with a free lite plan.
+Select the lite plan.
+If need to, change the defaults.
+You can type a service instance name,
+choose the region to deploy to,
+as well as an org and space for
+the service, then click "Create".
+You can view the IBM Db2 service that you created by
+selecting services from your IBM Cloud dashboard.
+From this dashboard, you can
+manage your database instance.
+For example, you can click on
+the "Open Console" button to launch
+the Web Console for your database instance.
+The Web Console allows you to create tables, load data,
+explore data in your tables,
+and issue SQL queries.
+In order to access your database instance
+from your applications,
+you will need the service credentials.
+For the first time around,
+you'll need to create a set of new credentials.
+You can also choose to create multiple sets of
+credentials for different applications and users.
+Once a set of service credentials is created,
+you can view it as adjacent snippet.
+The credentials include the necessary details
+to establish a connection to the database,
+and includes the following;
+a database name and port number,
+a host name, which is the name of the server on
+the Cloud on which your database instance resides,
+a username, which is the user
+ID you'll use to connect along with the password.
+Note that your username is also the schema name
+in which your tables will be created by default.
+Now that you know how to
+create a database instance on Cloud,
+the next step is to actually go and create one.
+Thank you for watching this video.
+(Music)
