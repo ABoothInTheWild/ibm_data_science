@@ -26,7 +26,7 @@ Real-world data often lives in **relational databases**:
 **SQL and Python together** let you:
 
 * Run queries from notebooks and assign results to variables or DataFrames
-* Load CSV or other sources into a database, then analyze with SQL and Pandas
+* Load CSV or other sources into a database (via tools such as phpMyAdmin or programmatically using SQLite in Jupyter), then analyze with SQL and Pandas
 * Build repeatable pipelines: load once, query many times
 
 ---
@@ -47,7 +47,7 @@ The module is organized as a **progressive path** from SQL and database concepts
 ### 3. Creating and Querying Data
 
 * **CREATE TABLE Statement** — Defining tables and columns.
-* **Creating Tables, Loading Data and Querying Data** — End-to-end: create tables, load data, run queries.
+* **Creating Tables, Loading Data and Querying Data** — End-to-end workflow: create tables (via SQL scripts or GUI tools such as phpMyAdmin), load CSV data into relational tables, and execute queries against structured datasets.
 * **SELECT Statement** — Retrieving data; result sets; selecting columns; WHERE clause and predicates; comparison operators.
 * **COUNT, DISTINCT, LIMIT** — Aggregating and limiting result sets.
 * **INSERT Statement** — Adding rows to tables.
@@ -59,18 +59,18 @@ The module is organized as a **progressive path** from SQL and database concepts
 * **Using String Patterns and Ranges** — LIKE, BETWEEN, IN, and related patterns.
 * **Sorting Result Sets** — ORDER BY (ASC/DESC).
 * **Grouping Result Sets** — GROUP BY and aggregation.
-* **Built-in Database Functions** — Common scalar and aggregate functions.
-* **Date and Time Built-in Functions** — Working with dates and times in SQL.
+* **Built-in Database Functions** — Aggregate functions (SUM, AVG, MIN, MAX), scalar and string functions (ROUND, LENGTH, UCASE/LCASE), and column expressions.
+* **Date and Time Built-in Functions** — Extracting and manipulating date components (DAY, MONTH, YEAR) and performing date arithmetic (e.g. DATE_ADD).
 
 ### 5. Multiple Tables and Advanced Queries
 
 * **Sub-Queries and Nested Selects** — Using subqueries for filtering and derived data.
-* **Working with Multiple Tables** — Subqueries, implicit joins, and JOIN operators (inner join, outer join); qualifying column names and table aliases.
+* **Working with Multiple Tables** — Subqueries across tables, implicit joins in the WHERE clause, JOIN operators (inner join, outer join), qualifying column names, and using table aliases for clarity and disambiguation.
 
 ### 6. Accessing Databases with Python
 
 * **How to Access Databases Using Python** — Benefits of Python for DB access; Jupyter notebooks; SQL APIs and DB-API; how application code connects to the DBMS and passes SQL.
-* **Accessing Databases with SQL Magic** — Line magics (%) and cell magics (%%); `%sql` and `%%sql` in Jupyter; connecting to SQLite (e.g. `%sql sqlite:///DatabaseName`); using Python variables in SQL (`:variable`); assigning query results to variables; converting results to Pandas DataFrames.
+* **Accessing Databases with SQL Magic** — Line magics (%) and cell magics (%%); `%sql` and `%%sql` in Jupyter; connecting to SQLite (e.g. `%sql sqlite:///DatabaseName`); using Python variables in SQL (`:variable`); assigning query results to variables; converting query results to Pandas DataFrames for visualization.
 * **Writing Code Using DB-API** — Standard DB-API pattern for connecting and executing SQL.
 * **Connecting to a Database Using ibm_db API** — IBM Db2 and proprietary APIs.
 * **How to create a Database instance on Cloud** — Creating a cloud database instance for labs.
@@ -78,16 +78,16 @@ The module is organized as a **progressive path** from SQL and database concepts
 
 ### 7. Working with Real-World Data
 
-* **Working with Real-World Data Sets** — CSV as common format; header row and column names; loading data into databases (e.g. phpMyAdmin/import); querying columns with spaces (backticks); splitting long queries across lines; `read_sql` in Pandas; quoting and escaping; using LIMIT to sample rows.
+* **Working with Real-World Data Sets** — CSV as common format; header row and column names; loading data into databases (e.g. phpMyAdmin import tools or programmatically via SQLite in Jupyter); querying columns with spaces (backticks); splitting long queries across lines; `read_sql` in Pandas; quoting and escaping; using LIMIT to sample rows.
 
 ### 8. Labs and Notebooks
 
 * **4.11 — SQL Magic and SQLite**
-    * **Accessing Databases with SQL Magic** (`DB0201EN-Week3-1-3-SQLmagic_SQlite.ipynb`) — Load ipython-sql, connect to SQLite, create tables, use `%%sql`, Python variables in SQL, assign results to variables, convert to DataFrames and visualize.
-    * **Analyzing a real world data-set with SQL and Python** (`DB0201EN-Week3-1-4-Analyzing_SQLite.ipynb`) — Chicago socioeconomic indicators; store data in SQLite; practice SQL and basic analysis.
-    * **Create & Access SQLite database using Python** (`Week4_Insert_Update_SQLite.ipynb`) — Create database and table, insert data, query, retrieve into Pandas, close connection (e.g. `INSTRUCTOR.db`).
+    * **Accessing Databases with SQL Magic** (`DB0201EN-Week3-1-3-SQLmagic_SQlite.ipynb`) — Load `ipython-sql`, connect to SQLite from within Jupyter, create tables, execute SQL interactively using `%%sql`, use Python variables in SQL, assign results to variables, and convert query results to Pandas DataFrames for visualization.
+    * **Analyzing a real world data-set with SQL and Python** (`DB0201EN-Week3-1-4-Analyzing_SQLite.ipynb`) — Chicago socioeconomic indicators; store data in SQLite; practice SQL queries and perform basic analysis in Pandas.
+    * **Create & Access SQLite database using Python** (`Week4_Insert_Update_SQLite.ipynb`) — Create database and table using `sqlite3`, insert and update records programmatically, query results, retrieve into Pandas, and close the connection (e.g. `INSTRUCTOR.db`).
 * **4.13 — Real Data Practice**
-    * **Working with a real world data-set using SQL and Python** (`DB0201EN-Week4-1-1-RealDataPractice-v5_sqlite_Learner.ipynb`) — Chicago Public Schools Progress Report Cards (2011–2012); store in SQLite (`RealWorldData.db`); metadata and mixed-case columns; built-in functions and SQL practice.
+    * **Working with a real world data-set using SQL and Python** (`DB0201EN-Week4-1-1-RealDataPractice-v5_sqlite_Learner.ipynb`) — Chicago Public Schools Progress Report Cards (2011–2012); store in SQLite (`RealWorldData.db`); handle metadata and mixed-case columns; use built-in functions and write multi-line SQL queries against real-world schemas.
 
 ### 9. Final Project
 
@@ -99,7 +99,7 @@ The module is organized as a **progressive path** from SQL and database concepts
 ### 10. Supporting Materials
 
 * **Downloads** — Transcripts and notes (TXT) for all video topics above (e.g. Introduction to SQL, Relational Database Concepts, SELECT, INSERT, UPDATE/DELETE, JOINs, SQL Magic, DB-API, Analyzing Data with Python, Working with Real-World Data Sets).
-* **PDFs** — In sections 4.03, 4.06, 4.08, and 4.09 (e.g. 4.3.3, 4.3.5, 4.3.8, 4.6.3, 4.6.4, 4.8.3, 4.9.3, 4.9.4, 4.9.5) for slides or handouts.
+* **PDFs** — Guided hands-on labs and exercise sheets in sections 4.03, 4.06, 4.08, and 4.09 (e.g. 4.3.3, 4.3.5, 4.3.8, 4.6.3, 4.6.4, 4.8.3, 4.9.3, 4.9.4, 4.9.5) covering query practice, grouping, built-in functions, subqueries, and multi-table access.
 * **4.07** — Placeholder (e.g. .gitkeep).
 * **4.17 — Live Session** — Placeholder for live session materials.
 
@@ -121,4 +121,4 @@ The module is organized as a **progressive path** from SQL and database concepts
 Think of this module as building your **database toolkit** for data science, not just learning SQL in isolation.
 
 The goal is not to memorize every SQL clause or API call.
-The goal is to **understand relational data, write correct SQL for querying and updating tables, and connect Python (Jupyter, Pandas, SQL Magic, DB-API) to databases**—so you can store, retrieve, and analyze real-world data and move on to modeling and decision-making.
+The goal is to **understand relational data, write correct SQL for querying and updating tables, and connect Python (Jupyter, Pandas, SQL Magic, DB-API) to databases** so you can store, retrieve, and analyze real-world data and move on to modeling and decision-making.
