@@ -1,0 +1,157 @@
+Welcome to Walkthrough the flight delay time statistics dashboard lab.
+After watching this video,
+you'll be able to describe
+the Skills Network labs cloud IDE environment,
+analyze flight on time data by
+creating line graphs with dashboard components,
+create the layout of the Dash application,
+list the steps to run and launch the application.
+We'll be using the Skills Network labs,
+SN labs, cloud IDE environment for this activity.
+Skills Network labs cloud IDE provides a hand-on
+environment in your web browser for
+completing course and project-related labs.
+It utilizes thea, an open source IDE platform
+that can run on a desktop or the Cloud.
+When you open the lab,
+the screen will have two sides.
+On the left side,
+you'll see the labs instructions.
+On the right side is
+the Integrated Development Environment, IDE,
+where you'll complete the following;
+use terminal, write code, and so on.
+Let's have a closer look at this IDE window.
+At the top, there is a core menu that
+comprises of sub menus to help you create new files,
+save, run, and debug a terminal sub menu and so on.
+On the left side is
+a project-specific menu where you can
+find options to launch your application.
+To open a new terminal,
+click the terminal in
+the core menu and then click new terminal.
+Here, we have completed it.
+Great, let's start with the lab.
+We will work on the airline reporting carrier on time.
+The performance dataset source from
+the data asset exchange encompasses details on
+nearly 200 million domestic US flights reported
+to the United States Bureau of Transportation Statistics.
+It includes essential details about each flight,
+such as the time, date,
+departure airport, arrival airport,
+duration of flight delay,
+and information pertaining to the cause of the delay.
+You will analyze flight delays in a dashboard.
+You'll be creating five line graphs with
+dashboard components for monthly average carrier delay,
+monthly average weather delay,
+monthly average national air system delay,
+monthly average security delay,
+monthly average late aircraft delay
+by reporting airline for the given year.
+One, in the terminal,
+install all the required packages
+as mentioned in the instructions,
+copy the PIP commands.
+Two, paste it into the terminal and
+then press Shift plus Enter to execute them.
+Do this for all three PIP commands one by one.
+It will take a while.
+Let's now create a new script file to write the code.
+One, click file in
+the core menu bar and then click New File.
+Two, a pop out prompt will appear on the screen.
+Here, mention the name of
+this file as indicated in the instructions,
+flight_delay.py and click "Okay".
+Three, here it is.
+The file is ready and open in the IDE.
+First we need to import the libraries
+and pull the dataset into the script file.
+One, the instruction side of
+the screen mentions all the required libraries.
+Additionally, the code
+mentioned to fetch the dataset with pandas
+is airline_data equals pd.read_csv.
+Two, copy and paste them into the script file.
+Three, as shown here.
+Now it's time to design the layout of the app.
+One, we will first create
+the dash app by calling the dash function,
+app equals dash.dash function.
+Two, to add a layout division using HTML,
+you can utilize the dcc.input function tag
+inside the layout division along
+with the div function and input components.
+Three, using the display as flex for
+two outer divisions to get graphs side-by-side in a row.
+Four, write or copy the code from the instructions
+and paste it into the script file
+below the previous code.
+Now that we have the skeleton,
+let's include the components.
+One, the title will go in the
+html.H1 function as a string,
+and you can style the text.
+Two, inside the first HTML division,
+which we refer to as the dcc.input tag,
+the input component can be
+customized with various attributes.
+For instance, you can assign the ID as input year,
+set the value as 2010,
+specify the type as number,
+and even customize the style
+attributes such as height and font size.
+One, when utilizing this dial parameter,
+you can actively add different graphs to the divisions.
+We assign display as flex
+to place two plots side-by-side in a row.
+Use dcc.graph tag for
+including the plot and give each plot an ID.
+For the year input by user,
+we need to compute the airline data
+and make charts and plots.
+One, let's call this function compute_info.
+Pass the dataset and the input year as arguments,
+the function should return
+all the average delays for that year.
+Two, within this function,
+we will aggregate the specific delay by grouping
+the dataset for the month and
+the reporting airlines features.
+You can compute all the delays as individual plots.
+But best practice would be to create a function.
+As we need our dashboard to update in
+real time based on the year value input by the user,
+we will now create a callback function.
+First, we will create a callback decorator.
+One, update the output component
+ID parameter with the IDs provided in the
+dcc.graph function component for all five components we
+created and set the component property
+as a figure, like this.
+Two, and then update the input component ID
+parameter with the ID and set the property as value.
+Three, then create a callback function that
+uses the input provided to perform the computation.
+Four, create a graph in
+this function and return it as an output.
+Five, lastly, call the run.server function on the app.
+Six, good work.
+Seven, to run this application,
+use the command python3flight_delay.py in the terminal.
+One, you will get
+the port number after you run the application.
+Two, now you need to launch it.
+Click the Skills Network Toolbox.
+Three, then click the Launch Application.
+Four, enter the port number,
+in this case 8050 in the application port box.
+Five, and then click your application.
+Six, the output should look like this.
+In this video, we have
+walked through the lab where you developed
+a dashboard with dash framework
+on flight delay time statistics.
