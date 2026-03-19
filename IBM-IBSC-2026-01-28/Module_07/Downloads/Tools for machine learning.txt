@@ -1,0 +1,119 @@
+Welcome to Tools for Machine Learning.
+After watching this video, you will be able to explain why data is essential for
+machine learning models.
+You'll also be able to list common languages for machine learning.
+Finally, you'll be able to describe tools for data processing and analytics, data visualization,
+machine learning, deep learning, computer vision, natural language processing, or NLP,
+and generative artificial intelligence, or AI.
+Let's begin by asking the question, what is data?
+Data is a collection of raw facts, figures, or information used to draw insights,
+inform decisions, and fuel advanced technologies.
+Data is central to every machine learning algorithm and the source of all the information
+the algorithm uses to discover patterns and make predictions.
+Now let's understand what are machine learning tools.
+Machine learning tools provide functionalities for machine learning pipelines, which include
+modules for data preprocessing and building, evaluating, optimizing, and implementing machine
+learning models.
+These tools use algorithms to simplify complex tasks, such as handling big data, conducting
+statistical analyses, and making predictions.
+A good example is the Pandas library, used for data manipulation and analysis.
+Another example is the Scikit-learn library, which provides a wide range of supervised
+and unsupervised learning algorithms for linear regression.
+A machine learning programming language is a programming language for building machine
+learning models and decoding the hidden patterns in data.
+Python is a widely used language due to its extensive collection of libraries for analyzing
+and processing data and its ease in developing machine learning models.
+R is another popular language for statistical learning that also contains many libraries
+for data exploration and machine learning.
+Here are some other common languages.
+Julia is a high-performance language with parallel and distributed numerical computing
+support used by researchers.
+Scala is a scalable, widely used language for processing big data and building machine
+learning pipelines.
+Java is a multi-purpose language that supports scalable machine learning applications deployed
+in production, and JavaScript is used to run machine learning models in web browsers to
+serve client-side applications.
+Machine learning tools serve several purposes.
+You can use them to store and retrieve data, work with plots, graphs, and dashboards, explore,
+visually inspect, and clean data, and prepare data for developing machine learning models.
+These tools can be divided into specific categories, as shown here.
+Data processing and analytics tools process, store, and interact with data to serve machine
+learning models.
+Here are some examples.
+PostgreSQL is a powerful open-sourced object-relational database system based on SQL, a language designed
+for storing, manipulating, and retrieving data in databases.
+Hadoop is an open-source, highly scalable disk-based solution for storing and batch-processing
+massive data.
+Spark is a distributed, in-memory data processing framework for real-time big data processing.
+It supports DataFrames and SQL, and is faster and easier to use than Hadoop.
+Apache Kafka is a distributed streaming platform for building big data pipelines and running
+real-time analytics.
+Pandas is a popular Python library for exploring and wrangling data.
+Central to Pandas is the DataFrame, a tabular data structure for cleaning and transforming
+structured data.
+NumPy is a Python library that provides comprehensive mathematical functions, random number generators,
+and linear algebra routines for distributed and graphics processing unit, or GPU-based
+computing platforms.
+Data visualization tools help you understand and visualize the structure of your data.
+Let's look at some commonly used tools.
+Matplotlib is an extensive foundational library for generating customizable plots and interactive
+visualizations.
+Seaborn is a library based on Matplotlib.
+It provides a high-level interface for drawing attractive and informative statistical graphics.
+ggplot2 is an open-source data visualization package in R. It allows you to build and add
+elements to your graphics in layers.
+Tableau is a business intelligence tool for interactive data visualization dashboards.
+Machine learning tools are used to create and tune your machine learning models.
+Several open-source Python libraries form a widely used ecosystem for machine learning.
+NumPy provides foundational machine learning support with efficient numerical computations
+on large, multidimensional data arrays.
+Pandas is used for data analysis, visualization, cleaning, and preparing data for machine learning.
+SciPy, built on NumPy, is used for scientific computing and has modules for optimization,
+integration, linear regression, and more.
+Scikit-learn is used for building classical machine learning models, offering a full suite
+of classification, regression, clustering, and dimensionality reduction algorithms.
+It's built on NumPy, SciPy, and Matplotlib.
+Deep learning tools are frameworks for designing, training, and testing neural network-based
+machine learning models.
+For deep learning, there are several popular libraries available.
+TensorFlow is an open-source library for numerical computing and large-scale machine learning.
+Keras is an easy-to-use deep learning library for implementing neural networks.
+Theano is for efficiently defining, optimizing, and evaluating mathematical expressions involving arrays.
+PyTorch is an open-source library for deep learning applications and computer vision and NLP.
+It also allows experimentation to test ideas.
+Computer vision tools are used for tasks such as object detection, image classification,
+facial recognitions, and image segmentation.
+All of the deep learning tools can be tailored to computer vision applications.
+Let's look at some examples.
+OpenCV, or Open Source Computer Vision Library, is a library for real-time computer vision
+applications such as object detection, image classification, and augmented reality.
+Scikit-Image, built on SciPy and compatible with Pandas, offers image processing algorithms
+such as filters, segmentation, feature extraction, and morphological operations.
+TorchVision, part of the PyTorch project, consists of popular datasets, image loading,
+pre-trained deep learning architectures, and common image transformations for computer vision.
+NLP tools help developers and data scientists build applications that understand, interpret,
+and generate human language.
+Let's look at some popular NLP tools.
+The Natural Language Toolkit, or NLTK, is a comprehensive library that offers text processing,
+tokenization, and stemming tools.
+TextBlob is a library for tasks like part-of-speech tagging, noun-phrase extraction, sentiment
+analysis, and translation.
+Stanza is an NLP library from the Stanford NLP Group with accurate pre-trained models
+for many NLP tasks, including part-of-speech tagging, named entity recognition, and dependency parsing.
+Generative AI tools leverage AI to generate new content based on input data or prompts,
+such as text, images, music, code, or other media.
+Here are some examples.
+Hugging Face Transformers is a powerful library of transformer models for NLP tasks, such
+as text generation, language translation, and sentiment analysis.
+ChatGPT is a powerful language model used for text generation, building chatbots, and
+other NLP tasks.
+DALL-E is a tool from OpenAI for generating images from textual descriptions.
+PyTorch uses deep learning to create generative models, such as Generative Adversarial Networks,
+or GANs, and Transformers for text and image generation.
+In this video, you learned that data is central to every machine learning algorithm.
+Machine learning tools simplify complex tasks and provide functionalities for machine learning pipelines.
+A machine learning programming language is used to build machine learning models and
+decode data patterns.
+Some commonly used languages are Python, R, Julia, Scala, Java, and JavaScript.
+Finally, you explored the tools used for data processing and analytics, data visualization,
+machine learning, deep learning, computer vision, NLP, and AI.

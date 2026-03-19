@@ -1,0 +1,72 @@
+Welcome to Scikit-Learn Machine Learning Ecosystem.
+After watching this video, you will be able to describe the machine learning ecosystem.
+You will also be able to explain the features of the scikit-Learn library and how it works.
+Imagine you developed a music streaming app that allows users to play and download music,
+share music files, and create playlists.
+To increase your app's user base, you collect information on your users' listening habits,
+such as what songs they play, how long they listen to songs, and which songs they skip.
+Once you've collected the information, you want to normalize it by finding inconsistent
+data, missing values, and outliers.
+Machine learning tools can generate this type of information.
+They are useful for data collection, preprocessing, model training, model evaluation, model deployment,
+and monitoring.
+The machine learning, or ML ecosystem, refers to the interconnected tools, frameworks, libraries,
+platforms, and processes that support developing, deploying, and managing machine learning models.
+Python offers a wide variety of tools and libraries for machine learning.
+Several open-sourced Python libraries comprise one of the most widely used ecosystems for
+machine learning.
+NumPy provides foundational machine learning support with its efficient numerical computations
+on large multidimensional data arrays.
+Pandas, built on NumPy and Matplotlib, is used for data analysis, visualization, cleaning,
+and preparing data for machine learning.
+Pandas uses versatile arrays called data frames to handle data.
+SciPy, built on NumPy, is used for scientific computing and has modules for optimization,
+integration, linear regression, and more.
+Matplotlib is built on NumPy and has an extensive, highly customizable set of visualization tools.
+Scikit-learn, built on NumPy, SciPy, and Matplotlib, is used for building classical machine learning
+models.
+Let's take a closer look at scikit-learn.
+Scikit-learn is a free machine learning library for the Python programming language.
+It has a wide, up-to-date selection of classification, regression, clustering, and dimensionality
+reduction algorithms.
+It's designed to work with the Python numerical and scientific libraries NumPy and SciPy.
+It has excellent documentation and a large community support network.
+Scikit-learn is constantly evolving with contributions from a community of thousands and is exceeded
+only by Pandas.
+Implementing machine learning models with scikit-learn is easy, with just a few lines
+of Python code.
+Most of the tasks that need to be done in a machine learning pipeline are already implemented
+in scikit-learn, including data preprocessing tasks like data cleaning, scaling, feature
+selection and feature extraction, train or test splitting, model setup and fitting, hyperparameter
+tuning with cross-validation, prediction, evaluation, and exporting the model to be
+used in production.
+Here's an example of a basic machine learning workflow using the scikit-learn library.
+Consider a data set X and a target variable Y, both stored as NumPy arrays.
+Scikit-learn's pre-processing package provides several common utility functions and transformer
+classes to help you prepare data for modeling.
+For instance, this first code block scales your data by standardizing it.
+In supervised learning, you want to split your data set into train and test sets to train
+your model and then test the model's accuracy separately.
+Scikit-learn can split arrays and matrices into random train and test subsets for you
+in one line of code.
+Here, 33% of the data is reserved for testing.
+Next, you can instantiate a classifier model using a support vector classification algorithm.
+This line of code generates a classification model object, called clf, and initializes
+its parameters, gamma and C.
+After initializing your model clf, you can train your model on the training data.
+The clf model learns to predict the classes for unknown cases by passing the training
+set to the fit method.
+Then you can use the test data to generate predictions.
+The result tells you the predicted class for each observation in the test set.
+You can also use different metrics to evaluate your model accuracy, such as a confusion matrix
+to compare the predicted and actual labels for the test set.
+And finally, you can save your model as a pickle file and retrieve it whenever you like.
+In this video, you have learned that a machine learning ecosystem refers to the interconnected
+tools, frameworks, libraries, platforms, and processes that support developing, deploying,
+and managing machine learning models.
+It uses several Python tools and libraries, such as NumPy, Pandas, SciPy, Matplotlib,
+and scikit-learn.
+Scikit-learn is a free machine learning library for Python that uses classification, regression,
+clustering, and dimensionality reduction algorithms.
+Most tests required in a machine learning pipeline are already implemented in scikit-learn.
+Finally, you learned the basic machine learning workflow using the scikit-learn library.
