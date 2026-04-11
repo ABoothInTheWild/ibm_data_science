@@ -1,0 +1,80 @@
+Welcome to Introduction to Cloud Computing and Cloud Deployment and Service Models.
+After watching this video, you will be able to:
+Describe cloud computing concepts,
+define cloud deployment models and cloud service models,
+and identify the characteristics of cloud computing.
+Cloud computing, also referred to as the cloud, is the delivery of on-demand computing resources
+such as networks, servers, storage, applications, services, and data centers over the Internet
+on a pay-for-use basis.
+The term “cloud computing” can be used to describe applications and data that users
+access over the Internet rather than on their local computer.
+Examples of cloud computing include users using online web apps, employees using secure
+online business applications to conduct their work, and users storing personal files on
+cloud-based storage platforms such as Google Drive, OneDrive, and Dropbox.
+One of the main user benefits of cloud computing is that instead of users needing to purchase
+their own applications and install them locally on their computer, they can use online versions
+of those applications and pay a monthly subscription.
+Not only is this typically more cost-effective initially, but users can also access the latest
+version of the application without having to purchase a full retail copy of the newer
+version.
+A side advantage of this is that the user also saves lots of local storage space as
+the application is hosted online.
+And, the beauty of most cloud-based applications is that they also enable users to work collaboratively
+with their colleagues, working on the same files in real time and being able to see each
+other’s edits and updates.
+Cloud computing is composed of five essential characteristics, three deployment models,
+and three service models.
+Let’s start with understanding the five essential characteristics of the cloud.
+On-demand self-service means that you get access to cloud resources such as the processing
+power, storage, and network you need, using a simple interface, without requiring human
+interaction with each service provider.
+Broad network access means that cloud computing resources can be accessed via the network
+through standard mechanisms and platforms such as mobile phones, tablets, laptops, and
+workstations.
+Resource pooling is what gives cloud providers economies of scale, which they pass on to
+their customers, making cloud cost-efficient.
+Using a multitenant model, computing resources are pooled to serve multiple consumers, and
+cloud resources are dynamically assigned and reassigned according to demand, without customers
+needing to know the physical location of these resources.
+Rapid elasticity implies that you can access more resources when you need them, and scale
+back when you don’t, because resources are elastically provisioned and released.
+And measured service means that you only pay for what you use or reserve as you go.
+If you’re not using resources, you’re not paying.
+Resource usage is monitored, measured, and reported transparently based on consumer utilization.
+As you have seen, cloud computing is really about using technology “as a service,”
+leveraging remote systems on-demand over the open Internet, scaling up and scaling back,
+and paying for what you use.
+And it has changed the way the world consumes compute services, by making them more cost-efficient
+while also making organizations more agile in response to changes in their markets.
+Cloud deployment models indicate where the infrastructure resides, who owns and manages
+it, and how cloud resources and services are made available to users.
+There are three types of cloud deployment models: public, private, and hybrid.
+Public cloud is when you leverage cloud services over the open internet on hardware owned by
+the cloud provider, but its usage is shared by other companies.
+Private cloud means that the cloud infrastructure is provisioned for exclusive use by a single
+organization.
+It could run on-premises or it could be owned, managed, and operated by a service provider.
+And when you use a mix of both public and private clouds, working together seamlessly,
+that is classified as the hybrid cloud model.
+Now, let’s look at the three cloud service models that are based on the three layers
+in a computing stack: infrastructure, platform, and application.
+These cloud computing models are aptly referred to as Infrastructure as a Service (or IaaS),
+Platform as a Service (or PaaS), and Software as a Service (or SaaS).
+In an IaaS model, you can access the infrastructure and physical computing resources such as servers,
+networking, storage, and data center space without the need to manage or operate them.
+In a PaaS model, you can access the platform that comprises the hardware and software tools
+that are usually needed to develop and deploy applications to users over the Internet.
+And an SaaS is a software licensing and delivery model in which software and applications are
+centrally hosted and licensed on a subscription basis.
+It is sometimes referred to as “on-demand software.”
+In this video, you learned that:
+Cloud computing is the delivery of on-demand computing resources over the Internet on a
+pay-for-use basis.
+Cloud computing is composed of five essential characteristics, three deployment models,
+and three service models.
+The five essential characteristics of cloud computing are on-demand self-service, broad
+network access, resource pooling, rapid elasticity, and measured service.
+There are three types of cloud deployment models: public, private, and hybrid.
+And the three cloud service models are based on the three layers in a computing stack (infrastructure,
+platform, and application), and they are referred to as Infrastructure as a Service (or IaaS),
+Platform as a Service (or PaaS), and Software as a Service (or SaaS).

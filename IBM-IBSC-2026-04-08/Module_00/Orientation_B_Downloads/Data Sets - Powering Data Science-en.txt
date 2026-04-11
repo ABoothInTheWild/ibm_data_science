@@ -1,0 +1,78 @@
+Welcome to “Data Sets – Powering Data Science.”
+After watching this video, you will be able to
+define a data set,
+describe the types of data ownership,
+list the sources of data, and
+describe the Community Data License Agreement.
+Let’s first define what a dataset is.
+A data set is a structured collection of data.
+Data embodies information represented as text, numbers, or media such as images, audio, or
+video files.
+A tabular data set comprises a collection of rows containing columns that store the
+information.
+One popular tabular data format is "comma separated values," or CSV.
+A CSV file is a delimited text file where each line represents a row, and a comma separates
+data values.
+For example, imagine a dataset of observations from a weather station.
+Each row represents an observation at a given time, while each column contains information
+about that observation,
+such as the temperature, humidity, and other weather conditions.
+Hierarchical or network data structures are typically used to represent relationships
+between data.
+Hierarchical data is organized in a tree-like format, whereas network data is stored as
+a graph.
+For example, the connections between people on a social networking website are often represented
+as a graph.
+A data set might also include raw data files, such as images or audio.
+The Modified National Institute of Standards and Technology (MNIST) dataset is popular
+for data science.
+It contains images of handwritten digits and is commonly used to train image processing
+systems.
+Traditionally, most data sets were private because they contained proprietary or confidential
+information such as customer data, pricing data, or other commercially sensitive information.
+These datasets are typically not shared publicly.
+Over time, many public and private entities such as
+scientific institutions, governments, organizations, and even companies have started making data
+sets available to the public as “open data,” providing free information.
+For example, the United Nations and federal and municipal governments worldwide have published
+many datasets on their websites,
+covering the economy, society, healthcare, transportation, the environment, and much
+more.
+Access to these and other open datasets enables data scientists, researchers, analysts, and
+others to uncover previously unknown and potentially valuable insights.
+They are used to create new applications for commercial purposes and the public good.
+They are also used to carry out further research.
+Open data has played a significant role in the growth of data science, machine learning,
+and artificial intelligence.
+It has allowed practitioners to hone their skills in various data sets.
+There are many open data sources on the internet.
+You can find a comprehensive list of available data portals worldwide on the Open Knowledge
+Foundation’s datacatalogs.org website.
+The United Nations, the European Union, and many other governmental and intergovernmental
+organizations maintain data repositories providing access to a wide range of information.
+On Kaggle, a popular data science online community, you can find (and contribute) data sets that
+might be of general interest.
+And Google provides a search engine that might help you find data sets that could be of value
+to you.
+Now, open data distribution and use might be restricted, as defined by certain licensing terms.
+Without a license for open data distribution, many data sets were shared in the past under
+open-source software licenses.
+These licenses were not designed to cover specific considerations related to the distribution
+and use of data sets.
+So to address the issue, the Linux Foundation created the Community Data License Agreement,
+or CDLA.
+Two licenses were initially created for sharing data: CDLA-Sharing and CDLA-Permissive.
+The CDLA-Sharing license grants you permission to use and modify the data.
+The license stipulates that if you publish your modified version of the data, you must
+do so under the same license terms as the original data.
+The CDLA-Permissive license also grants you permission to use and modify the data.
+However, you are not required to share changes to the data.
+Now note that neither license imposes any restrictions on results you might derive by using the data,
+which is important in data science.
+Let’s say, for example, that you are building a model that performs a prediction.
+If you are training the model using CDLA-licensed data sets, you are under no obligation to
+share the model or to share it under a specific license if you choose to share it.
+In this video, you’ve learned that:
+Open data is fundamental to Data Science.
+Community Data License Agreement makes it easier to share open data, and
+Open datasets might not meet enterprise requirements, due to the impact they might have on the business.

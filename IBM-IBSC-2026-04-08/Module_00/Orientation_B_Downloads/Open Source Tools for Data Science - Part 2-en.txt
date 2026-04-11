@@ -1,0 +1,73 @@
+Welcome to Open-Source Tools for Data Science Part 2.
+After watching this video, you will be able to
+Compare and contrast different open-source tools, and
+Describe the relevant features of open-source tools
+Currently, the most famous development environment data scientists are using is “Jupyter,”
+which emerged as a tool for interactive Python programming.
+Jupyter now supports more than a hundred different programming languages through “kernels.”
+This encapsulates the execution environment for different programming languages.
+A key property of Jupyter Notebooks is to unify documentation,
+code, output from code,
+shell commands, and
+visualizations in a single document.
+Jupyter lab is the next version of Jupyter Notebooks,
+and in the long term will replace Jupyter Notebooks.
+The abundance of architectural changes makes Jupyter more modern and modular.
+From a user’s perspective, the main difference between Jupyter Lab and
+Jupyter Notebooks is the ability to open different types of files,
+including Jupyter Notebooks, data, and terminals, and then arrange them on the canvas.
+Although it has been reimplemented from scratch,
+Apache Zeppelin was inspired by Jupyter Notebooks and provides a similar experience.
+Though one key differentiator is the integrated plotting capability.
+In Jupyter Notebooks, you are required to use external libraries in Zeppelin,
+and plotting doesn’t require coding.
+You can also extend the capabilities by using additional libraries.
+RStudio is among the oldest development environments for statistics and data
+science. RStudio has its origins in the year 2011.
+It exclusively runs R and all its associated R libraries.
+In the R environment, Python development is possible.
+R is tightly integrated into the Jupyter tool and provides optimal user experience.
+RStudio unifies
+programming,
+execution,
+debugging,
+remote data access,
+data exploration, and
+visualization into one tool.
+Finally, Spyder tries to mimic the behavior of RStudio to bring
+its functionality to the Python world.
+Although not at par with the functionality of RStudio,
+data scientists consider it as an alternative. In the Python world, Jupyter is used more.
+This diagram shows that Spyder integrates code,
+documentation, and visualizations, among others, into a single canvas.
+Sometimes your data doesn’t fit into a single computer’s storage or main memory capacity.
+Therefore, cluster execution environments exist.
+The extensively famous Apache Spark is among the most active Apache projects
+that are used across all industries, including many Fortune 500 companies.
+The key property of Apache Spark is linear scalability.
+This means that if you double the number of servers in a cluster,
+you’ll roughly double its performance.
+Apache Flink was developed after Apache Spark continued to gain market share.
+The key difference between Apache Spark and Apache Flink is that Apache Spark is a batch
+data processing engine, capable of processing vast amounts of data one by one or file by file.
+Whereas Apache Flink is a stream-processing image
+with its main focus on processing real-time data streams.
+Although both engines support both data processing paradigms, at the same time,
+Apache Spark is the choice for most use cases.
+After Apache Spark and Apache Flink,
+Ray is one of the latest developments in the data science execution environments
+and has a clear focus on large-scale deep learning model training.
+Let’s look at open-source tools for data scientists, which are fully integrated and visual.
+This means no programming knowledge is necessary.
+The tools support a subset of important tasks that include
+data integration and transformation,
+data visualization,
+and model building.
+KNIME originated from the University of Konstanz in 2004.
+As you can see, KNIME has a visual user interface with drag-and-drop capabilities.
+It has built-in visualization capabilities. In addition,
+it can be extended by programming in R and Python and even has connectors to Apache Spark.
+Orange is another representative of this group of tools.
+It is less flexible than KNIME but is easier to use.
+In this video, you have learned about the
+most common tasks in data science and which open-source tools are relevant.

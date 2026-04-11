@@ -1,0 +1,101 @@
+Welcome to a realm where data isn't just numbers.
+It's the gateway to innovation,
+discovery, and the endless possibilities that lie ahead.
+To understand the heart and
+soul of a data scientist world,
+let's review what data scientists do
+as discussed in the readings and videos from this lesson.
+Data scientists investigate and
+find explanations for many problems.
+For example, Dr. Murtaza Haider found an explanation for
+why half a million customers
+complained about public transit in Toronto.
+After much investigation, he found a relationship between
+unexpected bad weather events
+and the number of complaints on that particular day.
+Data scientists may tackle environmental challenges
+such as predicting algae blooms
+to prevent water toxicity.
+By harnessing data in
+the prowess of artificial neural networks,
+data scientists can help
+water treatment companies safeguard the ecosystem.
+Norman White, a clinical
+faculty member at the Stern School of Business,
+also discussed the journey that led him to build
+a recommendation engine that
+simplified intricate problems across departments.
+This underscores the essence of data science,
+solving real world issues with innovative solutions.
+Education serves as a cornerstone,
+equipping future data scientists with essential skills.
+Dr. White's classroom comes alive with Python notebooks,
+revealing the secrets of Unix,
+Linux, relational databases,
+and powerful tools like Pandas.
+Dr. Vincent Granville, an author on
+data science, lists algebra, calculus,
+and training, and probability and statistics as
+necessary educational backgrounds to be a data scientist.
+He distinguishes between
+a statistician and a data scientist.
+A data scientist uses statistics,
+but is not only a statistician.
+However, data scientists do
+use a lot of statistical models,
+such as statistical regression.
+Regression shows the probable relationship
+between two variables,
+such as the distance you drive
+and the amount of gas you use.
+Data scientists also utilize
+machine learning algorithms such as
+nearest neighbor to process what
+much of the media refers to as big data.
+The term should be used with caution.
+What was once considered big data
+is continually reshaped by innovation.
+Tools like Hadoop and
+software advancements have shattered traditional limits,
+ushering in a new era of possibilities.
+Neither does Dr. Patel restrict
+data scientists to dealing with
+datasets of arbitrary size,
+nor does he restrict them to using particular tools.
+His definition includes individuals
+of various academic backgrounds and training.
+A data scientist not only
+unlocks the insights within a dataset,
+but conveys a compelling narrative to stakeholders.
+It's this blend of technical acumen and
+communication finesse that sets them apart.
+The data that data scientists use
+comes from a wide variety of sources.
+Sometimes video, sometimes audio,
+and often unformatted text.
+Text-based data can also be structured,
+such as in tables with rows and columns,
+or unstructured like emails or logs.
+The data they work with comes in
+a wide variety of formats,
+such as delimited text files,
+spreadsheets, XML, PDFs,
+and Javascript Object Notation, or JSON.
+What makes a data scientist truly exceptional?
+The answer, according to Rachel Schutt,
+chief data scientist at News Corp, lies in curiosity.
+A successful data scientist
+is a blend of computer scientist,
+software engineer, and statistician.
+Their ability to transform
+unstructured solutions into
+structured insights defines their prowess.
+As we reflect on the insights from
+a day in the life of a data scientist,
+we realize that data science isn't just a profession.
+It's a journey of exploration,
+innovation, and story telling.
+The world of data is vast and
+the data scientist, armed with skills,
+curiosity and determination,
+navigates it to unravel the extraordinary.

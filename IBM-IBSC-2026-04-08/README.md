@@ -1,6 +1,6 @@
-# IBM Data Science Course - January 2026 Session
+# IBM Data Science Course - April 2026 Session
 
-This folder contains all course materials, labs, exercises, and resources for the IBM Data Science course session starting January 2026.
+This folder contains all course materials, labs, exercises, and resources for the IBM Data Science course session starting April 2026.
 
 ## Course Overview
 

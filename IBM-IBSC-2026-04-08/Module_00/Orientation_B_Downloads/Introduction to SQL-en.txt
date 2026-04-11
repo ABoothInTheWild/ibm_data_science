@@ -1,0 +1,51 @@
+Welcome to “Introduction to SQL”.
+After watching this video, you will be able to:
+explain SQL and relational databases,
+define the SQL elements, and
+list the benefits of using SQL.
+SQL is a bit different than other languages.
+Officially it is pronounced as “ess cue el” though some call it “sequel”.
+And while the acronym stands for “Structured Query Language”,
+many people consider SQL different from other software development
+languages because it is a non-procedural language.
+Its scope is limited to querying and managing data.
+While it is not a “Data Science” language,
+data scientists regularly use it because it is simple and powerful!
+Some other facts about SQL are that it is older than python and R by about 20 years.
+It first appeared in 1974 and was developed at IBM!
+This language is useful in handling structured data,
+which is the data incorporating relations among entities and variables.
+SQL was designed for managing data in relational databases.
+Here you can see a diagram showing the general structure of a relational database.
+A relational database is formed by collections of two-dimensional tables,
+for example, Datasets and Excel Spreadsheets.
+Each of these tables is then formed by a fixed number of columns and any possible number of rows.
+However, although SQL was originally developed for use with relational databases,
+because of its pervasiveness and ease of use,
+SQL interfaces have also been developed for many NoSQL and big data repositories.
+The SQL language is subdivided into several language elements, including:
+Clauses, Expressions, Predicates, Queries, and Statements.
+So, what makes SQL great?
+Knowing SQL will help you get many different jobs in data science,
+such as a business and data analyst.
+This knowledge is also a must in data engineering.
+When performing operations with SQL, the data is accessed directly,
+without needing to copy the data separately, which can considerably speed up workflow executions.
+SQL behaves like an interpreter between you and the database.
+SQL is an American National Standards Institute (or ANSI) standard, which means if you learn SQL
+and use it with one database, you can apply your SQL knowledge to many other databases easily.
+Now, many different SQL databases are available, including the following:
+MySQL, IBM DB2, PostgreSQL, Apache Open Office Base, SQLite, Oracle,
+MariaDB, Microsoft SQL Server, and more.
+The syntax of the SQL you write may change
+based on the relational database management system you are using.
+If you want to learn SQL, you should focus on a specific
+relational database and then plug into the community for that specific platform.
+In addition, there are many available great introductory courses on SQL!
+In this video, you learned that:
+SQL is different from other software development languages because it is a non-procedural language.
+SQL’s scope is limited to querying and managing data.
+SQL was designed for managing data in relational databases.
+SQL behaves like an interpreter between you and the database.
+And if you learn SQL and use it with one database,
+you can apply your SQL knowledge to many other databases easily.

@@ -1,0 +1,77 @@
+Welcome to “Libraries for Data Science.”
+After watching this video, you will be able to:
+List the scientific computing libraries in Python
+List the visualization libraries in Python
+List the high-level machine learning and deep learning libraries, and
+List the libraries used in other languages
+In this video, you will review several data science libraries.
+Libraries are a collection of functions
+and methods that allow you to perform many actions without writing the code.
+We will focus on the following Python libraries:
+Scientific Computing Libraries in Python
+Visualization Libraries in Python
+High-Level- Machine Learning and Deep Learning Libraries (High-level means
+you don’t have to worry about details making studying or improving difficult.)
+And finally, Deep Learning Libraries in Python, and Libraries used in other languages
+Now, scientific computing libraries contain built-in modules providing different
+functionalities, which you can use directly.
+They are also called frameworks.
+For example, Pandas offers data structures and tools for effective data cleaning,
+manipulation, and analysis.
+It provides tools to work with different types of data.
+The primary instrument of Pandas is a two-dimensional table consisting
+of columns and rows, called a Data Frame.
+Pandas can also provide easy indexing so you can work with your data.
+NumPy libraries are based on arrays and matrices,
+allowing you to apply mathematical functions to the arrays.
+Pandas is built on top of NumPy. You use data visualization methods to
+communicate with others and display meaningful results of an analysis.
+These libraries enable you to create graphs, charts, and maps.
+The Matplotlib package is the most well-known library for data visualization.
+They are popular for making graphs and plots, and the graphs are easily customizable.
+Another high-level visualization library is Seaborn.
+It is based on matplotlib. This library generates heat maps, time series, and violin plots.
+Now, for machine learning, the Scikit-learn library contains tools for statistical
+modeling, including regression, classification, clustering, and so on.
+It is built on NumPy, SciPy, and matplotlib.
+It is simple to get started. In this high-level approach,
+you define the model and specify the parameter types you want to use.
+For building deep learning models, Keras allows you to build the standard deep learning model.
+Like Scikit, the high-level interface allows you to build models in a quick, simple manner.
+It can function using Graphics processing units (GPU) but in many cases,
+a lower-level environment is necessary for deep learning.
+TensorFlow is a low-level framework used in the large-scale production of deep learning models.
+It's designed for production and deployment but can be unwieldy for experimentation.
+Pytorch is used for experimentation, making it simple for researchers to test ideas.
+Apache Spark is a general-purpose cluster-computing framework allowing
+you to process data using compute clusters.
+The data is processed in parallel in more than one computer simultaneously.
+The Spark library has similar functionality to the following:
+Pandas,
+Numpy, and
+Scikit-learn.
+Apache Spark data processing jobs can be in: Python
+R
+Scala, and
+SQL
+There are many Scala libraries.
+Scala is predominately used in data engineering and data science.
+Let’s discuss some libraries that are complementary to Spark.
+Vegas is a Scala Library for statistical data visualizations.
+With Vegas, you can work with data files as well as Spark Data Frames.
+For deep learning, you can use big DL.
+R has built-in functionality for machine learning and data visualization,
+but there are also complementary libraries.
+ggplot2 is a popular library for data visualization in R.
+You can also use libraries that allow you to interface with Keras and TensorFlow.
+And R was a de-facto standard for open-source data science, but now Python will supersede it.
+In this video, you learned that:
+Libraries usually contain built-in modules providing
+different functionalities that can be used directly.
+You can use data visualization methods to
+communicate with others and display meaningful results of an analysis.
+For machine learning, the Scikit-learn library contains tools for statistical
+modeling, including regression, classification, clustering and so on.
+TensorFlow is a low-level framework used in large-scale production of deep learning models.
+And, Apache Spark is a general-purpose cluster-computing framework allowing
+you to process data using compute clusters.

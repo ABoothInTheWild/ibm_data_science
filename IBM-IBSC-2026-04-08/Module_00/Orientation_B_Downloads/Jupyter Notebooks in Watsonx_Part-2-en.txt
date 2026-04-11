@@ -1,0 +1,36 @@
+Welcome to Jupyter Notebooks in WatsonX Part 2.
+After watching this video, you will be able to
+Check the Jupyter Notebook Rundime Environment
+Use different types of Jupyter Notebook templates
+And change the kernel within a Jupyter Notebook
+You have learned how to create a Jupyter Notebook.
+Now you will manage the environment.
+Go to the Data Science Project homepage.
+Click the Manage tab, and then click Environments in the left pane.
+If your notebook is executing, you will be able to see the active runtime environment.
+Note that you can execute your notebook to see the active runtime if it is not visible.
+To see the available runtime environments, click Templates.
+In the Template Name list, you can explore available runtime environment templates.
+Select any template as your active runtime environment.
+Let's select the RS Studio environment.
+On selecting the template, you will see the summary of the template.
+To create a new template, go back to the Template page and click New Template.
+Enter the environment name, its description and configuration.
+Then click Create to create the environment.
+The newly created environment will appear at the top.
+A summary and software configuration details of the new template will be displayed.
+To change the current runtime to the newly created template runtime, click the Assets
+tab, and then select the new notebook you created.
+If you see the lock icon, unlock it and select the notebook again.
+Next, select the three dots on the right and click Change Environment.
+Select the new template environment you created and click Change.
+In the pop-up, select the kernel from the drop-down option and click Select Kernel.
+In the top right corner, you will see the new runtime.
+Now you can drag and drop any CSV file to upload.
+Click Insert Code to Sell to include the code into the notebook.
+To execute the notebook, click Run.
+You will see that the output is now using the new runtime environment.
+In this video, you learned that
+Jupyter Notebook runtime environments and templates can be found on the Environments
+tab on the homepage.
+You can create and change new Jupyter Notebook templates.

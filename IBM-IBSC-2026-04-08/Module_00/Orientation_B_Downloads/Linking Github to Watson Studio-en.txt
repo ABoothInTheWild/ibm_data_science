@@ -1,0 +1,37 @@
+Welcome to Linking GitHub to watsonx.
+After watching this video, you will be able to
+Describe how to connect a watsonx account with GitHub
+and Describe how to publish watsonx notebooks on GitHub.
+You know how to create a new project and notebook. Let's open your project and
+find the data science notebook you created earlier.
+To integrate watsonx to GitHub, click Manage.
+Then the left panel, under Project, click Service and Integrations.
+Next, in IBM Services, select Third-party integrations and then click
+Connect Integration. In Connect Integration, to establish the
+connection, select GitHub and click Next. Click the
+personal access token hyperlink to create the new access token.
+Log in to your GitHub account by entering your username and password.
+Then click Sign in. To create a new personal access token,
+provide the description of the token. To define the access for personal tokens,
+under Select scopes, select repo. Next, ensure gist is selected
+and click Generate Token. On the personal access tokens page, copy
+the generated access token by clicking the copy icon.
+Go back to the Connect Integration area and add the generated token.
+Next, you must find the repository URL for the location you want to push the
+notebook. To get the repository URL from GitHub,
+ensure you are in the master branch of the repository you want to use.
+Click Code and copy the URL using the copy icon.
+Go back to the Connect Integration area and enter the repository URL where you
+want to push the notebook. Then click Connect. Once the repository
+is added successfully, you get a successfully connected message.
+Now you can return to the Assets tab and select the notebook you want to push
+to GitHub. Once the notebook is open, on the top right,
+select the down arrow and click Publish on GitHub.
+On the Publish on GitHub page, select All content
+except hidden code cells. Then click Publish.
+A successful publish message will pop up with the name of the notebook file and
+repository. In the GitHub, you can see the notebook
+datasciencenotebook.ipynb, which confirms that you published
+your notebook from Watson Studio. In this video, you learned that
+watsonx accounts can be integrated into GitHub
+and you can push notebooks from watsonx to GitHub.

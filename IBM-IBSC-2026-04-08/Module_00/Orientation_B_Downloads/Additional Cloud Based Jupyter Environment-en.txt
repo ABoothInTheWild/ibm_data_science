@@ -1,0 +1,57 @@
+Welcome to “Additional Cloud-Based Jupyter Environments”.​
+After watching this video, you will be able to:​
+describe cloud-based Jupyter environments and their data science features​,
+navigate cloud-based Jupyter environments, and​
+identify tools in cloud-based environments.​
+Computational notebooks combine code, computational output, explanatory text,
+and multimedia resources in a single document. ​
+Jupyter notebook is a popular type of computational notebook because
+it supports dozens of programming languages. ​
+Popular cloud-based environments used to create and modify Jupyter notebooks include:​
+JupyterLite, and​ GoogleColaboratory​.​
+JupyterLite is a lightweight tool built from JupyterLab components
+​that executes entirely in the browser.​
+JupyterLite does not require a dedicated Jupyter server. ​
+Only a web server is required, which means you can deploy JupyterLite as a static website.​
+We can also use it to create interactive graphics and visualizations because it
+supports many visualization libraries like Altair, Plotly, and ipywidgets​.
+Since JupyterLite is a distribution of JupyterLab,
+​it includes the latest improvements and features.​
+To launch JupyterLite, open a browser and type jupyter.org/try-jupyter/lab in the URL field.
+Then press Enter.​
+JupyterLite will appear.​
+Next, click Python(Pyodide). ​​
+Here is a view of a JupyterLite notebook.
+We know this is a JupyterLite notebook because ​we see the kernel is Python Pyodide. ​
+This kernel allows installing and running Python packages in a browser.
+You will notice different kernels depending on the type of Jupyter environment you use.
+And for cloud-based Jupyter environments, Python Pyodide and Python Pyolite are common kernels. ​
+Now the default kernel for JupyterLite is​ Pyolite. ​
+Pyolite is a Python kernel based on Pyodide.
+Pyolite runs in the background, so that intensive computations can execute quickly. ​
+Other kernels can also be used with JupyterLite.​
+Google Colaboratory (or 'GoogleColab') is a
+free Jupyter notebook environment that runs entirely in the cloud.​
+GoogleColab Jupyter notebooks execute on a
+browser, and GoogleColab projects are stored on Google Drive and GitHub. ​
+You can upload and share notebooks without setup and installation.​
+You can also clone projects from GitHub and execute them in GoogleColab.​
+Most machine learning and visualization libraries are
+pre-installed, like scikit-learn and matplotlib.​
+And with GoogleCollab, you can develop many trending data science applications “on the fly”,
+which is to say, quickly without a lot of setup or preparation.​
+To open the Colab notebook, open Google Drive, and​ click New​​
+To explore GoogleColab,​ from the Google Drive menu,
+select More. ​Then select Google Colaboratory.​​
+The GoogleColab notebook will appear.​
+In the notebook, write the code ​in the code section,
+and then to execute the code,​ click the Run icon.​
+To add more Code or Text cells, you need to click ​+Code and​ +Text. ​
+Here, text cells are used to write rich text, or you can set these cells as Markdown cells.​
+In this video, you learned that:​
+Jupyter is a popular computational notebook tool
+because it supports dozens of programming languages.​
+The Anaconda Navigator GUI can launch multiple applications.​
+Additional open-source Jupyter environments include the following: JupyterLab, JupyterLite,
+VS Code, and Google Colaboratory. ​
+And JupyterLite is a browser-based tool.​

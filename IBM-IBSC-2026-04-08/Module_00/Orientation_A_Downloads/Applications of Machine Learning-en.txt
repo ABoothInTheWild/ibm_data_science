@@ -1,0 +1,49 @@
+[Music]
+Everybody now deals with machine learning.
+But recommender systems are certainly
+one of the major applications.
+Classifications, cluster analysis, trying to find
+some of the marketing questions from 20 years ago,
+market basket analysis, what goods tend
+to be bought together.
+That was computationally a very difficult problem, I mean
+we're now doing that all the time with machine learning.
+So predictive analytics is another area of machine learning.
+We're using new techniques to predict things
+that statisticians don't particularly like.
+Decision trees, Bayesian Analysis, naive Bayes,
+lots of different techniques.
+The nice thing about them is that in packages like R now,
+you really have to understand how these techniques can be
+used and you don't have to know exactly how to do them
+but you have to understand what their meanings are.
+Precision versus recall and the problems of over sampling
+and over fitting so you can, someone who knows a little
+about data science can apply these techniques
+but they really need to know, maybe not the details
+of the technique as much as how, what the trade-offs are.
+So, some applications of machine learning in fintech
+are probably the - couple of different things I could talk about there.
+One of them is recommendations.
+Right, so, when you use Netflix, or you use Facebook,
+or a lot of different software services,
+the recommendations are served to you. Meaning, "Hey, you're a user,
+you've watched this show, so maybe you'd like to see this other show."
+Right, or, you follow this person, so maybe you should follow this other person.
+It's actually kind of the same thing in fintech, right.
+Because you've looked at - if you're an investment professional, right,
+and because you've looked at this investment idea, it might be really
+cool for you to look at this other investment idea, which is
+kind of similar. Right, it's a similar kind of asset, it's a similar kind of company.
+Or it's a similar kind of technique for doing the investment. So,
+We can apply recommendations using machine learning
+throughout a lot of different parts of fintech.
+Another one that people talk about, and is important especially on retail,
+in the retail aspects of banking and finance is fraud detection.
+Trying to determine whether a charge that comes through a credit card is fraudulent
+or not, in real time, is a machine learning problem.
+Right, you have to learn from all of the transactions that have happened previously
+and build a model, and when the charge comes through you have to compute
+all this stuff and say, "Yeah we think that's ok," or "hmm, that's not so good.
+Let's route it to, you know, our fraud people to check."
+(Music)

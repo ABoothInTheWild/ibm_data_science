@@ -1,0 +1,76 @@
+Welcome to “Other Languages for Data Science”.
+After watching this video, you will be able to
+review other languages like Java, Scala, C++, JavaScript, and Julia, and
+explore how each is used in Data Science
+Previously, we reviewed Python, R, and SQL.
+In this lesson, we will review some other languages that have
+compelling use cases for data science.
+Scala, Java, C++, and Julia are probably the most traditional data science languages.
+However, JavaScript, PHP, Go, Ruby,
+Visual Basic and many others have found their place in the data science community.
+Let us go through some notable highlights about a few of them.
+Java is a general-purpose tried and tested object-oriented programming language.
+It has huge adoption in the enterprise space and was designed to be fast and scalable.
+Java applications are compiled to bytecode and run on the Java Virtual Machine or JVM.
+Some notable data science tools built with Java include:
+Weka for data mining, Java-ML for machine learning, Apache
+MLlib makes machine learning scalable, and Deeplearning4 for deep learning.
+Hadoop is another application of Java which manages data processing and storage for big
+data applications running in clustered systems.
+Scala is a general-purpose programming language that provides support for
+functional programming and is a strong static type system.
+The Scala language was constructed to address the shortcomings of Java.
+It is also inter-operable with Java as it runs on the JVM.
+The name Scala is a combination of scalable and language.
+This language is designed to evolve with the requirements of its users.
+For data science, the most popular program built with Scala is Apache Spark.
+Spark is a fast and general-purpose cluster computing system that provides APIs,
+which make parallel jobs easy to write.
+It has an optimized engine that supports general computation graphs.
+Spark includes Shark, which is a query engine,
+MLlib for machine learning, GraphX for graph processing, and Spark Streaming.
+It was designed to be faster than Hadoop.
+C++ is a general-purpose programming language.
+It is an extension of the C programming language or "C with Classes.”
+C++ improves processing speed, enables system programming,
+and provides broader control over the software application.
+Many organizations that use Python or other high-level languages for data analysis and
+exploratory tasks rely on C++ to develop programs that feed data to customers in real-time.
+For data science, TensorFlow is a popular Deep Learning
+library for dataflow that was built with C++.
+Although C++ is the foundation of TensorFlow,
+it runs on a python interface, so users don’t require the knowledge of C++ to run it.
+MongoDB is a NoSQL database for big data management that was built with C++.
+Caffe is a deep learning algorithm repository built with C++ with Python and Matlab bindings.
+A core technology for the world wide web,
+JavaScript is a general-purpose language that extended beyond the
+browser with the creation of Node.js and other server-side approaches.
+Javascript is NOT related to the Java language.
+For Data Science, undoubtedly TensorFlow.js is the most popular implementation.
+TensorFlow.js makes machine learning and deep learning
+possible in Node.js as well as in the browser.
+TensorFlow.js was also adopted by other open-source libraries
+including brain.js and machinelearn.js.
+Another implementation of JavaScript for Data Science is R-js.
+The project R-js has re-written linear algebra
+specifications from the R Language into typescript.
+This sets the foundation for future projects to implement more powerful
+math base frameworks like Numpy and SciPy of Python.
+Typescript is a superset of JavaScript.
+Finally, Julia was designed at MIT for high-performance numerical analysis and computational science.
+Julia provides speedy development like Python or R,
+while producing programs that run as fast as C or Fortran programs.
+It’s compiled which means that Julia code is executed
+directly on the processor as executable code.
+It calls C, Go, Java, MATLAB, R, Fortran, and Python libraries, and has refined parallelism.
+Julia as a language is only 8 years old, written in 2012,
+but there is a lot of promise for its future impact on the data science industry.
+One great application of Julia for Data Science is JuliaDB,
+which is a package for working with large persistent data sets.
+In this video, you learned that
+Data science tools built with Java include Weka, Java-ML, Apache MLlib, and Deeplearning4.
+For data science, a popular program built with Scala is Apache Spark, that includes Shark,
+MLlib, GraphX, and Spark Streaming.
+For data science, TensorFlow, MongoDB and Caffe were built with C++.
+Programs built for Data Science with JavaScript include TensorFlow.js and R-js.
+One great application of Julia for Data Science is JuliaDB.
