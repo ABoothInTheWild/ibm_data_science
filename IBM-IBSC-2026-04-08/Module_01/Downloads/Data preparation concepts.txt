@@ -1,0 +1,35 @@
+In a sense, data preparation is similar to washing freshly picked vegetables insofar as unwanted elements such as dirt or imperfections are removed.
+
+Together with data collection and data understanding, data preparation is the most time-consuming phase of a data science project, typically taking 70% and even up to 90% of the overall project time.
+
+Automating some of the data collection and preparation processes in the database can reduce this time to as little as 50%.
+
+This time savings translates into increased time for data scientists to focus on creating models.
+
+To continue with our cooking metaphor, we know that the process of chopping onions to a finer state will allow for its flavors to spread through a sauce more easily than would be the case if we were to drop a whole onion into the sauce pot.
+
+Similarly, transforming data in the data preparation phase is the process of getting the data into a state where it may be easier to work with.
+
+Specifically, the data preparation stage of the methodology answers the question: What are the ways in which data is prepared? To work effectively with the data, it must be prepared in a way that addresses missing or invalid values and removes duplicates, toward ensuring that everything is properly formatted.
+
+Feature engineering is also part of data preparation. It is the process of using domain knowledge of the data to create features that make the machine learning algorithms work.
+
+A feature is a characteristic that might help when solving a problem.
+
+Features within the data are important to predictive models and will influence the results you want to achieve.
+
+Feature engineering is critical when machine learning tools are being applied to analyze the data.
+
+When working with text, text analysis steps for coding the data are required to be able to manipulate the data. The data scientist needs to know what they're looking for within their dataset to address the question.
+
+The text analysis is critical to ensure that the proper groupings are set, and that the programming is not overlooking what is hidden within.
+
+The data preparation phase sets the stage for the next steps in addressing the question.
+
+While this phase may take a while to do, if done right, the results will support the project.
+
+If this is skipped over, then the outcome will not be up to par and may have you back at the drawing board.
+
+It's vital to take your time in this area and use the tools available to automate common steps to accelerate data preparation.
+
+Make sure to pay attention to the detail in this area. After all, it takes just one bad ingredient to ruin a fine meal. Thanks for watching.
