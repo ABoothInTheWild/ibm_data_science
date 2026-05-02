@@ -94,6 +94,16 @@ The module wraps up with a **full end-to-end assignment**:
 
 This project combines **API data** and **scraped data** into a single workflow.
 
+**Sample outputs from the final assignment:**
+
+#### Tesla
+
+![Tesla stock and revenue](3.04/tesla.png)
+
+#### GameStop
+
+![GameStop stock and revenue](3.04/gamestop.png)
+
 ---
 
 ## Key Takeaways
