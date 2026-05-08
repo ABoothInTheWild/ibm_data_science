@@ -1,0 +1,45 @@
+Hello, and welcome to the INSERT statement.
+In this video, we will learn about populating a relational database table.
+At the end of this video, you'll be able to identify the syntax of
+the INSERT statement and explain two methods to add rows to a table.
+After table is created,
+the table needs to be populated with data.
+To insert data into a table,
+we use the INSERT statement.
+The INSERT statement is used to add new rows to a table.
+The INSERT statement is one of the data manipulation language statements.
+Data manipulation language statements or DML statements are used to read and modify data.
+Based on the author entity example,
+we created the table using the entity name author,
+and the entity attributes as the columns of the table.
+Now we will add the data to the author table by adding rows to the table.
+To add the data to the author table,
+we use the INSERT statement.
+The syntax of the INSERT statement looks like this,
+insert into table name, column name, values.
+In this statement, table name identifies the table,
+the column name list identifies each column in the table,
+and the values clause specifies the data values to be added to the columns in the table.
+To add a row with the data for Raul Chong,
+we insert a row with an author underscore ID of A one,
+the last name is Chong,
+the first name as Raul,
+the email as RFC@IBM.com,
+the city is Toronto,
+and the country as CA for Canada.
+The author table has six columns,
+so the INSERT statement lists the six column names separated by commas,
+followed by a value for each of the columns also separated by commas.
+It is important that the number of values provided in the values clause
+is equal to the number of column names specified in the column name list.
+This ensures that each column has a value.
+Tables do not need to be populated one row at a time,
+multiple rows can be inserted by specifying each row in the values clause.
+In the values clause,
+each row is separated by a comma.
+For example, in this INSERT statement we are inserting two rows,
+one for Raul Chong and one for Rav Ahuja.
+Now you can identify the syntax of the INSERT statement,
+and explain the two methods to add rows to a table.
+One row at a time or multiple rows.
+Thanks for watching this video.

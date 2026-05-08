@@ -1,0 +1,33 @@
+[MUSIC]
+Hello and welcome.
+In this video, we'll briefly present a few useful expressions that
+are used with select statements.
+The first one is COUNT, COUNT is a built-in database function that
+retrieves the number of rows that match the query criteria.
+For example, get the total number of rows in a given table,
+select COUNT(*) from tablename.
+Let's say you create a table called MEDALS which has a column called COUNTRY, and
+you want to retrieve the number of rows where the medal recipient is from Canada.
+You can issue a query like this:
+Select COUNT(COUNTRY) from MEDALS where COUNTRY='CANADA.'
+The second expression is DISTINCT.
+DISTINCT is used to remove duplicate values from a result set.
+Example, to retrieve unique values in a column,
+select DISTINCT columnname from tablename.
+In the MEDALS table mentioned earlier,
+a country may have received a gold medal multiple times.
+Example, retrieve the list of unique countries that received gold medals.
+That is, removing all duplicate values of the same country.
+Select DISTINCT COUNTRY from MEDALS where MEDALTYPE = 'GOLD'.
+The third expression is LIMIT, LIMIT is used for
+restricting the number of rows retrieved from the database.
+Example, retrieve just the first 10 rows in a table.
+Select * from tablename LIMIT 10.
+This can be very useful to examine the results set by looking at just a few
+rows instead of retrieving the entire result set which may be very large.
+Example, retrieve just a few rows in the MEDALS table for a particular year.
+Select * from MEDALS where YEAR = 2018 LIMIT 5.
+In this video we looked at some useful expressions that are used with select
+statements, namely the COUNT, DISTINCT, and LIMIT built-in functions.
+Thanks for watching this video.
+[MUSIC]

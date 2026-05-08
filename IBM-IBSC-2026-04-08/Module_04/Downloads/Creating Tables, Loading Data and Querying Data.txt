@@ -1,0 +1,60 @@
+Hello, and welcome to creating tables,
+loading data, and querying data.
+After completing this lesson,
+you will be able to understand basic concepts related to creating tables, loading data,
+and querying data using Python,
+as well as demonstrate an example of how to perform these tasks using
+the IBM DB2 on Cloud database and Jupyter notebooks.
+For this example, we will be using DB2 as the database.
+We first obtain a connection resource by connecting to the database
+by using the connect method of the ibm_db api.
+There are different ways of creating tables in DB2.
+One is using the Web console provided by DB2,
+and the other option is to create tables from any SQL, R, or Python environments.
+Let's take a look at how to create tables in DB2 from our Python application.
+Here is a sample table of a commercial Trucks database.
+Let's see how we can create the Trucks table in the DB2 using Python code.
+To create a table,
+we use the ibm_db.exec_immediate function.
+The parameters for the function are connection,
+which is a valid database connection resource that is returned from
+the ibm_db.connect or ibm_db.pconnect function statement,
+which is a string that contains the SQL statement,
+and options which is an optional parameter that includes
+a dictionary that specifies the type of cursor to return for results sets.
+Here is the code to create a table called Trucks in Python.
+We use the ibm_db.exec_immediate function of the ibm_db api.
+The connection resource that was created is passed as the first parameter to this function.
+The next parameter is the SQL statement,
+which is the create table query used to create the Trucks table.
+The new table created will have five columns,
+serial_no will be the primary key.
+Now let's take a look at loading data.
+We use the ibm_db.exec_immediate function of the ibm_db api.
+The connection resource that was created is passed as the first parameter to this function.
+The next parameter is the SQL statement,
+which is the insert into query used to insert data in the Trucks table.
+A new row will be added to the Trucks table.
+Similarly, we add more rows to the Trucks table using the ibm_db.exec_immediate function.
+Now that your Python code has been connected to
+a database instance and the database table has been created and populated with data,
+let's see how we can fetch data from the Trucks table that we
+created on DB2 using Python code.
+We use the ibm_db.exec_immediate function of the ibm_db api.
+The connection resource that was created is passed as the first parameter to this function.
+The next parameter is the SQL statement,
+which is the select from table query.
+The Python code returns the output,
+which shows the fields of the data in the Trucks table.
+You can check if the output returned by the select query shown is correct,
+by referring to the DB2 console.
+Let's look at how we can use pandas to retrieve data from the database tables.
+Pandas is a popular Python library that contains
+high level data structures and
+manipulation tools designed to make data analysis fast and easy in Python.
+We load data from the Trucks table into a data frame called DF.
+A data frame represents a tabular spreadsheet like
+data structure containing an ordered collection of columns,
+each of which can be a different value type.
+Thanks for watching this video.
+(Music)

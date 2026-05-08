@@ -1,0 +1,76 @@
+Hello, and welcome to retrieving data with SELECT statement string patterns.
+In this video, we will learn about
+some advanced techniques in retrieving data from a relational database table.
+At the end of this lesson,
+you will be able to describe how to simplify a SELECT statement by using string patterns,
+ranges or sets of values.
+The main purpose of a database management system is not just to store the data,
+but also facilitate retrieval of the data.
+In its simplest form,
+a SELECT statement is select star from table name.
+Based on a simplified library database model and the table Book,
+SELECT star from Book gives a result set of four rows.
+All the data rows for all columns in the table Book are
+displayed or you can retrieve a subset of columns for example,
+just two columns from the table book such as Book_ID and Title.
+Or you can restrict the result set by using the WHERE clause.
+For example, you can select the title of the book whose Book_ID is B1.
+But what if we don't know exactly what value to specify in the WHERE clause?
+The WHERE clause always requires a predicate,
+which is a condition that evaluates to true, false or unknown.
+But what if we don't know exactly what value the predicate is?
+For example, what if we can't remember the name of the author,
+but we remember that their first name starts with R?
+In a relational database,
+we can use string patterns to search data rows that match this condition.
+Let's look at some examples of using string patterns.
+If we can't remember the name of the author,
+but we remember that their name starts with R,
+we use the WHERE clause with the like predicate.
+The like predicate is used in a WHERE clause to search for a pattern in a column.
+The percent sign is used to define missing letters.
+The percent sign can be placed before the pattern,
+after the pattern, or both before and after the pattern.
+In this example, we use the percent sign after the pattern,
+which is the letter R. The percent sign is called a wildcard character.
+A wildcard character is used to substitute other characters.
+So, if we can't remember the name of the author,
+but we can remember that their first name starts with the letter R,
+we add the like predicate to the WHERE clause.
+For example, select first name from author,
+where firstname like 'R%'.
+This will return all rows in the author table
+whose author's first name starts with the letter R. And here is the result set.
+Two rows are returned for authors Raul and Rav.
+What if we wanted to retrieve the list of books whose number of pages is more than 290,
+but less than 300.
+We could write the SELECT statement like this,
+specifying the WHERE clause as,
+where pages is greater than or equal to 290,
+and pages is less than or equal to 300.
+But in a relational database,
+we can use a range of numbers to specify the same condition.
+Instead of using the comparison operators greater than or equal to,
+we use the comparison operator 'between and.'
+'Between and' compares two values.
+The values in the range are inclusive.
+In this case,we rewrite the query to specify the WHERE clause
+as where pages between 290 and 300.
+The result set is the same,
+but the SELECT statement is easier and quicker to write.
+In some cases, there are data values that cannot be grouped under ranges.
+For example, if we want to know which countries the authors are from.
+If we wanted to retrieve authors from Australia or Brazil,
+we could write the SELECT statement with
+the WHERE clause repeating the two country values.
+However, what if we want to retrieve authors from Canada, India, and China?
+The WHERE clause would become very long
+repeatedly listing the required country conditions.
+Instead, we can use the IN operator.
+The IN operator allows us to specify a set of values in a WHERE clause.
+This operator takes a list of expressions to compare against.
+In this case the countries Australia or Brazil.
+Now you can describe how to simplify a SELECT statement by using string patterns,
+ranges, or sets of values.
+Thanks for watching this video.
+(Music)
