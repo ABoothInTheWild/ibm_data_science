@@ -1,0 +1,94 @@
+Now that we have learned about some of the handy viewing features provided in Excel,
+and entered and edited some data, let’s discuss how to move, copy, and fill data,
+and how to format cells and data to suit our needs.
+The first thing we are going to discuss is how to move data, so if you select a range
+of cells, in this case the headings in A1 to E1, and then hover over the top or bottom
+edge of a selected cell, and you will see the Move pointer, then you can drag the selection
+to another place on the worksheet.
+Alternatively, if you want to copy the data instead, you do the same thing but this time
+you also hold CTRL key as you select and drag the selection to another location and you
+will see the Copy pointer.
+If you are not comfortable with dragging, you can also use Copy and Paste menu commands
+or keyboard shortcuts.
+If you select some data in column A and copy it to the clipboard.
+Then you simply select the new location and paste the copied data.
+You can also move or copy between worksheets, so let’s create a new worksheet.
+Then select some data from Sheet1, and this time let’s use the CTRL+C keyboard shortcut
+to copy it to the clipboard.
+Then choose the other worksheet and use the CTRL+V shortcut to paste the data.
+However, notice that the column widths are not the same as the original source data,
+so let’s undo that and try another paste option.
+By default, when you paste the copied data, it uses the column width settings of the destination
+cells.
+So, to paste it and retain the column widths of the source data, you chose the special
+option under the Paste command, called Keep Source Column Widths.
+As an alternative to having to enter data manually in a worksheet, you can use an Excel
+feature that automatically fill cells with data when it follows a sequential series or
+pattern.
+The feature is called AutoFill, and it can be especially useful when you need to enter
+lots of repetitive data into Excel, such as date information.
+For example, if you enter a month in a cell, even using a shortened version of the name,
+you can use what’s called the Fill Handle to select down to the end of the series, and
+AutoFill will work out what the series is, based on the selected data.
+Let’s try the same thing with days of the week.
+If you enter Mon in a cell, then drag the fill handle to use AutoFill, it will determine
+that you want to enter the days of the week sequentially.
+However, if you also enter Wed (for Wednesday) in the next cell down, and select both cells
+in the series, i.e.
+A16 and A17, and then drag the fill handle down, AutoFill determines that the sequence
+has changed to every other day, and fills in the data series for you.
+It’s important to select all the cells that determine the pattern when using AutoFill so
+that it can best determine what the pattern is, in this case cells A16 and A17.
+A similar thing applies to numerical patterns; if you enter 5 in a cell, and then use the
+fill handle to fill the data down the column.
+Because the data is not the name of a day or month for example, AutoFill can’t determine
+what the pattern is yet.
+So, In this case, it just copies the value 5 into every selected cell.
+However, if you enter the value 10 in B3, and then use the fill handle to fill data
+down the column, AutoFlll determines that the pattern is incrementing by 5 each time
+and it fills in the remainder of the data pattern for you.
+We are now going to look at formatting our data, and there are essentially two distinct
+parts to this.
+First, there’s formatting of the cells themselves (with a fill color and a bold border for example
+and bold text within it).
+And then there’s formatting the data in the cells (for example, making it text format,
+number format, or a specific currency or accounting format).
+Let’s open the car sales worksheet we used previously.
+Then select the headings in cells A3 to P3 either using the mouse, or you could use the
+shortcut keys CTRL+SHIFT+Right Arrow.
+On the Home tab, click the Styles drop-down arrow, and then select a style color for your cells.
+Then you can make the selected cells bold.
+Then you select the data in the Manufacturer column either using the mouse, or the shortcut
+keys CTRL+SHIFT+Down Arrow.
+In the Styles drop-down arrow, select another style color for the selected cells.
+Again you can make the cells bold.
+Then you select the data in the Model column again either using the mouse, or the shortcut
+keys CTRL+SHIFT+Down Arrow.
+In the Styles drop-down arrow, select another style color for the selected cells.
+This time you could make the selected cells italic.
+And you can also change the font size and style.
+Lastly, you can select all the other cells in the data by using the mouse or the CTRL+SHIFT+Right
+Arrow then Down Arrow, and apply borders to the data cells.
+Now it’s time to format the cell data.
+The sales figures in columns C and D can be formatted to display only one decimal places;
+just select the data and click the Decrease Decimal button.
+We also have an issue with a couple of the car models.
+If you look in cells B129 and B130, where the model name is supposed to be displayed,
+you can see there are actually two dates listed instead.
+And if you look in the Number Format box, the format type is Custom.
+This has happened because the model numbers are supposed to be the Saab 9-5 and the Saab
+9-3 but when the files were imported from CSV files these two cells must have been incorrectly
+determined to be date values and not just numbers.
+You can fix this by formatting these two cells as Text, and then enter the correct values
+of 9-5 and 9-3.
+The last thing we shall do is format some data as currency.
+If you look at the heading in column F it says it is Price in thousands of dollars,
+and cell F4 is using the General format.
+So, let’s change the format of this column to American currency format.
+We select the column, F in this case, then select More Number Formats from the drop-down
+list, then we choose the Currency option, and the correct currency symbol and format.
+And we’re done.
+In this video, we learned how to move, copy, and fill data, and how to format cells and
+cell data to suit our needs.
+In the next video, we will look at the basics of formulas, learn how to perform simple calculations,
+and learn how to select ranges and copy formulas.

@@ -1,0 +1,128 @@
+Now that we’ve learned how to create and use Pivot Tables in Excel, in this video we’ll
+look at some other features that we can use with Pivot Tables, including Recommended Pivot
+Tables, Filters, Slicers,
+and Timelines.
+First, let’s look at Recommended Pivot Tables, which isn’t exactly a feature as such; it’s
+really more of a list of suggested different combinations of data that could be used when
+creating a Pivot Table.
+These recommendations are based on the data we select in the worksheet, and they are a
+great way to get started creating Pivot Tables if you don’t have much experience with them
+yet.
+For example, in the vehicle toy sales worksheet, if we select column B, which contains data
+about the quantity of items ordered, …
+when we choose Recommended Pivot Tables from the Insert tab, then we are presented with
+a list of potential data combinations related to the order quantity information.
+However, if we select column F, which contains Order Size information, then the recommended
+pivot table list changes to reflect that data.
+And if we select column E, which contains sales information, then the pivot tables recommended
+are related to sales data.
+Let’s select the third one down, which is the sum of sales by territory; because that
+sounds like something we could get some useful insight from, by presenting it in a pivot
+table.
+Note that a new worksheet is opened containing the recommended pivot table, and a new pane
+opens on the right, called PivotTable Fields.
+Let’s rename the worksheet to something more meaningful.
+In the PivotTable Fields pane, you can see that some fields have already been added to
+the Rows and Values areas.
+Although it’s a recommended pivot table, we can still make it our own, by adding more
+fields for example.
+So, let’s add the Productline item to the Columns area using drag and drop.
+Now we have columns for each of the product lines in our pivot table, such as motorcycles,
+ships, and trains.
+In the pivot table, we can manually expand any field we want to view its contents.
+Here we can see that the order dates are located underneath the territory names in our pivot
+table.
+Note that this matches the order of the fields in the Rows area of the PivotTable Fields
+pane.
+We can manually collapse each of the fields too.
+But we also have the option of expanding all the fields at once, …
+and collapsing them all too.
+The next feature we will delve into is pivot table filtering.
+Pivot table filters work in much the same way as the standard filters we used earlier
+in the course.
+Note that we already have some in-built filtering in this pivot table.
+For example, the Row Labels header is a filter, and we can filter on any of the listed territories,
+such as Japan.
+Just like standard filters, it’s very simple to clear a filter in a pivot table.
+We also have a Column Labels filter, allowing us to filter on any of the productline items
+in this pivot table; for example we could show data only for the trains product.
+We also have the option of adding the Productline field as a standard filter instead of a column
+heading, by dragging it to the Filters area in the PivotTable Fields pane.
+And we can then use it as a standard filter, as we have done earlier in this course.
+The filter also allows us to select multiple filter items.
+But because it is now being used as a standard filter rather than a column header, we can’t
+see the split of the information on these two product lines; we just see a combined
+total.
+When we had the filter as a column header, the information on each product line was presented
+separately in each column.
+Let’s display all the field totals again.
+And we’ll drag the productline field back to the Columns area where it was previously,
+so we can see the split of our different product lines in the pivot table.
+The next pivot table feature we will look at are Slicers.
+Slicers are essentially on-screen graphical filter objects that enable you to filter your
+data using buttons.
+Slicers make it easy to perform quick filtering of your pivot table data, and they also display
+the current filter state, making it easier for you to know, and see, what data is currently
+being shown, and which is being hidden, by the filter.
+For example, if we remove the productline field from the pivot table by dragging it
+out of the PivotTable Fields pane, ...
+and then, from the PivotTable Analyze tab, we click Insert Slicer,...
+and then choose the Territory field as our slicer,…
+we can see that the slicer can be freely moved around anywhere on the worksheet, and it contains
+buttons for each of the territory items, such as EMEA, North America, and Japan.
+We can also select the Multi-Select button to filter on multiple territories if we wish.
+We can click the Clear Filter button to clear all slicer filters.
+Let’s add another slicer to our worksheet for the productline field.
+However, be sure to select a cell in the pivot table first, because if you don’t, then
+the insert slicer button won’t work.
+Note that slicers can also be added from the Filters group on the Insert tab as well as
+from the PivotTable Analyze tab.
+We’ll select the Productline field this time for our slicer, and drag it near the
+top of the worksheet.
+As before, we can select only one slicer item, or we can turn on Multi-Select and choose
+several items to filter on in the slicer.
+Then let’s clear the slicer filters, …
+and now let’s filter using both slicers.
+Note that when you use multi-select filtering, when you select an item, you are in fact filtering
+it out; that is, you are defining which items will NOT be displayed in the pivot table.
+This is the opposite behavior to when you are selecting single items in a slicer.
+So now we are displaying only ‘classic cars’, ‘trains’, and ‘trucks and buses’ products
+for the EMEA and North America territories.
+Now let’s clear those slicer filters, and put the productline field back in the Columns
+area of the pivot table, so it’s ready for the next feature we will explore.
+And let’s move these slicers out of the way, further down the worksheet.
+The last useful feature for pivot tables we are going to look at, is Timelines.
+A Timeline is another type of filter tool that enables you to filter specifically on
+date-related data in your pivot table.
+This is a much quicker and more effective way of dynamically filtering by date, rather
+than having to create and adjust filters on your date columns.
+We can add a Timeline for our pivot table either from the PivotTable Analyze tab, or
+from the Insert tab.
+Again, ensure you select any cell in the pivot table first.
+We’ll select the Orderdate field as our Timeline filter.
+Then we can drag it up the worksheet and enlarge it.
+The default for this timeline is to display data by month, but you can also filter by
+days, …
+or by quarters.
+You can select a single quarter; or you can select a range of quarters.
+In this case, we’ll select twelve months between quarter 3 of 2003 and quarter 2 of
+2004.
+You use the Clear Filter button to clear a timeline filter.
+You can also filter by years.
+For example, here we have selected 2003 only.
+And you can combine slicers and timelines as filters in a pivot table.
+For example, here we can filter the slicers to display only data for trains, in the EMEA
+and North America territories, and only in the year 2003.
+And if we filter on the year 2004 instead, you’ll see that there is no data being displayed;
+meaning that there were no sales of train products in 2004 in either the EMEA or the
+North America territories.
+(15)
+Timelines and Slicers have their own tabs in the ribbon when you select them, and their
+properties can be modified to change how they look and how they work.
+For example, let’s change this Timeline to a light green shade, …
+and let’s change this Slicer to a nice orange color.
+And lastly, to remove a timeline or slicer, you can either select it and press the Delete
+key, …
+or right-click it and choose Cut.
+In this video, we learned about some of the other features in Excel that we can use with
+Pivot Tables, namely; Recommended Pivot Tables, Filters, Slicers, and Timelines.

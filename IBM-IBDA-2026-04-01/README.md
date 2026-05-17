@@ -10,13 +10,41 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 
 ### Module 0: Orientation
 
-### Module 01: TBA
+### Module 01: Introduction to Data Analytics
 
-### Module 03: TBA
+* The modern data ecosystem — key players and their roles
+* Defining data analysis; types of analytics (descriptive, diagnostic, predictive, prescriptive)
+* Responsibilities and skillsets of a data analyst; a day in the life
+* Applications of data analytics
+* The data analyst ecosystem — data repositories, RDBMS, NoSQL, file formats
+* Sources of data; data marts, data lakes, ETL, and pipelines
+* Languages for data professionals; foundations of big data and processing tools
+* Identifying and gathering data; data sources and import methods
+* Data wrangling, cleaning, and quality tools; statistical analysis overview; data mining
+* Communicating and sharing results; data storytelling; introduction to visualization and dashboarding software
+* Career opportunities, paths into the profession, and practitioner viewpoints
 
-### Module 04: TBA
+### Module 02: Excel Basics for Data Analysis
 
-### Module 05: Python Fundamentals
+* Introduction to spreadsheets and common applications
+* Spreadsheet basics — viewing, entering, editing, copying, filling, and formatting data
+* Formulas and functions — basics, cell references, VLOOKUP, HLOOKUP, and useful analytic functions
+* Filtering and sorting; importing file data
+* Pivot tables — introduction, features, and practice
+* Using spreadsheets as a data analysis tool
+* Data quality — introduction, issues and inconsistencies, removing duplicates and inaccurate data
+* Excel features for cleaning data; data quality, privacy, and ethics basics
+
+### Module 03: Data Visualization and Dashboards with Excel and Cognos Analytics
+
+* Introduction to charts; creating basic charts in Excel
+* Advanced chart types — treemaps, scatter charts, histograms, filled maps, sparklines, PivotCharts
+* Introduction to dashboarding; creating a simple dashboard in Excel
+* Using dashboards to present data results; using visualizations to tell a data story
+* IBM Cognos Analytics — introduction and sign-up, navigating the interface
+* Creating a simple dashboard in Cognos; advanced Cognos dashboard capabilities
+
+### Module 04: Python Fundamentals
 
 * Python basics: Hello World, types, expressions, variables
 * String operations
@@ -29,13 +57,13 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Working with different file types (CSV, JSON, XML, Excel, images, etc.)
 * Web scraping introduction
 
-### Module 06: Web Scraping
+### Module 05: Web Scraping
 
 * Web scraping techniques and best practices
 * Review labs and practice exercises
 * Final assignments covering library usage and web scraping
 
-### Module 07: Databases and SQL
+### Module 06: Databases and SQL
 
 * SQL fundamentals
 * Database operations
@@ -43,12 +71,20 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Real-world data practice
 * Final database project
 
-### Module 08: Data Analysis and Visualization
+### Module 07: Data Analysis and Visualization
 
 * Data analysis techniques
 * Visualization tools and libraries
 * Multiple practice sessions with datasets
 * Live session labs
+
+### Module 08: Data Analyst Tools
+
+* Advanced data analytics libraries
+* Data manipulation and analysis
+* Python scripts and utilities
+* JSON data handling
+* Live session materials
 
 ### Module 09: Advanced Topics and Projects
 

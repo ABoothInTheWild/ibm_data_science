@@ -1,0 +1,114 @@
+Now that we’ve learned how to deal with inaccurate data, how to remove empty rows,
+and how to remove duplicated data, in this video we’ll look at changing the case of
+text, fixing date formatting errors, and trimming whitespace from data.
+When you collect or receive data from varying sources, it’s quite common to find that
+your data contains text in mixed case; that is, some in uppercase, some in lowercase and
+some in capitalized proper case (also known as sentence case).
+Some of this may be intentional; but often it’s not.
+Excel doesn’t have a Change Case button like there is in Microsoft Word, so you need
+to use other methods to perform this data cleaning task.
+Those methods are functions; namely the UPPER, LOWER, and PROPER functions.
+You can use these functions to help you change the case of text in your data.
+You can see that the header row here is using all uppercase characters, so if you want to
+change that to use proper case then you need to add another row to put the function in;
+this is referred to as a ‘helper’ row.
+The PROPER function is simple to use; just type equals, then PROPER, then open parenthesis,
+then the cell reference - In this case A1 - then close parenthesis, and press Enter.
+Here you can see that the result in A2 is in proper case.
+Now you can try and drag the formula right across to column X by using the Fill Handle
+on A2...
+but this can be very tricky when you have a lot of columns, so let’s try another way.
+Instead of dragging, you can use SHIFT+RIGHT ARROW to select the columns across to X first
+then press F2 to bring the cursor into focus in cell A2
+then you hold down the CTRL key while you press Enter, and it fills across for you.
+You might think that you could now remove the original row; but look what happens when
+you do; you get a REF error because the formula is referencing an invalid reference, and the
+header row cells now contain just the failed formula rather than the actual header text.
+So, you need to undo that, and instead, you copy the contents of the helper row to row
+1
+but when you paste you need to choose the Paste Values option.
+Now the header row cells just contain header text, and you can remove the helper row in
+row 2.
+Let’s now use the UPPER function to change text from proper case to upper case.
+Insert a column to the right of the column you want to change.
+This will be a ‘helper’ column.
+Then you type the formula containing the UPPER function in the first data cell in this new
+helper column.
+Again, it’s a simple formula; you type equals, then UPPER, then open parenthesis, then the
+cell reference – in this case T2 – and then close parenthesis and press Enter
+You can see the result is the country name in upper case, and you can then copy that
+formula down the rest of the column by double-clicking the Fill Handle cross symbol.
+As before, you then copy and paste the contents of the helper column to the original column,
+but use the Paste Values option.
+Now you can delete the helper column
+Next, we’ll use the LOWER function to change text from proper case to lower case.
+As before, you insert a column to the right of the column you want to change.
+This will be another ‘helper’ column.
+Then you type the formula containing the LOWER function in the first data cell in the helper
+column.
+Once again, it’s a very simple formula; you type equals, then LOWER, then open parenthesis,
+then the cell reference – in this case K2 – and then close parenthesis, and press
+Enter
+You can now see the result is the product line data in lower case, and you can now copy the
+formula down to the rest of the column by double-clicking the Fill Handle once more.
+As before, you then copy and paste the contents of the helper column to the original column,
+but ensuring you use the Paste Values option.
+Now you can delete the helper column
+It’s quite common to receive data that has a mixture of date formats, or that uses a
+date format that isn’t suitable to your region.
+Now let’s look at how to change the format of some dates.
+You can see that this date format is currently using a 2-digit day, a 2-digit month, and
+a 4-digit year value.
+When you open the Number format dialog box, you can see in the Locale box, that this is
+an English (United Kingdom) date format.
+You want to use a US date format, so you first change the locale to English (United States).
+In this list, you can see there are several date options to choose from; let’s choose
+one which uses the full month name, then a 2-digit day, and a 4-digit year value.
+You could then copy this format to the rest of the date cells.
+However, if you want to format these dates using your own custom format, you can do that
+too.
+In the Number format list, you select Custom, and then choose an existing format that is
+similar to what you want
+and simply modify it to create a new custom format; here we’ll have the day, then 3-letter
+month, then 4-digit year.
+To apply that new custom date format to the rest of the column you could either use the
+Format Painter tool, or you can select the rest of the column
+and choose the new custom format from the Custom list in the Number Format dialog box.
+You might find that your data has some whitespace; that is, unwanted spaces in your data.
+Here you can see that we have some spaces at the start
+some spaces at the end
+and some unwanted double spaces in the middle of our data.
+We’ll first have a look at what you can do to clean up these unwanted spaces in your
+data by using the Find & Replace feature in Excel.
+So you first select all the data
+then on the Home tab, you click Find & Select, then Replace.
+To get rid of double spaces, you enter a double space in the ‘Find what’ box, and a single
+space in the ‘Replace with’ box.
+Then you click Find Next.
+And choose Replace for each item you want to change.
+You could click Replace All to do all the fixes in one go
+but unless you are absolutely sure of the changes, it’s better practice to check and
+replace each one in sequence in case there are some valid reasons for these extra spaces.
+If you have a very large dataset you might also choose Replace All to save you a lot
+of time.
+So using the Find & Replace feature got rid of most of those unwanted whitespaces, but
+not all of them; we removed double spaces using that feature, but we also have some
+single spaces left at the start and end of some of the cells.
+You can’t use Find & Replace to remove single spaces otherwise you would lose ALL spaces
+in your data - including standard spaces between words - which you don’t want to remove.
+But, there is another tool you can use to clear spaces from cells, and that’s the
+TRIM function.
+To use the TRIM function, you once again insert a helper column.
+The TRIM function is simple to use; just type equals, then TRIM, then open parenthesis,
+then the cell reference – in this case M2 – then close parenthesis, and press Enter.
+You can then double-click the Fill Handle symbol to copy this formula down to the remainder
+of the column.
+Now you need to copy the contents of the new column N to column M, and remember once again
+to paste using the Paste Values option.
+You can now see that those erroneous spaces have been removed, or more accurately speaking,
+have been trimmed.
+And lastly, you can remove the helper column.
+In this video, we learned how to change the case of text, how to change date formatting,
+and how to trim whitespace from data.
+In the next video, we will discuss how to use the Flash Fill and Text to Columns features
+in Excel to help clean data.

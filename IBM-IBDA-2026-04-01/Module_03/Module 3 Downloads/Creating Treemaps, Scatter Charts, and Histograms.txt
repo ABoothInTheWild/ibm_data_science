@@ -1,0 +1,71 @@
+Now that we've learned how to create basic charts, in this video we'll look at how to create some
+advanced charts in Excel. We'll first create tree maps, then scatter charts, and lastly histograms.
+Please note that the price and resale values in this sample data set
+are not real and are merely used for explanatory and demonstration purposes.
+Let's start with tree maps. A tree map chart is used to compare values across hierarchy levels
+and show proportions within hierarchical levels as rectangles. Tree maps are a good way of displaying
+lots of data in one graphical asset because they use the color and closeness of proportional shapes
+within the chart to represent hierarchical data categories. Which is a difficult thing to achieve
+with most other types of chart. In the tree map worksheet of the car sales workbook let's first
+select the data from two non-adjacent columns model and unit sales. Now let's create a tree map
+chart with this data. We select tree map chart from the hierarchy category of the charts group. We now
+see a floating chart area containing our tree map chart which displays the proportion of the unit
+sales of Ford cars within hierarchical levels as rectangles. Let's change the chart title to
+unit sales of Ford cars which we can do by simply double-clicking the chart title text box and
+editing the text. Let's change the chart style to customize the look of the tree map chart. There are
+numerous styles to choose from in the gallery for example here we've chosen style 2. We can easily
+see from this tree map chart that the f-series model is by far the biggest proportion of our Ford
+car sales. Followed by the explorer and tourist models. which constitute a similar proportion
+of our Ford car sales. While the contour model shows the smallest proportion of Ford car sales
+Next, let's have a look at scatter charts. A scatter chart is a type of graph used to compare two sets
+of numerical data values and show relationships between those sets of numerical values.
+A scatter chart combines the two sets of values on the x and y axes into single points of data
+and then displays them in clusters in the chart. For this reason you will also sometimes see them
+referred to as xy charts. Common uses include the comparison of statistical scientific or
+engineering data values. To create our scatter chart let's first select the data from two
+adjacent columns price and year resale value in the scatter worksheet of the car sales workbook.
+Now let's create a scatter chart with this data we select scatter chart from the x y scatter
+category of the charts group which compares the price of cars from all manufacturers with
+their year resale value let's change the chart title to comparing price with year resale value,
+which we can do by simply double-clicking the chart titled text box and editing the text. Let's
+change the chart style to customize the look of the scatter chart there are numerous styles to
+choose from in the gallery for example here we've chosen style 8. Now let's add some axis titles
+for both the horizontal x-axis and the vertical y-axis. We'll call the horizontal retail price
+and the vertical year resale value. We can see from this scatter chart that as the retail price
+increases so does the differential between the retail price and the year resale value. Generally
+speaking the lower priced cars retain their resale value after one year better than the higher priced
+cars. Lastly let's have a look at histograms. A histogram is a graph that shows the distribution
+of the data grouped into bins. Although a histogram may look like a column or bar chart it's totally
+different while a bar chart is used to compare data a histogram is used to display distribution
+of data. To create our histogram let's first select the data from two non-adjacent columns model and
+price in the histogram worksheet of the car sales workbook. Now let's create a histogram with this
+data we select histogram from the statistical category of the charts group. The new floating
+chart area contains our histogram. Which displays frequency distribution of the price of cars from
+all manufacturers. Note how Excel automatically puts the different price ranges into nine equally
+sized separate bins for you. The first bin contains cars priced between nine thousand two hundred and
+thirty five dollars and eighteen thousand six hundred and thirty five. The second bin contains
+cars priced between eighteen thousand six hundred and thirty five dollars and twenty eight thousand
+thirty five dollars and so on. Up to a maximum price range of eighty four thousand four hundred
+and thirty five dollars to ninety three thousand hundred 835. Let's change the chart title to count
+of car models by price range which we can do by simply double-clicking the chart title text box
+and editing the text. Let's change the chart style to customize the look of the histogram.
+There are numerous styles again to choose from in the gallery for example here we've chosen style 3.
+this style shows the count values of the individual rectangles for each price range
+rather than using a vertical scale on the y-axis so from this histogram chart we can easily see
+that the largest proportion of car models are in the 18635 dollar to 2835 price range.
+With a count of 62 models in this range, followed by the cheapest price range of 9235 to 18
+635 dollars which has a count of 42 models and the fewest count of models in a price range is
+shared by the two most expensive price ranges with only one model in each bin. Although Excel
+chooses your bin ranges automatically when you create a histogram, you can change the bin sizes
+to suit your needs. This is done by opening the formatting pane for the relevant chart element.
+In this case the horizontal axis in the axis options section you can choose to display bins
+by several factors including bin width and by number of bins. For example, when we change the
+bin width value you can now see 15 bins in the chart because the price ranges are much narrower.
+Bins 2 and 3 have the two highest counts of 34 and 33 respectively and bin 14 shows no models in
+this price range at all and if we change the axis options to display a set number of bins then the
+histogram updates again to show the price ranges split into the number of bins specified. That is 10
+bins and once again we can see that bin 2 has the largest proportion of models in its price range
+and if we choose automatic then the histogram reverts back to the format we started with.
+In this video we learned how to create tree maps, scatter charts, and histograms in Excel.
+In the next video we'll look at some of the other
+advanced charts available in Excel like filled map charts and sparklines.

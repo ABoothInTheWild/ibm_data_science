@@ -1,0 +1,42 @@
+In this video we will have a brief introduction to dashboards, including what they are,
+what they consist of, why they can be a useful component in a data analyst’s toolkit,
+and an essential skill in a data analyst’s skillset.
+The term ‘dashboard’ comes from the automotive industry where car designers have put the most
+important gauges and other display information, such as engine oil temperature, current speed,
+current RPM, amount of fuel left, and so on, in a handy graphical display that is easy for
+the driver to view and understand. Originally these displays were analog, but most are now
+digital and use varying forms of visualization, including digital meters and mini graphs.
+You can take that same idea and apply it to a dashboard in a data analysis application;
+designers of these types of dashboard want to put key business information in one place,
+in the form of graphical displays, to make it easier for the viewer to understand them.
+Dashboards can take this a step further by also allowing the user to interact with the dashboard
+and modify exactly what information they see by using tools supplied on the dashboard.
+Users of a dashboard therefore not only get a consolidated visualization of their business
+data and key performance indicators (or KPIs), but also get a controllable
+self-service business intelligence (BI) interface
+through the use of filters, which enable them to control precisely what information they see.
+Dashboards are typically created in a data analysis application by using multiple pivot
+tables and charts, visualizations such as Map Charts and Sparklines,
+and filtering tools such as Slicers and Timelines. These pivot tables and
+charts could be created from a single data source or from multiple data sources.
+When you use dashboards in your data analysis application, you get the following benefits:
+They offer insights into your key data
+They can alert you to patterns and trends in your data
+They provide an interactive experience for the user; allowing them to filter what data they see
+They are updated dynamically as the source data changes
+They provide a centralized and consolidated view of business data
+A dashboard can be a very useful tool in areas of the business such as
+fiscal forecasting and reporting, project management, executive reporting, human resources,
+customer service, helpdesk issue tracking, healthcare monitoring, call center analytics,
+social media marketing, and many more.
+For a budding data analyst, dashboards can be a vital skill to add their arsenal, as the majority
+of employers see the dashboarding skill as a ‘must have’ rather than a ‘nice to have’.
+If you can show that you have the skills to create accomplished and spectacular,
+interactive, yet easy to view and use dashboards, whether in a spreadsheet application such as
+Microsoft Excel or Google Sheets or using a more advanced data analysis and visualization
+application such as Bokeh or Dash in Python, RStudio’s Shiny, Tableau, or IBM Cognos Analytics,
+then that will greatly help in your future career as a data analyst.
+In this video, we had a brief introduction to dashboards, including what they are,
+what they consist of, why they can be a useful component in a data analyst’s toolkit,
+and an essential skill in a data analyst’s skillset.
+In the next videos, we will learn how to create a simple dashboard using a spreadsheet application.

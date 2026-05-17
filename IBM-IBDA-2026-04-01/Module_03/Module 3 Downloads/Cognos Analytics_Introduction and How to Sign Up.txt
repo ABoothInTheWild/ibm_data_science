@@ -1,0 +1,44 @@
+Welcome to Cognos Analytics introduction and how to sign up.
+After watching this video,
+you'll be able to describe what IBM Cognos Analytics is and
+explain the signup process for a trial version of IBM Cognos Analytics.
+Let's have a quick overview of Cognos Analytics.
+Cognos Analytics is a multifaceted business intelligence and
+analytics platform developed by IBM.
+It offers a wide range of tools and features, such as data modeling
+capabilities, data exploration, advanced analytics features, such as filters.
+And excludes the use of natural language generated from your data with the help
+of an artificial intelligence-based assistant,
+the ability to create interactive dashboards and
+custom reports that are specific and tailored to your individual users.
+The main focus of this course will be to use these tools and
+features to create fantastic dashboards.
+Now to sign up for the trial,
+we're going to go to the Cognos Analytics trial page.
+In a web browser, we'll navigate to ibm.com/products/cognos-analytics,
+then we click Start free for 30 days.
+If we already had an account, we could use this link to log in here and
+provide our existing credentials.
+As we don't already have an account, we'll go ahead and
+fill out this form with the required information, including our email address,
+which will become our IBM ID, first name, last name and a password.
+Then we enter other information such as our country and state or province.
+Then we enter a phone number, specify whether we are a student or not, choose
+an industry sector, and then select a data center that is close to us geographically.
+Finally, we click Next,
+which will initiate the sending of a verification email.
+So, we now need to go to our email app and
+find the email message from IBM with the seven digit verification code.
+We enter the seven digit code here and then click Start today.
+We are then redirected to the Products dashboard.
+And in the Products list we will see a panel for
+the IBM Cognos Analytics on Cloud Trial.
+This is where we can launch our trial version of the IBM Cognos Analytics
+product.
+Now we are all set to use IBM Cognos Analytics for
+data visualization and to create impressive dashboards.
+In this video, you learned that Cognos Analytics is a data
+visualization platform with a range of tools and
+features to create visuals, dashboards and reports on your data.
+And you can get a 30-day free trial version of
+IBM Cognos Analytics on the Cloud.

@@ -1,0 +1,76 @@
+Now that you have learned basic spreadsheet terminology and how to navigate your
+way around worksheets and select data in Excel, it’s now time to start entering some data.
+First, we will look at some of the handy viewing features provided in Excel, and then we’ll
+enter some data, and then we'll edit that data.
+When you have a lot of data in your worksheet it can be useful to zoom in closer to a specific
+area of the data.
+The Zoom Slider at the bottom right corner of the worksheet allows you to do just that.
+You can either click on the plus and minus buttons or drag the slider to select your
+preferred zoom value.
+You also have some zoom controls in the ribbon on the View tab.
+Zoom lets you pick a predefined zoom level or a custom one, the 100% button zooms the
+worksheet back to its original size, and Zoom to Selection enables you to select an area
+of data and then zoom into that specific selection only.
+If you want to see several areas of your data at the same time while zoomed in, you can
+use the Split button.
+This splits the screen into multiple sections; and you can scroll each section separately.
+If you only want two sections, you can remove either the horizontal or the vertical split
+by double-clicking on it.
+If you have headings in your columns like a header row, then you might want those to
+remain on screen while you move down the sheet.
+To do that you need to use Freeze Panes.
+You can freeze only the top row if you wish, or if that doesn’t suit, as is the case
+here, then you can select the row (or even just a cell in the row) below the row or rows
+you want to freeze, and then select Freeze Panes.
+You can do a similar thing for columns if you want to freeze them too.
+And you can even freeze both rows and columns at the same time.
+The trick here is to first select the cell that is both one row below where you want
+to freeze, and one column to the right of where you want to freeze.
+In this case, that is cell C4.
+Now we can scroll down the worksheet and across the worksheet and we can still see the header
+row and the Manufacturer and Model columns.
+Now, if you have multiple workbooks open (notice I said workbooks and not worksheets) then
+you can switch between them by using View, Switch Windows, or the faster method is to
+use the CTRL+F6 shortcut.
+Now let’s enter some data into our blank worksheet.
+The easiest way to open a new worksheet from within Excel is to click the New button in
+the Quick Access Toolbar (or CTRL+N if you prefer keyboard shortcuts).
+So let’s enter some headings across the top of the worksheet; this is typically referred
+to as a ‘header row’.
+Note, that if you press Enter after typing data into a cell the next active cell is the
+one directly below, which is not what we want in this case.
+But, if we press Tab after we enter data in a cell, it selects the next cell along in
+the row as the active cell.
+Now we’ll enter some headings and press Tab after each entry.
+Notice that the text is slightly longer in some of the cells and it either gets partly
+hidden by the next cell or overlaps it.
+If you click and hold the divider line between two columns, you can drag it left and right
+to resize it manually.
+If you want to do that automatically, you can double-click the divider line between
+two columns.
+As these are going to be headings for our columns, let’s make them bold.
+Now let’s add another column between the parts and accessories columns.
+Simply select the right-hand of those two columns, then right-click and choose Insert
+to put another column to the left of the selected column.
+Let’s call it Servicing Sales.
+To tidy up all our column widths simultaneously, we select all the columns from A to E, then
+double-click any of the divider lines between columns; this automatically reduces or increases
+each column’s width to fit the data in that column.
+OK, now we have some headings, let’s enter some month data in column A.
+So, if we type Jan in cell A2 and press Enter then it takes us to the cell below, which
+is what we want in this case and we can type Feb in cell A3 and so on until
+we get to Dec in A13.
+Now, let’s suppose you need to change a couple of your headings.
+You have several ways of editing existing data in a cell;
+You can either select the cell and then just start over typing.
+Or you can select the cell and press F2 on your keyboard to put the cursor at the end
+of the cell and make your changes.
+Or you can simply double-click somewhere on the cell and put the cursor at that position
+in the cell and make your changes.
+And you can even select the cell and then click in the formula bar to edit your cell
+data.
+Now let’s do the same for the parts and accessories column headings.
+In this video, we learned about some of the viewing options in Excel, and we learned how
+to enter and edit data in cells.
+In the next video, we will learn how to copy and fill data, and how to format the cells
+and data in a worksheet.

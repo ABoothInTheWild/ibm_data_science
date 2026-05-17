@@ -1,0 +1,133 @@
+In the first part of this video,
+we will listen to several data professionals discuss how
+dashboards can help when presenting data results.
+Can you tell us how dashboards can
+help you when presenting data results?
+One thing I particularly love with data are dashboards.
+They take the fluff out and they
+show you the most important things that you want to see,
+often in real time,
+and you can make them as pretty as you want.
+I've seen some dashboards that are frankly an eyesore
+because of trying to cramp
+so much data into one dashboard.
+It's important to be specific and be succinct in
+what it is that you're looking for so that
+you can avoid those things.
+A lot of the times the dashboards are great for
+executives or business owners on the go who
+are maybe looking at dashboards from
+a mobile device and they don't really have
+the space or the capacity
+on a mobile device to look at so much data.
+Dashboards can really be highly
+effective in the short amount of time as long as you
+understand the deliverables and
+what it is that you're stakeholder wants to
+see and what's important to
+them for purposes of making decisions.
+The reason why presenting
+the information in a way that is palatable to
+your audience is important is
+because you want to make sure that
+people are getting value out of what you're doing.
+A lot of times I think that's why data analysts in
+general get a bad reputation because
+people still think we're just number crunchers.
+I think the bigger problem is we haven't
+done as good of a job as we could to
+really explain the numbers and so that's
+where PowerPoint presentations with graphs,
+we love graphs, key performance indicators
+maybe that break out
+the information in a different way and
+highlight what's most important, that will help.
+And also just making sure that you're reading the room.
+If you were in a meeting and
+everybody's eyes are glazed
+over because you're talking numbers,
+maybe you need to ask them,
+"What information are you looking for?
+What is most important to you?"
+So that when you go back and you create
+your next dashboard or create your next report,
+you can highlight things that are important to
+your audience because we
+always need to be reading the room.
+We need to make sure that we are showing our value,
+helping people to understand,
+educating them so that they can bring up
+their knowledge-base and so that
+starts to help the fear dissipate.
+The fear of the numbers starts to go away if
+we would just show them what the numbers actually mean.
+And we can do that not just by
+throwing numbers at them so they'll get overwhelmed,
+but by helping them to see it
+graphically and with dashboards and KPIs,
+and other ways just to bring it
+to them and make it real to them.
+Dashboards in a spreadsheet is an indicator for action.
+Just like on your car dashboard,
+if you see a low fuel light,
+that means you need to put gas in your car.
+So a dashboard in a spreadsheet should be just that simple.
+It should tell the person what they need
+to focus on immediately or
+any indication that things need to change because
+it's either going up in the wrong direction
+or it's going down.
+But don't put information
+that's nice to know on a dashboard.
+It's on a need to know basis
+especially if you want to get action.
+In the second part of this video,
+we will listen to a data professional
+discuss how Cognos Analytics can help
+you create outstanding visualization dashboards
+for presenting data results.
+Can you tell us how you use Cognos Analytics to
+create visualization dashboards
+for presenting data results?
+IBM Cognos Analytics can really help you create
+a better visualization and
+dashboards in a number of different ways.
+Starting off we have our templates,
+allowing you to quickly select from
+a template and simply drag and drop
+your visualizations into the slides
+to help you create something that's
+visually compelling effectively and easily.
+We also have what we call our visualization recommender.
+If you grab a couple fields,
+drag them onto the canvas,
+we'll recommend a visualization.
+If you don't like the one we recommend right off the bat,
+then you do have the ability to go in and start to select
+some different visualizations from our recommendations.
+On top of this, we also have started to
+infuse AI into the offering.
+So in this, you can start to have
+the system actually generate an entire dashboard for you.
+You can have a conversation with our assistant,
+ask it questions,
+and once you're focused in on
+the particular area that you're interested in,
+simply say, "Generate dashboard."
+At that point you'll get a beautiful dashboard created,
+laid out nicely that you can
+search and use as your starting point for
+further discussions and help you really
+understand the data that's in your system.
+A couple of things that we want to highlight,
+one is the advanced analytic capabilities.
+Whether this is through our visualizations like
+our key driver analysis
+or through our AI infused forecasting.
+The last thing would be the ability to share
+your visualizations and your dashboards
+in just a few clicks.
+Whether that's sharing it in the system through a link,
+whether it's pushing it to email or even pushing
+it into a Slack channel where you
+can start to have a discussion there.

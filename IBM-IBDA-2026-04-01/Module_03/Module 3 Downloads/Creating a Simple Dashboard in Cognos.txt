@@ -1,0 +1,159 @@
+Welcome to creating
+a simple dashboard in Cognos Analytics.
+After watching this video,
+you'll be able to create
+simple dashboards in Cognos Analytics,
+use different methods for creating
+visualizations in Cognos Analytics,
+and configure interactive filters
+within a Cognos Analytics dashboard.
+In this demonstration, we'll create
+a simple dashboard in Cognos Analytics.
+Let's start by selecting the data set on
+the My Content tab of the content section.
+In the tool bar we choose to create
+a dashboard and now
+we're going to select the relevant dashboard template.
+We'll choose this one which has
+four small panels across
+the top and a large panel at the bottom.
+Then we click "Create" to get started on our dashboard.
+Please note that as the data is
+uploaded during the import process,
+the usage property for each data item is set according to
+the type of data that the query items
+represent in the data source.
+However, we can change this if required.
+In the case of order number,
+we'll change the usage property
+from a measure to an identifier.
+Now we can start to create some visualizations.
+First, let's see how
+to create visualizations automatically.
+From the data source pane on the left,
+you choose a data item on which you want to develop a
+visual and then drag it onto the Canvas template.
+In our case, we'll drag sales to the top left panel.
+Notice that when dragging an item,
+we need to ensure that
+the square with the double-headed arrow has
+turned blue in the destination
+template panel before we drop it.
+Next, we can determine the number of orders that we've
+had by counting the number of order ID's we have.
+In this case, Cognos Analytics has determined that
+the best visualization style
+for this identifier is a table.
+However, we can see if there are
+any other recommended visualizations.
+In this case, there aren't
+any suggestions other than table.
+But we know we want to turn this into a summary,
+so we can just manually select that from the list.
+Next up, let's look at the quantity ordered,
+which we'll place in the third panel
+and we'll finish with determining the average sale.
+To do this, we'll drag sales onto the canvas,
+into the fourth small panel.
+But then we'll change
+our summarization from sum to average.
+So just like that, we now have
+a few key performance indicators or KPI's,
+to be able to monitor and track.
+The other way we can start to
+create visualizations is to select
+the specific visualization that we
+want and then drag it onto our canvas.
+In this case, we're interested in looking at
+our sales across the world based on countries.
+We'll drag country to
+the locations field under regions in the right-hand pane.
+As we said, we want to take
+a look at sales across these countries,
+so we drag sales to
+the location color field on the right.
+This will update our visualization
+to show the sum of sales by color.
+We can manually resize
+our visualization to make it
+as big or as small as we want.
+And as we extend the object,
+we can see labels that show us the percentages of
+the canvas real estate that
+the visualization will use up.
+We'll make this map visualization use
+approximately 50% of the template's width.
+Each visualization we use has
+several properties that we can configure,
+including settings for the legend,
+the chart, and the layers for regions,
+points latitude and longitude.
+The final way that we'll demonstrate how to create
+visualizations in Cognos Analytics
+is through the assistant.
+We can see that the currently loaded dataset is
+already mentioned in the assistant panel
+on the right hand side,
+we can either ask one of the example questions
+by typing directly into the ask a question box.
+Or we can click the suggest questions link
+in the assistant text box below to get insights.
+This will offer up some insights
+that we may not have been thinking about.
+In this case, we'll keep it simple and we'll
+just ask which deal size has the most sales?
+With a single click we're now presented with
+the visualization as well as
+alternatives based on that visualization,
+such as a horizontal bar chart,
+a scatter plot, and a bubble chart.
+Once we've decided which visualization we like,
+we simply drag it onto our canvas and it
+now becomes a visualization alongside the others.
+And we can resize it as we did for the other visualization.
+Dashboards in Cognos Analytics
+are designed and intended to be interactive.
+If we just click one of
+the bubbles in our deal size visualization,
+we can see that all the data in
+the other visualizations get updated accordingly,
+specifically for the selected sector,
+medium deal size in this case.
+And if we click a different sector, such as large,
+all the visualizations update
+to reflect that sector instead.
+Another way we can show
+interactivity is by using filters.
+Suppose we were interested in the status of our orders,
+we could take a particular field,
+in this case status and either drag it into
+all tabs or into this tab
+so it only affects this particular tab.
+Now, with this we can choose one or multiple options.
+However, in this case,
+we only want to see how many orders we
+have in the on-hold status.
+As before, all of the other data visualizations have been
+updated to reflect only the orders
+that are in an on-hold status.
+So it looks like from a worldwide perspective,
+we only have holds in a couple
+of countries which is positive news.
+In the next video, we'll delve deeper into a few of
+the more advanced capabilities of
+dashboards in Cognos Analytics.
+In this video, you learn that you can
+select from several different dashboard template layouts.
+You can change the usage properties of
+data attributes in your data source pane.
+You can generate dashboard visualizations by
+dragging data fields onto your dashboard canvas.
+You can also create visualizations by selecting
+visualization styles from the menu
+and dragging them onto the canvas.
+You can use the assistant to offer
+data insights and create visualizations.
+And Dashboards in Cognos Analytics
+are interactive by design and
+provide filters and real-time updates
+to enhance the dashboard experience.

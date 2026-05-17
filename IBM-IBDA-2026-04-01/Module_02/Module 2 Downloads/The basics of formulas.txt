@@ -1,0 +1,88 @@
+Now that we have learned how to move, copy, and fill data, and how to format cells and
+data, next we will take a look at the basics of formulas, including some basic calculations,
+selecting ranges in formulas, and how to copy formulas.
+A typical formula is made of several key components.
+The equal sign starts the formula off and lets Excel know you are creating a formula
+in this cell.
+The next part is the function, which performs the calculation.
+For example, the SUM function adds up the values in referenced cells or cell ranges.
+Then comes the reference, which is the cell or range of cells you want to include in your
+calculation, and these need to be enclosed in parentheses.
+You also have operators, which specify what type of calculation to perform.
+Common arithmetic operators include: addition, subtraction, multiplication and division.
+And these are represented by symbols.
+The plus symbol for addition, the minus symbol for subtraction, the asterisk for multiplication,
+and the forward slash for division.
+There are other types of operators too.
+Namely comparison, text concatenation, and reference.
+You may also use constants in your formulas, which as the name suggests are numbers or
+values which you can enter directly into a formula, and which don’t change.
+This might be a whole number such as 5, it might be a percentage such as 10%, or it might
+even be a date.
+So, a typical formula might be =SUM(B5*20), which would take the value in cell B5 and
+multiply it by 20.
+Let’s start with a few basic calculations.
+Suppose you want to add up January and February sales of accessories.
+You would start by typing an equal sign, which lets Excel know you are entering a formula.
+Then you type in the function you wish to use, in this case the SUM function.
+Note the description.
+Next you type an open parenthesis, then you select your cell range, which in this case
+would be E2 to E3, so you could enter that as ‘E2,E3’ then a close paranthesis and
+press Enter.
+And if you wanted to add March sales as well, then you would have to extend the cell range
+to include E4.
+So you could type E2,E3,E4 as your range and it will work.
+Remember, to edit a cell, you select the cell, and either edit it directly in the formula
+bar, or press F2, or double-click the cell.
+However, it’s very cumbersome and not very flexible to do it this way, because if you
+wanted to add up the entire column then you’d have to type every cell reference, one after
+the other.
+So thankfully, there’s a better way.
+Instead of typing each cell to include in the reference, you just put a colon between
+the first and last values in our range, so E2:E4, in this case.
+And if you wanted the whole column, then you would enter E2:E13 in your formula.
+But there’s another way of doing it, and that’s by using your mouse to select the
+range, so you still type =sum then open parenthesis, but select the range with your mouse (or SHIFT
++ arrow keys) and just press Enter.
+Excel will add the close parenthesis for you.
+To total these columns up, and add some tax, you’ll add some headings first for Subtotals,
+and Tax at 20%.
+Then your formula will need to multiply the value in Subtotals by 20%.
+If you wanted to add up all the column subtotals and calculate the taxes, then you would repeat
+the previous process for each column, but that’s very time consuming, and you don’t
+need to, because Excel has some neat tricks to do this for you.
+Just select the fill handle in the bottom right corner of the cell, and drag across
+to the other cells to copy the formula; this is called AutoFill.
+Notice how the formula is copied, but the row references change in relation to the cells’
+position on the worksheet.
+So what was E2:E13 has become B2:B13.
+These are known as relative references, but more on that later in the course.
+And you can do the same thing for the tax values in row 16.
+Now, you need a row for showing the totals.
+The calculation here is simple, the subtotal value in cell B15, added to the tax in B16.
+And again, you can use the fill handle to copy the formula across.
+If you wanted to total the sales of all products by month, you’d add a column heading; notice
+how the cell style is copied to the new heading automatically.
+Remember, to widen a column, either drag the divider manually, or double-click the divider.
+Then enter the formula in cell F2 as you’ve done before.
+However, Excel has another trick up its sleeve.
+It’s called AutoSum and is found on the Home tab, in the Editing group.
+This is a great little shortcut for some simple common functions like Sum, Average, Count,
+Max, and Min, but you can choose other functions too.
+You want ‘Sum’ for this particular calculation.
+Notice that it also has a keyboard shortcut of ‘Alt plus equals’, and then press Enter,
+and it’s done.
+Now you can use the fill handle to copy down the remaining values.
+But hold on, there is one more Excel trick to show and it’s a good one!
+Suppose your column of data was very long; you might have to drag the fill handle down
+over several pages, which isn’t easy to do and can easily lead to errors when selecting
+large lists of data values.
+Rather than needing to drag down to the rest of the column, you can just double-click the
+fill handle, and it will automatically copy the formula to all the remaining cells in
+that column.
+This one is a real time-saver.
+Finally, let’s format all these values to use the US dollar currency format.
+In this video, we learned about the basics of formulas, how to perform simple calculations,
+how to select ranges in formulas, and how to copy formulas.
+In the next video, we will look at how to use some of the common functions used by Data
+Analysts and discover some more advanced functions.

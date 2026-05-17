@@ -1,0 +1,75 @@
+In this video we’ll look at some more advanced charts in Excel.
+We’ll first create a filled map chart, and then add sparklines to our data, and lastly,
+we’ll briefly discuss some of the other charts available in Excel.
+Let’s start with filled map charts.
+A filled map chart is a type of chart used to compare values and show categories across
+geographical regions.
+This chart is suitable for data which contains geographical regions like countries, states,
+or postal codes.
+In the MapChart worksheet of the car sales workbook, let’s first copy data from the
+pivot table containing country of sale and sum of unit sales.
+Then we'll paste the copied data beside the table.
+Now let’s create a filled map chart with this data.
+After selecting the data, we select Filled Map chart from the Map category of the Charts
+group.
+The new floating chart area contains our filled map chart, which displays the sum of unit
+sales of cars across different countries of sale.
+Let’s change the chart title to “Sum of Unit Sales of Cars by Country”, which we
+can do by simply double-clicking the chart title textbox and editing the text.
+Let’s change the chart style to customize the look of the filled map chart.
+There are numerous styles to choose from in the gallery to suit your preference.
+We can see from this filled map visualization that the darker blue color, which denotes
+the larger number of unit sales, is covering the United States, while the paler blue colors,
+which denote medium numbers of unit sales, are covering areas such as Canada, Western
+Europe, and Scandinavia.
+And the almost-white color, which denotes the lowest number of unit sales, is predominantly
+covering Eastern Europe, India, Japan, and Australia.
+Next, let’s have a look at sparklines.
+Sparklines are mini charts placed inside single cells to represent a selected range of data.
+They are typically used to show data trends, such as seasonal increase-decrease, economic
+cycles, and share, rate, or price fluctuations.
+They can also be used to highlight max-min values.
+A sparkline provides the greatest impact when it is placed close to the data it represents.
+To create our sparklines, let’s first select data from the 4 adjacent columns, “Unit
+Sales Q1”, “Unit Sales Q2”, “Unit Sales Q3” and “Unit Sales Q4” in the
+Sparklines worksheet of the car sales workbook.
+Now let’s create sparklines with this data.
+We’ll select the ‘line’ type of sparkline from the Sparklines group.
+We then need to specify where we would like our sparkline to appear on the worksheet.
+We can do this by either typing in the cell reference in the Location Range box, or better
+still just click the cell in the worksheet where you want it to appear and Excel will
+fill it in for you.
+Note that it uses an absolute reference by adding dollar symbols to the cell references.
+And then we can copy that sparkline down the rest of the column.
+We now see a column containing our sparklines, which displays the trend of the unit sales
+of Ford cars over the four quarters of a year.
+Let’s name the column header of the column with the sparklines as ‘Quarter Sales
+Trends’.
+Let’s adjust the column width, and let’s also adjust the row height to display the
+sparklines more clearly.
+Let’s also display maximum and minimum values on the sparklines.
+Then change the chart style to customize the look of the sparklines.
+There are several styles in the gallery for you to choose from.
+And finally, let’s adjust the weight of the lines in the sparklines to make them stand
+out a bit.
+These Sparklines show us that Ford Escort unit sales started low in the first quarter
+and then increased in quarters 2 and 3, then declined again in quarter 4.
+We can also determine that generally across the majority of the range of Ford car models,
+quarter 3 is the best quarter of unit sales over the year, with a couple of exceptions
+such as Mustangs in quarter 4 and Focus models in quarter 2.
+Lastly, let’s have a look at some other available charts in Excel.
+The Waterfall chart type is used to show cumulative effect of a series of positive and negative
+values.
+This is suitable for data which represents inflows and outflows like financial data.
+The Funnel chart type is used to show progressively smaller stages in a process.
+This is suitable for data which shows progressively decreasing proportions.
+The Stock chart type is used to show the trend of stock’s performance over time.
+This is best suited to data with a series of multiple stock price values like volume,
+open, high, low, and close.
+The Surface chart type is used to show trends in values across two dimensions in 3-D surface
+areas or 2-D contoured charts.
+This is most suitable when categories and data series are both numeric.
+And lastly, the Radar chart type is used to show values relative to a center point, and
+is most suitable when categories are not directly comparable.
+In this video, we looked at how to create filled map charts and sparklines in Excel and we
+reviewed some of the other charts available.

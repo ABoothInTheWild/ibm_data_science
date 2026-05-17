@@ -1,0 +1,84 @@
+In this video, we will listen to
+several data professionals discuss
+the importance of using
+visualizations to tell a story about data.
+Can you tell us about the importance of using
+visualizations to tell a story about data.
+Visualizations are critical to storytelling with data.
+I think you're familiar with the phrase,
+a picture is worth 1,000 words,
+and that's really true here.
+You can get a much clearer picture of what's going on,
+with your data if you
+have clean and clear data visualizations.
+I also think data visualization is super
+helpful for the analysts that creates them,
+because it forces them to make choices about
+what's really important to show
+and what isn't important to show.
+For example, if you're debating
+whether you should look at things temporally,
+you can debate like,
+is the overall trend the most important, okay,
+then I should do a time series data visualization.
+Do I think comparing one group versus another is
+more important than you're more
+likely to do a bar column chart.
+So it's really important in clarifying
+the data analysts thinking
+And visualization is really important in telling a clear,
+concise story to stakeholders.
+Humans are visual creatures.
+You are more likely to tell
+a compelling story and get buy-in with visuals.
+I once got a job offer,
+with a visualized resume created by tableau.
+So, one of the best ways to present data is visually.
+Numbers by themself, for the most part,
+will tend to overwhelm people.
+So if I woke up
+and I'm talking in a company meeting and I say,
+"Well, last year in 2019, we did $100,000."
+Or I could give you a graph and say 2018,
+we did 75,000, 2019,
+we did 100,000, and 2020 we're projected to do $125,000.
+If I put them in a graph and make it
+stand out and make it pretty.
+Non-accountants will and non-data people will
+gravitate towards the end it'll prompt them to
+ask different questions and have different ideas.
+By using maybe a PowerPoint
+or even Excel. In Excel you can create graphs from the data,
+make it pretty, make sure that
+it made not just pretty but make sure
+that it highlights the important information
+of what you're trying to say.
+It will create and drive the conversation around what
+needs to be done and how best to
+maybe run the business or make different decisions.
+Data visualization is a very important part
+of being helping people
+to understand the numbers that you're trying to present.
+The reason we want to gravitate towards
+visualizations is that's how the brain really works.
+The brain is much more able to
+process a high bar versus a low bar as
+opposed to looking at
+100 rows or 100 lines in a spreadsheet.
+Using the visualizations and especially
+using the appropriate visualization for
+the given task can really help make sure that
+the user gets the easiest way to understand this.
+As we talked about storytelling is
+really an important way for us to do this.
+And so through the visualizations,
+that's really how we tell stories.
+We can augment it with,
+text that's user-generated or system-generated,
+tell people really drill down
+further to their understanding.
+But starting with the visualization
+is the easiest way to help people quickly,
+effectively understand what's going on.
+And then you can have further discussions
+around what exactly they're doing.

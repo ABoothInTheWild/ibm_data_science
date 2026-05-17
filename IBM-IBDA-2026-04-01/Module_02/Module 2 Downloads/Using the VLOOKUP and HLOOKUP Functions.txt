@@ -1,0 +1,116 @@
+Now that we’ve learned how to use the IF, IFS, COUNTIF, and SUMIF functions, in this
+video we’ll look at how to use the VLOOKUP and HLOOKUP reference functions.
+VLOOKUP is one of the most commonly used reference-type functions in Excel, and it enables you to
+find data referenced in a lookup table.
+It stands for Vertical Lookup and therefore is a useful tool to use when you want to find
+something in a table or a range by row.
+Shortly, we will look at HLOOKUP, which stands for Horizontal Lookup, which looks for data
+by column instead.
+VLOOKUP works by using a common shared key between the source data and the lookup data
+in the lookup table.
+A typical VLOOKUP formula would look like:
+=VLOOKUP(B3,A2:B12,2,FALSE)
+Where B3 is the lookup value, that is, the value or word you are looking for A2:B12 is
+the lookup table or range, that is, the table array or range of cells that contains the
+lookup value.
+In a formula, Excel references this as ‘table_array’.
+The lookup table can be on the same worksheet or in another separate worksheet.
+2 is the lookup column number, that is, the number of the column in the lookup table that
+contains the value you are looking for.
+In a formula, Excel references this as ‘col_index_num’.
+FALSE is an optional parameter that determines whether the match found has to be exact (denoted
+by FALSE), or can be approximate (denoted by TRUE).
+In a formula, Excel references this as ‘[range_lookup]’.
+The square brackets round this argument in the formula, signifies that it is an optional
+argument, whereas the others are required arguments of a VLOOKUP formula.
+If you don’t specify the optional FALSE or TRUE parameter in your formula, it will
+default to FALSE; that is, an exact match is required.
+You can also use the number 0 instead of FALSE, and the number 1 instead of TRUE.
+OK, now let’s see the VLOOKUP function in action.
+In the car sales worksheet, suppose we wanted a quick price list of our favorite cars.
+The first thing we need to do, is put the column containing the value we want to search
+for, in the leftmost column, as VLOOKUP requires this.
+Then we can delete the original column.
+We then enter the formula seen in cell V16…
+… which is looking for the word ‘Corvette’ in the table array from cell A2 to G156, and
+then looks for the value in the fifth column – in this case, the ‘Price’ column – that
+matches the row containing ‘Corvette’ and returns an exact value of 45,705 dollars.
+Note that in this example, we are using a part of our existing data table as the lookup
+table, or table array.
+Let’s format that as US currency.
+Then we’ll format it to zero decimal places.
+In fact, rather than use the reference A25 in the formula, it will be easier to use the
+reference to the word Corvette in the mini table in this worksheet, where our list of
+favorite cars is.
+So that is V5, and the formula still works.
+Now, let’s copy that formula up to the favorite car table, above it in the worksheet.
+But there’s a problem, because when we copied the formula, the cell references changed.
+This happened because as we learned earlier in this course, the default state of cell
+references is relative, and we want them to be absolute in this case.
+So, let’s undo that copy operation.
+To make the cell references absolute, we need to add dollar symbols to all the cell references
+in the formula.
+This can either be done manually, or you can put the cursor in each cell reference in turn
+in the formula and press F4 each time, to automatically add the dollar symbols.
+Let’s try and copy the formula again
+and this time it works.
+If we use the Fill Handle on cell W5 to copy it down to the rest of the cars, it doesn’t
+work; in fact, we end up with the same result in every cell.
+Why?
+Because each one is referencing the same cells in the lookup value, because we used an absolute
+reference.
+All we need to do now, is modify the formula to remove the absolute reference for just
+the row parameter, in the lookup value part of the formula, by removing the dollar symbol.
+So in cell W5 we change $V$5 to $V5,
+then when we drag the Fill Handle down it will copy the formula correctly, and all the
+prices will be changed to reflect their correct retail price.
+Lastly, to show that the two tables are now connected by this VLOOKUP function, if we
+change the retail price for the Chevrolet Corvette in the main data table in cell E25…
+the price will also change in the favorite cars price list.
+Let’s now take a quick look at the HLOOKUP function, which as we mentioned earlier, does
+the same thing, and works in virtually the same way, as the VLOOKUP function, but it
+looks for data in columns, rather than rows.
+So, HLOOKUP looks for a word or value in the top row of a table, and then returns a value
+in the same column from a row specified in the table array.
+Therefore, you would use HLOOKUP if your comparison values were situated in a row along the top
+of a data table.
+In contrast, you would use VLOOKUP if your comparison values were located in a column
+to the left of the data you want to find; as they were in the previous task.
+Of the two functions, VLOOKUP is used far more than frequently than HLOOKUP, because
+of the nature of most data tables.
+The syntax for HLOOKUP is identical to that of VLOOKUP except that you specify a row index
+number, referenced in a formula by Excel as ‘row_index_num’.
+This indicates the number of the row in the lookup table that contains the value you are
+looking for.
+Let’s create a small lookup table on the right hand-side of our main data table; a
+few columns have been hidden in this worksheet to make viewing a little easier.
+So we’ve now got Low HP, Medium HP, and High HP in the top row of the lookup table.
+Next, we’ll add Wingdings symbols as ratings for the 3 horsepower levels...
+… 1 sad face for the low horsepower rating …
+… 2 neutral faces for the medium rating …
+… and 3 happy faces for the high horsepower rating.
+Now, let’s add a new column to the right of the HP Level column, and call it HP Rating.
+Then in cell L2 we’ll enter the HLOOKUP function.
+This function will look for the value in cell K2, which in this case is ‘Medium HP’,
+and it will look for it in the cell range from Y21 to AA22, which is our little lookup
+table, and it will return the answer it finds in row 2 of the table under Medium HP, and
+use an exact value.
+Note that we’ve used some absolute references in this formula too.
+Notice that what is returned is the text ‘KK’, so we need to format the cell using the Wingdings
+font.
+Now, when we double-click the Fill Handle, the whole column shows the HP Rating symbols
+relevant to each row’s HP Level value.
+And we’re done.
+Although VLOOKUP and HLOOKUP are regularly still used as the de facto functions for lookup
+references in Excel, there is a newer function called XLOOKUP.
+This version is only supported on Excel desktop versions from Excel for Microsoft 365, and
+on Excel for the web, as well as on Excel for iPad and iPhone, and Excel for Android
+tablets and phones.
+XLOOKUP is an improved and combined version of VLOOKUP and HLOOKUP together.
+It can work in any direction; vertically or horizontally.
+It also uses separate lookup array and return array values, instead of a single table array
+and a column or row index number.
+In this video, we learned how to use the VLOOKUP and HLOOKUP functions in Excel to find and
+connect to data referenced in both vertical and horizontal lookup tables.
+In the videos coming up in the next lesson, we’ll start to look at using Pivot Tables
+in Excel.

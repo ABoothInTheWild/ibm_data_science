@@ -1,0 +1,138 @@
+Welcome to advanced capabilities
+in Cognos Analytics dashboards.
+After watching this video,
+you'll be able to create calculations in
+Cognos Analytics dashboards use
+navigation paths to drill down deeper into your data,
+exclude data points from visualizations,
+and set top and bottom filters on visualizations.
+To get started using these advanced capabilities,
+we need to select a dataset and create a dashboard.
+Then we select an appropriate dashboard template.
+Here we'll choose the 2 by 2 dashboard template.
+We need to change the usage property for
+the order number attribute from
+a measure to an identifier.
+In the data source pane on
+the left under navigation paths,
+right-click the data file and select calculation.
+Cognos dashboards can create
+calculations like in applications such as Excel.
+When you create a calculation you need to give it a name.
+In this case, we'll call it margin.
+Calculations comprise several components,
+filters, data, and functions.
+If we open the functions list,
+we can see they are categorized into different sections,
+such as operators, summaries,
+constants and types of functions.
+We can start typing a formula to create
+a calculation and
+Cognos Analytics will offer suggestions,
+or we can drag and drop
+the required attributes for the calculation.
+In this case, we are interested
+in calculating our margin by
+calculating our MSRP minus
+the price we sell each unit for.
+So we can either drag and drop the attributes
+directly from the left pane or we can start
+typing the attributes name and Cognos Analytics
+will find it for us and then we
+select it from the suggestion list.
+Then we can build our calculation using either method,
+including any required operators,
+in this case, the minus sign.
+Now that we've created this calculation,
+it's added to the list of
+data attributes in the data source pane
+on the left and treated the same
+as any other fields we have here.
+We can drop margin and
+product line onto our dashboard canvas.
+Let's expand this panel to see the data more clearly.
+In this case, we see that trains is not doing well.
+In fact, it's actually a negative margin for us.
+Now we may want to drill
+into this issue a little bit more.
+We can create what's called a navigation path.
+We can choose any field from
+our data to drill up and down on.
+In this case, we want to
+start with product line and we'll
+probably want to see customers
+and if there are specific orders.
+We now have a new navigation path
+in the data source pane.
+We can right-click on trains and start to drill down.
+In this case, we can see
+a few offenders with
+a negative margin when we look at this field,
+like the Mini Gifts company.
+So let's drill down a little further.
+Here, we can see that while they
+have one order that has a positive margin,
+the other three orders margins are in the negative.
+Before we look at the exclude feature,
+we need to drill back up as we are
+currently drilled down on trains.
+Let's collapse the view in
+this panel to see all the dashboard panels again.
+Now we'll drag sales status
+and product line onto our dashboard canvas.
+Notice that we are still filtered on trains only.
+We can click trains again to turn off
+that filter and show all our product line items.
+Let's expand this second panel to
+see the data more clearly again.
+Here we can see that our shipped status
+is dramatically impacting this visualization.
+To better view all our other statuses,
+we can exclude the shipped items from this visualization.
+Now we have a better view of what is
+happening with those other statuses.
+Let's collapse the view in this panel
+to see all the dashboard panels again.
+Now we'll illustrate another advanced feature
+called top or bottom filters
+which might be used in situations where we want
+to focus only on the most crucial data points.
+Particularly in cases where we have a large dataset.
+We'll drag the sales and customer name
+attributes to a blank quadrant
+in our canvas to show this.
+Let's expand this panel to see the data more clearly.
+To use the top or bottom filter feature,
+we right click on the sales
+attribute and choose top or bottom.
+This lets us choose the X number
+of top or bottom values in our data,
+with the default setting being 10.
+As a result, we can quickly identify and
+analyze the top 10 customers
+based on their sales figures.
+The visualization has been updated to
+show us our top 10 customers.
+One last thing we'd like to show you is that we can use
+Cognos Analytics to instantly generate infographics.
+So let's collapse the view in this panel
+again to see all the dashboard panels.
+As an example, if we're working with the sales data,
+we can open the widgets menu,
+choose an appropriate shape,
+such as a piggy bank,
+and then drop it on the sales
+visualization in the canvas.
+With this simple action,
+we can transform our data into an engaging infographic,
+making our data visualization informative and memorable.
+In this video, you learned that you can create
+calculations in Cognos Analytics dashboards.
+You can drill down into your data and create
+navigation paths for detailed data exploration.
+You can exclude certain data points from
+your visualizations to focus on other areas of interest.
+You can set top or bottom filters
+for advanced data analysis
+and you can generate
+instant infographics to enhance your data visualizations.

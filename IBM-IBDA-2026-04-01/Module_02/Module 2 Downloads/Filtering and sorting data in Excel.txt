@@ -1,0 +1,64 @@
+In the previous video we learned how to use the flash fill and text-to-columns features in Excel
+to help clean data. In this video we will discuss how to filter and sort our data to enable us to
+control what information is displayed and how it's displayed in our worksheets. Filtering your data
+enables you to gain more control over which parts of your data are displayed at any given time in
+excel. This can help with the visibility of data by narrowing down the data to within
+specified criteria and parameters and it can also help when searching for specific pieces of data.
+To filter your data the first thing you need to do is turn filtering on, which is very simple.
+On the data tab click "filter" and that's it, you will now see a small filter icon next to each of
+the column headers. As a side note if you want to only filter on one or more columns, select those
+columns first, then click filter. As another side note, if you format your data as a table,
+the columns automatically have filter controls added to them. So now each column has a filter
+that can be applied to the data in that column. In the order date column you can filter on the years.
+In product line you can filter on the different product types. And in customer name you can filter
+on each customer by name. Let's first filter on the year. We'll select orders from 2004. only by
+deselecting the other year, and if you wanted to we could expand the year and filter by months also,
+but we won't do that for now. If you look at the status bar at the bottom of the worksheet you can
+see that there are only 50 out of 114 records now displayed. If you want to clear a filter you can
+either click the "clear filter" from option or click the "select all item" in the filter list. Now let's
+filter on the product line column to display only the rows that hold data for sales of classic cars.
+And again we'll clear the filter. Lastly, we'll filter on the customer
+name column and only displays sales to "mini gifts distributors limited"
+and then clear that filter. So far we've only applied one filter at a time, but suppose you want
+to filter down to a greater degree. We can do that too by just enabling all those filters together.
+And now we are only displaying sales of classic cars to mini gifts distributors limited in 2004.
+Remember if you only want to clear one filter then click its filter button in the column header,
+and click the "clear filter from option," but if you want to quickly clear all filters you can use
+the clear button in the sort and filter group on the data tab. So far we've used what are commonly
+referred to as auto filters, but you can also use custom filters to specify other criteria to apply
+to a filter to text or numbers. For example, if you wanted to see sales orders that are over or
+under a certain value you can do that with custom filters. For the sales column let's add a number
+filter that only displays sales that are over two thousand dollars. If you look in the status bar
+you can see that we are now showing 111 out of 114 records. Then let's clear that filter and
+filter it the other way to display the sales orders that are below two thousand dollars.
+We can see that there are only three orders that are below two thousand dollars. It's important to
+note that the data rows that we don't see have not been removed. They are still there, they have
+just been hidden from view by the filters and this is indicated by the row numbers you see on
+the left in blue. The row numbers start at 69 and jump in large increments indicating that there
+are many more rows of data in our data set that are currently being displayed. Let's clear those
+filters. If we look at a column filter for a column that contains text, you will see that the menu
+item changes to text filters instead of number filters and you can see that there are several
+text filter options. And if you want to turn off filtering altogether for a worksheet, just click
+the filter button on the data tab. Now let's take a look at the basic sorting capabilities in Excel.
+Sorting is a very important part of the role of a typical data analyst.
+You might need to organize your text-based data alphabetically, your number-based data numerically,
+or your date-based data chronologically. When you sort data using these logical parameters
+it makes it easier for you to conceptualize and visualize your data in a more meaningful way.
+When sorting data the first thing you need to do is select which data to sort. For example, if you
+want to sort your customers alphabetically, select a cell in the customer name column first and then
+either sort by a to z or by z to a. And if you want to sort your sales figures numerically,
+select a cell in the sales column first and then either sort from smallest to largest or from
+largest to smallest. And lastly, if you want to sort your customers' order dates chronologically, select
+a cell in the order date column first, then sort from oldest to newest or from newest to oldest.
+But you can also sort your data by more than one column at a time. Simply select a cell in
+your data then on the data tab click "sort," then either use the sort-by column suggested or use
+the drop-down list to select a different column. In this case we'll choose the order date column
+as our first sorting criteria and we'll choose oldest to newest in the order drop down list.
+To add a further sorting level you click "add level" then you choose another sort column in the "then
+buy" drop-down list. In our case we'll choose sales, and for this sort level we'll choose
+largest to smallest in the order list. If you have a header row in your data
+as we do here, then ensure you select the "my data has headers" check box, then click "ok" to sort. So,
+the data is now sorted to list the oldest orders by order date first, then within each order date if there are multiple instances with the same order date, then the net sorting level
+lists data by the largest order values first, down to the smallest order values.
+In this video we learned how to use the filter and sort tools in Excel to filter and sort our data to
+enable us to control what information is displayed and how it is displayed in our worksheets.

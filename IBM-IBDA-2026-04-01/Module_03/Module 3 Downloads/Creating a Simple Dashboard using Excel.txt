@@ -1,0 +1,69 @@
+Now that we've learned about the basics of dashboards and why they are an essential tool for
+a data analyst, in this video we'll look at how to set up and configure a relatively simple dashboard
+in Excel, which will help us to tell a story about our data. Before creating our first dashboard we
+would have first collected and organized the data then verified that the data in our worksheet was
+clean error-free and did not contain any blank rows or columns and then we would have formatted
+it as a table. Next, we would have created some pivot tables to help us analyze our data and we
+would have performed some sorting and filtering on the data in our pivot tables to highlight the
+key aspects of our data analysis. Lastly, we would have created various data visualizations
+such as charts, maps, and slicers to help us tell a story about our data findings.
+In this example, Car Sales Workbook we've already gone through those processes of collecting,
+cleaning, analyzing, and visualizing our data and we are now at the point where we can combine that
+data analysis and those visualizations in a digital dashboard that will help us present
+our key data findings to stakeholders. The first thing we need to do is create a new worksheet to
+host our dashboard and give it a name, then drag it to the end of the tabs list in the workbook.
+As we've already created several visualizations we can use those to populate our dashboard.
+So, if we look at some of the other worksheet tabs these contain various visualizations which we've
+been working on throughout this course. We can just use some of them by copying a few charts and
+other visualizations from there to our dashboard. We'll copy this pie chart from this worksheet
+and paste it to our dashboard then we'll grab a copy of this 3D column chart and paste that too.
+We'll also copy the 3D area chart from the other pivot chart sheet to our dashboard.
+We'll grab the tree map chart and copy that to our dashboard too.
+Let's copy the scatter plot chart too.
+We'll also copy the histogram and copy that to our dashboard worksheet,
+and let's take a copy of the map chart visualization too.
+Let's also copy the Sparkline's visualization to our new dashboard worksheet.
+Lastly, let's go back to the line pie bar worksheet and select both the line chart
+and the bar charts and copy them both to the dashboard worksheet. Okay, so now we have a lot
+of different visualizations on our dashboard. We can make things look a little better by resizing
+some of the visualization objects and moving them around a bit. So we've now resized some of the
+visualizations and move things around, and then we could zoom out to see all the visualizations on
+screen. But if we remember what we heard from some of the subject matter experts during the expert
+viewpoints video, sometimes less is more and one or two of the experts mentioned that if we provide
+and display too much information, the key points can sometimes get lost. So, we should create a
+copy of this dashboard on another worksheet and then thin down the amount of visualizations and
+maybe make them more focused to highlight one or two of the more important views we want to convey.
+To do that, we'll first make a copy of the dashboard worksheet and move it to the end of the
+worksheets tabs. On the copy dashboard 2 worksheet we'll now delete a few superfluous charts.
+Let's first remove the tree map because that is giving us almost the same information
+as the pie chart. Then we can remove the 3D column chart because that has essentially
+the same data as the 3D area chart. And let's also lose the scatter plot histogram
+and the Sparklines because they aren't really key to our message.
+Let's copy the slicer from the line pie bar worksheet
+to our dashboard to give us some interactivity.
+Now let's zoom back out and do some arranging and resizing to these visualizations to make
+the dashboard look a little sharper. So, now we've rearranged and resized the visualizations
+to make the dashboard look a little leaner and tidier. We should also make some style
+and color changes to give our dashboard a more consistent look and feel. We'll apply the same
+style to all the chart elements. So, we'll apply a dark gray style and monochromatic green colors
+to the 3D area chart, and the line chart, and the pie chart, and the bar chart and the map chart.
+And we can recolor the slicer too to fit in with our color scheme.
+Now things look a lot better and more professional and the last thing we should do is remove some of
+the Excel interface elements and other bits of unnecessary screen clutter to give us a nice
+clean looking dashboard. We can remove screen clutters such as grid lines, the formula bar,
+and headings. And we can collapse the ribbon too, and that should do it. Now when we either present
+this dashboard or email it to a key stakeholder it includes some interactivity via the slicer
+and also via the filterable pivot chart. If we use the slicer to select several Ford car models,
+all three charts that are related to that data, get updated at the same time.
+We can modify filters in the 3D area chart to display only Ford cars instead of Chevrolets.
+And if we switch to the pivot chart 1 worksheet we can see that the original
+data has also been updated with this new filter.
+And when we make changes to the original source data, such as increasing the value
+of unit sales of cars in Australia, the map chart visualization in this worksheet updates and the
+Australia turns dark blue. But also, the map chart visualization in the dashboard gets updated too.
+So we can see that Australia is now dark green on this map chart. All of this shows
+how live and interactive the data in our dashboard is. Creating a clean, focused,
+and interactive dashboard can be a major asset when trying to tell a story about data.
+In this video we learned how to set up and configure a relatively simple dashboard in excel,
+which will help us to tell a story about our data. In the next video we will get an
+introduction to IBM Cognos Analytics Data Analysis and Visualization Business Intelligence Platform.

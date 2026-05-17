@@ -1,0 +1,138 @@
+Now that we’ve learned how to use the Filter and Sort tools in Excel to filter and sort
+our data to enable us to control what information is displayed, and how it is displayed in our
+worksheets, in this video we’ll discuss how to use some of the most common functions
+a Data Analyst might use; namely IF, IFS, COUNTIF, and SUMIF.
+First up, let’s look at how to use the IF function.
+The IF function is one of the most used logical functions in Excel.
+The IF function enables you to logically compare a value against criteria you set in the function,
+and then return a result based on whether the result of the logical comparison is true
+or false.
+And these values can be text values or numeric values.
+An IF function essentially says; “if something is true, then return a value or do something,
+but if it’s not true, then return a different value or do something else”.
+For example, in our vehicle toy sales worksheet, if we wanted to have a column that recorded
+whether the order had been shipped or not, you could add a new column to the right of
+the existing column – let’s call it shipped?
+and then enter the formula seen in cell H2
+This formula is saying – if the text in G2 says ‘shipped’ then return ‘Yes’,
+and if it doesn’t then return ‘No’.
+You can then use the Fill Handle to copy this formula down the column.
+You can see that most of the cells do say ‘Yes’, but some don’t, as the order
+hasn’t been shipped for one reason or another.
+We could also use the IF function to emphasize the size of an order.
+So, if we add a new column to the right of ‘Sales’, and name it ‘3K plus or minus’
+Then enter the formula seen in cell F2
+This formula is saying – if the order is over three thousand, then return the text
+“Over 3k”, but if it isn’t, then return the text “Under 3k”.
+And we can copy the formula down the column.
+In an ideal world, you would only use the IF function to apply one or two conditions,
+but there may be scenarios where you would want to apply multiple conditions.
+In these cases, you can use the ‘nesting’ capabilities of functions to bring together
+several IF statements in one formula; these are called ‘nested IF functions’.
+For example, if we add another column here for the order size.
+And then enter the formula seen in cell F2.
+You can see that this formula, contains multiple IF functions; one is needed for each condition
+one for Large, one for Medium, and one for Small
+and it requires three sets of parentheses.
+So, it’s a relatively long and complex formula, but it does work.
+Again, we can copy the formula down the column.
+Even though Excel technically supports the nesting of up to 64 different IF functions
+in a formula, it is not a recommended best practice.
+Having multiple IF functions in a singular formula can become extremely challenging to manage.
+For example, suppose you come across a formula like this that you haven’t used for some
+time, or even worse, was created by someone else; it could be quite difficult to work
+out how and why it is being used.
+Also, if your conditions increase, then you need to add more conditions to an already
+quite complex and long formula, which will only complicate matters more.
+To resolve this issue, a new function was developed called IFS.
+The IFS function is only supported on Excel 2019, Excel for Microsoft 365, and Excel for
+the web.
+As the name suggests, this function can replace multiple nested IF functions being used in
+a single formula, to simplify matters.
+(So, if we add a further column for order size
+but this time we’ll use the IFS function instead.
+As you can see in cell G2, this formula only has one set of parentheses instead of three,
+and only uses one function instead of three.
+Let’s copy that formula down the column too.
+Now let’s have a look at another example of using the IF function, but we’ll combine
+it with Conditional Formatting too.
+If we switch to the car sales worksheet…
+and add a new column to the right of the Year Resale Value column
+and call it ‘Retention %’.
+Then, we enter the formula seen in cell G2, which will divide the ‘Year Resale Value’,
+by the original ‘Retail Price’.
+We need to format this as a percentage.
+And then we can copy it down the column.
+Next, we’ll add a column to highlight the retention value for each car.
+The formula we add here in cell H2 uses the IF function to state that if the percentage
+in the previous column is greater than 69%, then mark it as ‘Good’, but if it isn’t,
+then mark it as ‘Poor’.
+Once again, we’ll copy the formula down the column.
+We could also use Conditional Formatting to highlight the retention value percentages
+even more.
+We select H2, and on the Home tab, click Conditional Formatting, and make a new rule.
+The condition in our rule will only format cells that contain a specific text value…
+and that value is the word ‘GOOD’.
+And if it does match that condition, then format it with a dark green font and fill
+the cell in pale green.
+Let’s copy that conditional formatting down the rest of the column.
+You can see that the cells that contain the word ’good’ are now formatted as we defined,
+but the cells containing the word ‘poor’ are not.
+Let’s add another conditional format rule.
+This time, we’ll select Manage Rules, because we are going to add another rule to our existing
+rule.
+he new rule will be the same as the previous one, with the exception of looking for a match
+with the word ‘poor’ instead, and formatting those matching cells with red text and a pink
+background fill.
+And once again, we copy that down the column.
+Now all the cells that contain the word ‘poor’ are formatted as red text with a pink cell
+fill.
+Let’s now have a quick look at how to use the COUNTIF function.
+COUNTIF is one of the statistical functions provided in Excel.
+You can use it to count the number of cells that meet a certain criterion; such as the
+number of instances where an employee’s name appears in a list of sales invoices,
+or the number of occasions a particular part number appears in a list of purchase orders.
+Let’s switch to the vehicle toy sales worksheet.
+Suppose you want to find out how many of the sales orders in the list went to customers
+based in the United Kingdom.
+We enter the formula you see in cell AD7.
+Note that when we are using text as a criterion, we have to enclose the text in quotation marks.
+So there were 6 sales orders in the UK.
+And if you wanted to discover the same thing for French customers, then you would just
+edit the existing formula, or copy it and then edit it.
+You can see there were 14 orders for French customers.
+Notice that this time the text entered was in lowercase, and it still works; so names
+in this function are not case-sensitive.
+And let’s do the same for United States customers; there are 41 orders to customers
+based in the states.
+There is also a newer function called COUNTIFS which applies criteria to cells across multiple
+ranges to count the number of occasions where all criteria have been met.
+This removes the need to use multiple COUNTIF functions in a long and complex single formula.
+The COUNTIFS function is only supported on Excel 2019, Excel for Microsoft 365, and Excel
+for the web.
+Now let’s take a quick look at how to use the SUMIF function, which is a very commonly
+used mathematical function in Excel.
+You use the SUMIF function to sum the values within a specified range that meet specified
+criteria.
+For example, you might want to add up only the salaries that are over a specified salary
+level, or you might want to find the total of all sales of a particular product category.
+We’ll enter the formula seen in cell AD10
+This formula will add up each of the sales orders that have a total of more than 3,000
+dollars.
+Again, notice that because we have used an arithmetic operator, that is the ‘greater
+than’ operator, we must enclose the criterion in quotes.
+If we specify a criterion that is only a number, we don’t enclose it in quotes.
+So, the total sum of all orders that were over 3,000 dollars is almost 470,000 dollars.
+You can also use wildcards such as ‘question mark’ (?) and ‘asterisk’ (*) when searching
+for partial matches, and you can also specify to extract values from a different column
+than the column where you have specified the criteria.
+For example, if we enter the formula you can see in cell AD13, it will sum all the car
+sales in column E, for only those products in the ‘productline’ column that end in
+‘cars’.
+There is also a newer function called SUMIFS that you can use to sum cells based on multiple
+criteria.
+This removes the need to use multiple SUMIF functions in a long and complex single formula.
+The SUMIFS function is only supported on Excel 2019, Excel for Microsoft 365, and Excel for
+the web.
+In this video, we learned how to use the IF, IFS, COUNTIF, and SUMIF functions.
+In the next video we’ll look at how to use the VLOOKUP and HLOOKUP reference functions.

@@ -1,0 +1,40 @@
+In this video we will listen to several data professionals discuss their experience using
+pivot tables to analyze data.
+What are your experiences using pivot tables to analyze data?
+My experience using pivot tables in Excel is extensive.
+I can use them all the time.
+The thing to keep in mind is that you can sum, average, and count easily.
+You can set it to group-by so people can choose what the parameters are at the top.
+It's great if you've got a couple of thousand records all the way up to whatever Excel can
+handle.
+So, a pivot table is just a real simple way of manipulation without having to do any actual
+querying or development language.
+I once had a huge ecommerce sales data.
+I need to analyze the KPI's including gross merchandise volume and take rate.
+However, I can only generate limited insights if I stay at high level
+With pivot tables I was able to group the data in terms of countries, type of stores,
+type of products, which enabled me to view the data and analyze the key KPI's at different
+levels of granularity.
+I use pivot tables and we use pivot tables in our firm, especially during audits to assist
+us and help us to kind of drill down on the data because what a pivot table does is, it
+helps you to take a large set of data and whittle it down to something that's meaningful.
+So, in the case of audits, a client might have, you know, $500,000 worth of maintenance
+and repair bills that are made up of three-hundred invoices.
+But we don't want to see every invoice for every dollar we want to see the high dollar
+invoices, so we're going to use that pivot table to narrow it down to the invoices that
+actually are going to have the highest level of impact on the financial statement.
+Much like Excel, pivot tables are a great way to understand your data quickly and effectively.
+Being able to just open up an Excel sheet, put it into a pivot table, drag and drop things
+in to get a sense of what the numbers look like, what the values are, really can help
+you get a good sense of the data in order to then start to build out something a little
+bit more robust.
+Being able to understand the fields, what they mean, what they look like.
+These are all things that can help you at the start of a project, as you're looking
+to do your analysis.
+Pivot tables are incredibly useful to get a quick view of your data and to look at multiple
+levels of your data in a very quick and clean way.
+It's just very, very easy to create a pivot table on a set of raw data, aggregate it by
+some level of interest, be it country, be it you know country the user is from, be it
+the year the user joined, or anything else, be it something related to time.
+It's really good for quickly seeing and understanding some of the more high-level summaries that
+are hidden within your data.

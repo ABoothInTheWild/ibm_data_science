@@ -1,0 +1,107 @@
+In this video, we'll give an overview
+of several different types of charts and
+visualizations and discuss how
+they can be used to tell a story.
+Let's begin by looking at a line chart
+when comparing different but related datasets.
+A line chart is a great way to display the information.
+They are able to display trends and show how
+a data value is changing in
+relation to a continuous variable.
+For example, if time is a continuous variable,
+how has the sale of a product
+or multiple products changed?
+Next, we have pie charts.
+This type of chart can show
+the breakdown of an entity into
+its sub-parts and the proportion of
+the subparts in relation to one another.
+Each portion of the pie represents
+a static value or category,
+and the sum of all categories is equal to a 100 percent.
+In this example, we have
+a Marketing Campaign with four distinct categories.
+Social Sites, Native Advertising,
+Paid Influencers, and Live Events.
+With this type of data representation,
+we can easily see the total number
+of leads generated per category.
+We now look at one of
+the most commonly used charts, the Bar Chart.
+This type of chart is the most
+common as they are easy to create and
+are great for comparing
+related data sets or parts of a whole.
+For example, in this bar chart,
+we can see the population numbers of
+10 different countries and
+how they compare to one another.
+We can also use stacked bars in which each bar
+is divided into sub bars that are stacked end to end.
+In this stacked bar,
+we can see the population of
+each country split into four age ranges.
+Would you like the graph to appear
+vertical and not horizontal?
+Then column charts would be a great pick.
+This type of chart can be used quite effectively to show
+change over time and to compare values side-by-side.
+For example, showing page views versus
+user's session time on a website as
+it changes on a month-to-month basis.
+While this type of chart looks similar to a bar chart,
+they cannot always be used interchangeably.
+For example, a column chart may be better
+suited for showing negative and positive values.
+Next, we have treemaps,
+which are useful for displaying
+complex hierarchies using nested rectangles.
+In this example, the treemap depicts
+statewide employment rates within
+the population of a country over the last year.
+The size of the rectangle represents
+the population and the color
+represents the employment rate.
+We can click on any region to see
+the employment data of
+the sub-regions within the selected region.
+Trying to display a pipeline or
+different stages of a continuous process,
+then funnel charts are the way to go.
+In this example, the funnel chart
+is showing the conversion rate at
+each stage of the sales process
+from lead generation to the final sale.
+Another exceptional chart is the scatter chart.
+In this type of chart,
+the circle colors represent the categories of data
+and the circle sizes are
+indicative of the volume of data.
+For example, in this scatter chart,
+we can see each product line by the number of
+units sold and the revenue it brings.
+A scatter chart can be great for revealing trends,
+clusters, patterns, and correlations between data points.
+Next we look at bubble charts.
+This is a variant of scatter charts,
+and they are useful for comparing a handful of
+categories to one another in
+terms of relative significance.
+For example, understanding areas of
+significant expenditure in
+an organization's sales budgets.
+Lastly, we have sparklines.
+Sparklines do not include an axis or coordinates,
+yet they display trends simply and effectively.
+These are great for showing
+the general trend of a variation.
+For example, stock market price
+fluctuations from the opening to
+the closing of a trading day.
+In this video, we learned about
+the importance of charts and how they
+are able to shape our data
+to provide meaningful information.
+In the next video,
+we will dive into more details about how to
+create and configure different types of charts in Excel.

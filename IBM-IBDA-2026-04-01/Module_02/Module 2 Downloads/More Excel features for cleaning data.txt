@@ -1,0 +1,79 @@
+Now that we’ve learned how to change the case of text, how to change date formatting,
+and how to trim whitespace from data, in this video we’ll discuss how to use the Flash
+Fill and Text to Columns features in Excel to help clean data.
+We used Flash Fill briefly earlier in the course as a quick method of entering data
+that fits a specific pattern, such as the names of months or days of the week, but it
+can also be used as a data cleaning tool.
+It can split a column of full names into two separate columns for the forename and surname,
+and it can also help to modify the naming convention used in a column of names.
+For example, in the vehicle toy sales worksheet there is a column containing the last names
+of contacts, and another containing their first names.
+If you want to use the Flash Fill feature to combine these names into one name column,
+you first insert a helper column; let’s call it ‘Contactname’.
+Then, in the first row in the new column you enter the full name of the first contact in
+the format of your choice; for example you might want surname, then a comma, then the
+forename, or you might want surname, and just an initial, and so on; in this case let’s
+just enter the name in the standard format of forename then surname with a space between
+them, and then we press Enter.
+Next you start typing the second contact’s name in, and you’ll see that Flash Fill
+displays a preview of the remaining names for you.
+If you’re happy with what’s in the preview, all you have to do is press Enter, and it
+fills in the remaining names for you right down the column.
+It even works when there are two names in one of the columns such as Wing C here …
+and Da Cunha here.
+Now you can remove the original columns if you no longer need them.
+So, in the previous task we saw how to combine two columns of data into one column using
+Flash Fill; now let’s see how to use it to modify the naming convention in a column.
+Let’s switch to the customer contacts worksheet.
+Then in the first data row of the next column, that is B2, we type the name of the first
+contact using whatever naming convention we want.
+We’ll use surname, then comma, then space, then the forename, and press Enter.
+Again, when we start typing the second contact’s name in the next row down, that is B3, Flash
+Fill detects the pattern and fills in the remaining names in column B when we press
+Enter.
+You could then copy and paste the column header, and delete the original column A.
+What we couldn’t do with Flash Fill was take a single column with two names in and
+split that into two separate columns.
+We need to use the ‘Text to Columns’ feature to do that.
+So, we’ll close this worksheet and we won’t save the changes.
+Now, let’s see how the ‘Text to Columns’ feature can help with data cleaning too.
+As the name suggests, and unlike Flash Fill, the ‘Text to Columns’ feature can take
+a column containing multi-part text and split that text into one or more other columns.
+This can be useful for splitting any multi-part text, such as names or addresses, into separate
+component parts.
+Let’s open the customer contacts worksheet again.
+Then we’ll add column headings for the next two columns, and copy the cell format used
+in the first column header.
+Then we’ll widen the columns.
+If we then select the data in column A from A2 to A23, and on the Data tab, click Text
+to Columns, a wizard is launched.
+On the first page of the wizard, ensure that ‘Delimited’ is selected.
+On the second page, ensure that only ‘Space’ is selected as the delimiter.
+On the third page of the wizard, click the little arrow next to ‘Destination’…
+and select cell B2 on the worksheet, then click the little arrow again to return to
+the wizard.
+We’re now finished with this wizard.
+You can see that the full customer contact names in column A have now been successfully
+split into two new columns in B and C, and you could now remove column A if you no longer
+need it.
+We’ll close this worksheet, and again we won’t save the changes.
+You can also achieve the same result using functions.
+This would be required if you were using ‘Excel for the web’, the online version of Excel,
+as this doesn’t have the ‘Text to Columns’ feature.
+There’s also a bit more flexibility with functions, which can be especially useful
+if you have names that are complex and mixed, such as having hyphenated names or some names
+with a middle initial, some with two middle initials, and some with no middle initial.
+So, we open the customer contacts worksheet again.
+Then we’ll add column headings for the next two columns, and copy the cell format used
+in the first column header.
+Then we’ll widen the columns.
+Next, we enter the formula in B2 to extract the forename part of the name.
+This formula extracts five characters from cell A2, starting from the left and including
+the space.
+Then, in cell C2 we enter the formula to extract the surname part of the name.
+This formula extracts seven characters from cell A2, starting from the right.
+Then we double-click the Fill Handle in cell B2 to use AutoFill to complete the column.
+And we do the same to the Fill Handle in cell C2 to use AutoFill to complete that column
+also.
+In this video, we learned how to use the Flash Fill and Text to Columns features in Excel
+to help clean data.

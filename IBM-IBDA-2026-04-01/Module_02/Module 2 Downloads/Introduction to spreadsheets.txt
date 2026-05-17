@@ -1,0 +1,65 @@
+In this first video of the course, we will list some of the common spreadsheet applications
+available, learn about key capabilities of spreadsheets, and discuss why spreadsheets
+might be a useful tool for a Data Analyst.
+There are several spreadsheet applications available in the marketplace; some of them
+are more widely known and used than others, and some are free, while others need to be
+paid for.
+By far the most commonly used spreadsheet application, and the most fully featured of
+them all is Microsoft Excel.
+The desktop version comes in a paid form as part of the Office suite and some Microsoft
+365 subscriptions, but there is also a web-based cut-down version called Excel for the web,
+also known as Excel Online.
+The online version is free to users with a Microsoft account, but does not offer all
+the advanced features that the desktop version provides.
+The next most popular is Google Sheets, which offers a lot, though not all of the features
+that Excel provides, and is free with a Google account.
+This is a web-based application and it integrates nicely with other Google apps, such as Google
+Forms, Google Analytics, and Google Data Studio.
+Then there is LibreOffice Calc, a totally free and open source desktop spreadsheet application
+that offers more basic functionality than Excel or Google Sheets, but still has a lot
+of the tools you need for data analysis, such as charts, conditional formatting, and pivot
+tables.
+Other spreadsheet apps include Zoho Sheet (a fully-featured web-based application that
+is comparable with Google Sheets), OpenOffice Calc, Quip from Salesforce, Smartsheet (which
+is predominantly for project management), and Apple Numbers, (which is included with
+Apple devices such as Mac computers and is also available on the App Store for other
+Apple devices).
+So, there are many spreadsheet application options open to you, from fully-featured to
+basic, from cloud-based to desktop apps, from paid-for to free versions.
+It’s up to you to decide which one best fits your needs and your budget.
+Spreadsheets provide several advantages over manual calculation methods.
+For example, once you have your formulas correctly written, you can be assured that your calculations
+are accurate, and that the calculations will be performed automatically for you.
+Spreadsheets also help keep your data organized and easily accessible.
+Your data can be easily formatted, filtered, and sorted to suit your needs.
+If you do make mistakes in your data entry or your calculations you can easily edit them,
+undo them, or use error-checking tools to help remedy those mistakes.
+And lastly, you can analyze data in spreadsheets, and create charts, graphs, and reports to
+help visualize your data analysis.
+Since spreadsheet software for personal computers first appeared on the market in the 1970s,
+with VisiCalc on the Apple II PC, spreadsheets have come a long way in terms of the capabilities
+and features they now offer businesses, from uncomplicated tables and relatively simple
+computations to powerful tools for analysis, management, and visualization of enormous
+sets of data.
+The most common business uses for spreadsheet applications include the following:
+Data Entry and Storage, Comparing Large Datasets, Modelling and Planning, Charting, Identifying
+Trends, Flowcharts for Business Processes, Tracking Business Sales, Financial Forecasting,
+Statistical Analysis, Profit and Loss Accounting, Budgeting, Forensic Auditing, Payroll and
+Tax Reporting, Invoicing, and Scheduling.
+And away from the business side of things, other typical uses include Personal Expenses,
+Household Budgeting, Recipe library, Fitness Tracking, Calorie Counting & Weight Monitoring,
+Sports Leagues such as Fantasy Football, Cataloging Music Libraries, and even Contact Lists, Shopping
+Lists and Christmas Card Lists.
+As a Data Analyst, you can use spreadsheets as a tool for your data analysis tasks, including:
+Collecting and harvesting data from one or more distributed and different sources.
+Cleaning data to remove duplicates, inaccuracies, errors, and resolve missing values to improve
+the quality of the data.
+Analyzing data by filtering, sorting, and interpreting it to determine what useful information
+can be gleaned from it.
+And visualizing data, to help you tell a story about your data analysis findings to key business
+stakeholders and any other interested parties within your organization.
+In this video, we had an introduction to spreadsheets.
+We learned about some common spreadsheet applications, what the main capabilities of spreadsheets
+are, and why spreadsheets might be a useful tool for a Data Analyst.
+In the next video, we will look at the basics of spreadsheets, including common spreadsheet
+terminology.

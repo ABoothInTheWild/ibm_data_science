@@ -1,0 +1,103 @@
+Welcome to navigating in Cognos Analytics.
+After watching this video, you'll be able to,
+navigate around the Cognos Analytics user interface.
+Upload a CSV file as a dataset in Cognos Analytics.
+And start a new dashboard in Cognos Analytics.
+After you launch Cognos Analytics, the homepage will open.
+Let's get familiar with what's on this homepage.
+There are two main navigation areas for Cognos Analytics.
+The first is the main menu in the top left corner.
+And the second is the toolbar at the top right of the page.
+From the homepage, we can also access video tutorials and
+view getting started information.
+And get a tour of the product.
+From the toolbar at the top of the page,
+we can check how many days are remaining in our trial.
+And if we wanted to, we could click this countdown timer
+to access the upgrade button to purchase a full product subscription.
+The AI assistant tool is also accessible from this toolbar.
+And we can ask questions of the assistant by typing them into the text
+box in the center of the homepage.
+We can start to create content either by uploading new data or
+by creating content from existing data.
+And lastly, once we begin working with content,
+this recent section of the homepage will update with our recently used items.
+If we click on the main navigation menu in the top left of the page,
+we can use new to create new items such as data modules,
+dashboards, reports, and stories.
+We use upload data to upload our external data files, which we'll do shortly.
+We use the contents section to create new content or
+open different samples to work with.
+The recent item in the menu shows any recently used files we've worked on.
+So now let's upload a file to use as a dataset in Cognos Analytics.
+We will upload a comma separated value or CSV file as our dataset in this case.
+To upload the file we click Upload data from the main menu.
+A new file browser window will open.
+We then navigate to where the file is located, select the file, and click Open.
+Notice that status bars will be visible at the top of the page as the upload
+process reads and analyzes the loaded data.
+We can view the progress by clicking the details link.
+Once the upload has been completed, the status bar will update to show
+the successful completion before automatically closing.
+The uploaded content will be stored in the My content area.
+Once in My content, we can open it,
+move it to a shared area within Team content, or delete it.
+In the content section team content shows any shared content, and
+there are also several useful samples for us to try out and play with.
+And if we scroll to the bottom of the page, we'll see a link to the IBM
+accelerator catalog, which provides many more useful resources,
+samples, guides, and custom visualizations.
+We will also see our recently uploaded dataset in the recent section in the menu.
+We can always use the assistant icon on the top right of the page to
+find insights from our data once data is uploaded.
+We'll come back to the assistant in a later video in this course.
+The last thing we'll do is start creating a dashboard in Cognos Analytics.
+We do this by selecting our dataset first and
+then choose to create a dashboard from the menu.
+The first thing we need to do when building a dashboard is to select
+a template.
+We can see many different template layouts here and
+based on what we're trying to achieve, how many visualizations we want and
+what types, we may want to select something specific for that purpose.
+In this case, we'll choose one with four small panels and one large one below them.
+Once we've selected which template we want,
+we click Create to get started creating the dashboard.
+Once we're in the dashboard,
+we'll notice that the left pane displays the fields in our uploaded dataset,
+which is known in the Cognos Analytics interface as the selected source.
+There are a few other things that we will highlight here in terms
+of navigation in Cognos Analytics when creating dashboards.
+So the first menu icon that we've already selected is the sources icon, and
+this is where you view and use the fields in the selected data source.
+The second icon is the pins icon which displays all the different visualizations
+you have pinned for reuse in other dashboards across the system.
+Currently this list is empty as we haven't pinned any visualizations yet.
+The next one down is the visualizations icon, and here the system tab displays
+all the different visualizations that we can use in our dashboards.
+On the custom tab, we can also upload our own custom visualizations if
+we can't find one that meets our needs.
+To add a visualization to the list of pinned items,
+we simply select a visualization, in this case the decision tree,
+which will add it to our blank canvas.
+Then with the visualization selected in the canvas,
+we click the pin icon in the top toolbar.
+A popup message first shows the pinning progress and
+then a confirmation that the item has been pinned.
+If we look back at our pins we can see the newly pinned visualization.
+Pinning visualizations means we can quickly find
+the visualizations that we use most often or are most important to us.
+The last icon we will look at is the widgets icon, which is where we can add
+additional widgets to our dashboards and to our stories.
+Widgets typically consist of either text, images and shapes,
+video and audio media, or even embedded web pages.
+So that was just the basics of starting to create a dashboard and
+getting to know the dashboard interface.
+In a later video, we'll dive a little bit deeper into how to work with
+dashboards and how to add content to them.
+In this video, you learned that you can create new content,
+view existing content, upload data, and view recent files from the main menu.
+Uploaded content is stored in the My content area.
+The assistant can help answer your questions and
+find insights from your data.
+You can pin commonly used visualizations for later reuse.
+And Cognos Analytics provides several different dashboarding templates.

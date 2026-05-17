@@ -1,0 +1,69 @@
+Now that you have learned about the basics of formulas, learned how to perform some basic
+calculations, and how to select ranges and copy formulas, next we will have an introduction
+to functions, including using some common statistical functions.
+And then we will learn about some more advanced functions that a Data Analyst might also use.
+First, let’s look at some common functions used for statistical calculations.
+We’ll add some row headings for average, minimum, maximum, count, and median.
+Then in cell B20, let’s work out the average of the car sales for the year, from the table
+above.
+On the Home tab, in the Editing group, we click on the AutoSum drop-down list and choose
+Average.
+Now, because AutoSum tries to add up the values directly above it in the column, we need to
+modify the cell range here to B2 to B13.
+Then we can use the Fill Handle as we’ve seen before to copy the formula across to
+column E.
+For the minimum calculation in B21, we select Min from the AutoSum list.
+And again, we need to modify the cell range.
+So this calculates the lowest value in our range.
+And fill across to column E. And for the maximum calculation, we select
+Max from the list.
+And then modify the range.
+And once again, copy the formula across.
+This calculates the highest value in our range.
+In B23 we will calculate the Count, which basically just means the number of values
+that exist in the selected range.
+So, we select Count Numbers from the list.
+Then modify the range.
+For the median calculation, we can select ‘More Functions’ from the AutoSum list,then
+select ‘Statistical’ as the category, and scroll down to find the MEDIAN function.
+The ‘median’ returns the exact middle of a range of selected values.
+Note that if you’re selecting an odd number of values it will return the figure that is
+the middle value in your selected range, but if you have selected an even number of values
+in your range, it will return the middle figure between the two middle values in your range.
+Once again, we need to change the cell range to B2 to B13.
+And we can then copy this formula across to column E.
+You’ve seen AutoSum and some of the common statistical functions in Excel, but there
+are another 400-plus other functions available, so let’s explore just a few of those now.
+On the Formulas tab, in the Function Library group, there are drop-down lists for several
+function categories.
+The first is a list of ‘Recently Used’ functions, which updates automatically as
+you use them.
+Then you have functions related to ‘Financial’ calculations.
+If you hover over the name of a function, you see a short description for each one;
+so here we have the accrued interest function, and here is the interest rate function.
+The ‘Logical’ list has BOOLEAN operator functions such as AND, IF, and OR.
+There are several functions related to Text, such as CONCAT, which is an updated version
+of a previous function called CONCATENATE (which is still supported by the way for backwards
+compatibility), FIND, and SEARCH.
+There are also several functions related to dates and times, such as NETWORKDAYS, WEEKDAY,
+and WEEKNUM.
+In the ‘Lookup & Reference’ list there are functions such as AREAS, HLOOKUP, SORTBY,
+and VLOOKUP.
+In the ‘Math & Trig’ list you’ll find lots of useful mathematical functions, such
+as POWER, SUMIF, and SUMPRODUCT, alongside many functions for trigonometric purposes,
+such as cosine, sine and tangent.
+There is also a ‘More Functions’ list which provides several more function categories,
+such as Statistical, Engineering, and Information.
+In the ‘Statistical’ list you’ll find functions such as Average, Count, Max, Median,
+and Min; we saw some of these used earlier in this video.
+If you’re struggling to find the function you want in these lists, you can also search
+for a function; just click the ‘Insert Function’ button on the Formulas tab, and then either
+browse the category lists available, or choose ‘All’ and look down the alphabetical list
+for the function you want.
+Alternatively, type the name of a function you want to find, and click ‘Go’ to search
+for it, then select the one you want from the returned search.
+In this video, we learned about the basics of functions, how to use some of the more
+common functions that a Data Analyst might employ, and looked at some of the more advanced
+functions available in Excel.
+In the next video, we will look at referencing data in formulas; specifically differentiating
+between relative and absolute references, and error handling in formulas.

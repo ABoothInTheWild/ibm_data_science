@@ -1,0 +1,102 @@
+Now that we’ve learned how to use the VLOOKUP and HLOOKUP functions, in this video we’ll
+look at how to create and use Pivot Tables in Excel.
+We’ll first look at how to format our data as a table, then how to create Pivot Tables
+and use fields in a Pivot Table to analyze data, and lastly we’ll see how to perform
+calculations in a Pivot Table.
+Having a worksheet full of informational data is all very well, but to really get some use
+out of it we need to analyze it from different perspectives to find answers to questions
+related to the data.
+Now, we’ve already used features such as filters and formulas to draw mathematical
+and logical conclusions about our data but not all questions can be answered easily using filters and formulas alone.
+In order to obtain usable and presentable insights into your data you need something
+else… and that something else is Pivot Tables.
+Pivot Tables provide a simple and quick way, in spreadsheets, to summarize and analyze
+data, to observe trends and patterns in your data and to make comparisons of your data.
+A Pivot Table is dynamic, so as you change and add data to the original dataset on which
+the Pivot Table is based, so the analysis and summary information changes too.
+A Data Analyst can use Pivot Tables to draw useful and relevant conclusions about, and
+create insights into, an organization’s data in order to present those insights to
+interested parties within the company.
+Before you start to create a Pivot Table in Excel, it can be very helpful to first format
+your data as a table.
+The reason for this is not only to make it more organized and defined and to add table
+styles to your data, but primarily it makes it a lot easier when adding records to the
+dataset.
+In the car sales worksheet, let’s first select any cell within the data, and then
+on the Home tab, in the Styles group, choose ‘Format as Table’.
+Then choose a style from the gallery…
+note that Excel automatically knows the boundaries of our data range, but we can change this
+if we need to.
+And ensure you select ‘My table has headers’, if indeed it does.
+After you click OK and the data has been formatted as a table, note the filter drop-downs at
+the top of each column – these are automatically added when you format as a table.
+If we now scroll down to the bottom of the table…
+and start adding another row of data for another vehicle…
+when you click Tab or Enter, note that it is automatically formatted and included as
+part of our table.
+OK, now let’s see how to create a basic Pivot Table, and how to use fields to arrange
+data in a Pivot Table.
+Just before we do that, there are a few things you should use as a checklist to ensure your
+data is in a fit state to make a Pivot Table from, and these are:
+Format your data as a table for best results
+Ensure column headings are correct, and there is only one header row, as these column headings
+become the field names in a Pivot Table
+Remove any blank rows and columns, and try to eliminate blank cells also
+Ensure value fields are formatted as numbers, and not text
+Ensure date fields are formatted as dates, and not text
+In the worksheet, we can just select any cell in the table.
+Then, on the Insert tab, we click PivotTable.
+Note that in the ‘Select a table or range’ box, the table name – Table1 – is already
+entered for us.
+If we hadn’t just formatted this data as a table, we would specify the cell range here
+instead.
+Under that, we need to decide whether we want to create the Pivot Table on a separate new
+blank worksheet, or on this worksheet – a new worksheet is the default – and is the
+most commonly used option.
+So, a new blank worksheet opens, displaying some basic Pivot Table instructions in the
+graphic on the left of the worksheet, and a ‘PivotTable Fields’ pane on the right.
+You can rename the worksheet for the Pivot Table if you wish.
+To build the Pivot Table report we need to add some fields from the top of the PivotTable
+Fields pane, to one or more of the sections in the bottom part of the pane.
+For example, if we want to find out the total sales for each model of car, let’s drag
+the Manufacturer field to the Rows section of the report, …
+and then we’ll drag the Model field there too.
+But this isn’t really the way we want it to look, so we’ll drag the Manufacturer
+field to appear at the top of the Rows section above the Model, which makes more sense with
+our data.
+Next, we’ll add the Price field to the Columns section, …
+… but again that really isn’t the way we want to view the data, so we’ll drag
+Price to the Values section instead, which makes a lot more sense and looks a lot better.
+Next, we’ll add the Unit Sales field to Values too, so now we can see both the individual
+price for each model and the number of unit sales of each model.
+Let’s add the Vehicle-type field to Columns, but that doesn’t seem very useful, so let’s
+remove that field, …
+, which we can do in two ways.
+Either by using the drop-down menu, …
+( or, if we undo that, …
+we can also do it by simply dragging the field out of the Columns section, either to the
+left over the worksheet, or to the top over the fields list above.
+Let’s now look at how to perform a simple calculation in a Pivot Table.
+If we look in the ‘Sum of Price’ column in our Pivot Table, we can see that the figures
+are formatted as General.
+So first, let’s change the format for these figures to US currency.
+This can be done by modifying the value field settings for the field in the relevant section
+of the PivotTable Fields pane.
+We’ll format the field as US dollars and show no decimal places.
+Next, we’ll add a calculated field from the ‘PivotTable Analyze’ tab, using the
+‘Fields, Items & Sets’ button.
+We want this field to calculate the total sales for each model by multiplying the price
+by the number of unit sales.
+When we create and add this formula, it gets added to the PivotTable Fields pane, as a
+field called Total Model Sales.
+And we can change the format to make it US dollars again.
+A new column called ‘Sum of Total Model Sales’ has now appeared in the Pivot Table
+in our worksheet.
+In row 5 we can see that there have been over 360 million dollars of sales of the Acura
+Integra model, …
+and in row 7 we can see that there has been over a billion dollars in sales of the Acura
+TL model.
+In this video, we learned how to format data as a table, how to create a Pivot Table and
+use fields to analyze data in a Pivot Table, and how to perform calculations using Pivot
+Table data.
+In the next video, we’ll look at some other features of Pivot Tables.

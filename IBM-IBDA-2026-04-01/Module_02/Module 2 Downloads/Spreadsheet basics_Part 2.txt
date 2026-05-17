@@ -1,0 +1,88 @@
+Now that we have a basic understanding of the main elements that make up a worksheet,
+let’s see how to move around a spreadsheet, get familiar with the ribbon and menus, and
+learn how to select data in a worksheet.
+To open a sample file, we click File.
+This opens Backstage View.
+Here you can create a new workbook, or open, save or print a workbook.
+You can also access Excel Options.
+Now, we want to open our sample file.
+So, we click Open, and either select it from my Recent list, or click Browse to find the
+data file we want.
+The first thing we should do is get acquainted with the ribbon and menus.
+Notice that on the ribbon at the top we have several tabs.
+Some of these tabs may be familiar to you with other Office products, such as the Home,
+Insert, and View tabs, while others might be new to you, such as Formulas, Data, and
+Power Pivot.
+To make a little more workspace for ourselves we can hide this ribbon by double-clicking
+any tab, and to unhide it, we do the same.
+The other option is to use the shortcut key CTRL+F1.
+The ribbon is organized into groups of buttons to make them easier to find.
+So, on the Home tab we have groups for Font, Alignment, Number, Styles, and so on.
+Some of these groups contain all the available buttons on the ribbon when viewing in full
+screen, such as Styles and Cells, but other ribbon groups have more options, which we
+access by clicking the little arrow icon in the bottom right corner of the group, as can
+be seen here on the Number group for example.
+The next item I want to point out is the Quick Access Toolbar at the top of the screen above
+the ribbon.
+As the name suggests this is where you can quickly access the tools you use most often.
+You can see we already have some tools in this toolbar such as Save, Undo, Redo, New,
+and Open.
+But we can add other tools to the toolbar if we wish.
+So if we click the drop-down arrow in the toolbar and then select a tool we will use
+a lot, such as Sort Ascending, that will be added, and we will also add the Sort Descending
+button.
+Now we need to be comfortable with moving around a worksheet.
+You can simply use the arrow keys to move left, right, up, and down 1 cell at a time.
+But you can also use Page Down and Page Up to move around a bit faster, which is especially
+useful if you have lots of rows of data.
+And to move even quicker up or down a large datasheet use the vertical scroll bar, and
+to move left or right use the horizontal scroll bar.
+Again, these can be very useful when you have a large data set.
+There are also some useful shortcuts you can use.
+CTRL+Home key for example takes you back to the start of the worksheet (i.e. cell A1).
+CTRL+End takes you to the cell at the end of your data in the worksheet.
+CTRL+Down arrow takes you to the end of the column you’re in, while CTRL+Up arrow takes
+you back to the top of that column.
+So a quick way to find out how many rows of data you have in your worksheet is to go to
+the first cell in your data and press CTRL+Down arrow to see the last row of data.
+So here you can see we have 160 rows.
+Now how do we go back to the top again?
+CTRL+Home will do it.
+So far, we have seen how to navigate around our worksheet and its data, now we need to
+look at how we select data.
+This is very important because you often need to select data to move it, copy it, or select
+it in a formula.
+The simplest selection is a single cell, usually done with a mouse or maybe a directional arrow
+key.
+The next step up is to select multiple cells together, and this can be done either with
+a mouse by dragging from one cell to additional adjoining cells, or you can use the SHIFT
+key with directional arrow keys.
+Next up is selecting a single column or row which is done simply by selecting the letter
+at the top of a column, or the number on the left of a row.
+Then we can progress to selecting multiple columns and rows, by clicking the mouse button,
+holding it down and dragging across more columns.
+Or if you are not comfortable with dragging you can also select the column first, then
+hold SHIFT+Arrow keys to select multiple columns.
+The same applies to rows too.
+However, if you have data in non-continuous rows or columns (i.e. not next to each other)
+you can select the first column, then use the CTRL key to select another unconnected
+column, such as columns C and F here.
+The largest thing you might want to select is the whole worksheet which you can do by
+clicking in the top left corner of the cells.
+However, this selects the entire worksheet including all the empty rows and columns;
+so if you only want the data in your worksheet, you can use the shortcut CTRL+A. A word of
+warning when selecting data in cells, rows, and columns; there are 3 types of cross symbols
+that you might see when working with selected cells.
+The first one is the large white cross that you see when you select a cell as can be seen
+here in cell A4, this is the Select cross that we have been using already in this video
+to select cells.
+The second type you might see is when you hover over the bottom edge of a cell and see
+a thin black cross-type symbol with arrows on each point…. this is the Move symbol
+and would move the cell data to another location.
+The last type is the small thin black cross that is seen when you hover over the bottom
+right corner of a cell; this is the Fill Handle or Copy symbol and it fills (or copies) the
+cell data to another location.
+In this video, we learned how to move around a spreadsheet, became familiar with the ribbon
+and menus, and learned how to select data in a worksheet.
+In the next video, we will discuss how to enter data, how to copy and paste data, and
+how to format data in a spreadsheet.
