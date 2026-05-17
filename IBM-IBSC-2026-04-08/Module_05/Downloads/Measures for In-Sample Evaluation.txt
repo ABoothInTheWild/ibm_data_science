@@ -1,0 +1,66 @@
+Welcome to this video on measures for in-sample evaluation.
+These measures are a way to determine how well the model fits our data numerically.
+Two important measures that we often use to determine the fit of a model are
+Mean Square Error, or MSE, and R-Squared value.
+To measure the MSE, you find the difference between the actual value y and
+the predicted value y hat then square it.
+In this case, the actual value is 150.
+The predicted value is 50.
+Subtracting these points, we get 100.
+We then square the number.
+Next, take the mean or average of all the errors by adding
+them all together and dividing by the number of samples.
+To find the MSE in Python, we can import the mean squared error function
+from the scikit-learn metrics library.
+The mean squared error function gets two inputs: the actual value of the target
+variable and the predicted value of the target variable.
+R-squared is also called the coefficient of determination.
+It's a measure to determine how closely fitted the regression line is to
+the actual data.
+Consider a simple base model that uses the average value of the data points,
+the y bar, as the estimate.
+The R-squared value compares the performance of the fitted regression line
+against this average value.
+In this example, the average of the data points y bar is 10.
+The coefficient of determination, or R-squared value,
+is calculated by subtracting the ratio of the MSE
+with respect to the regression line divided by the MSE with respect to
+the average of the data points from 1, as shown in this equation.
+For the most part, the value of R-squared is between 0 and 1.
+If the values on the regression line are represented as y hat and
+the average value is defined as y bar, we can write the function as shown.
+R-squared equal to 1 minus the mean square error of y and
+y hat divided by the mean square error of y and y bar.
+Let's look at a case where the line provides a relatively good fit.
+The blue line represents the regression line or our prediction, y hat.
+The total area of the blue squares represents the squared error with respect
+to the regression line.
+The red line represents the average value of the y values of the data points y bar.
+The squared error with respect to the average value is shown by the total area
+of the red squares.
+We see the total area of the blue squares is much smaller than the total area of
+the red squares.
+In this case, since the regression line is a good fit, the mean squared error
+with respect to the line is small, and therefore, the numerator is small.
+The denominator is large since the mean squared error compared
+to the average value is relatively large, therefore,
+the ratio of the two values is an even smaller number.
+As the MSE with respect to the average increases, or the MSE with
+respect to the regression line decreases, the ratio begins to approach 0.
+In this case, the ratio of these two mean square errors is quite small,
+meaning the R-squared value is close to 1.
+Because the ratio gets subtracted from 1, 1 minus 0 is 1.
+Here is an example of a line that does not fit the data well.
+If we just examine the area of the red squares compared to the blue squares,
+we see their total areas are closer to each other than in the previous example.
+Therefore, since the numerator and denominator are similar,
+the ratio of the areas is close to 1.
+In this case, the R-squared comes out to be near 0.
+The interpretation is that the regression line has performed just as well as using
+the average value would have.
+Therefore, it can be concluded that if R-squared approaches 0,
+the regression line is a poor fit to the data.
+We find the R-squared value in Python by using the score method in the linear
+regression object, the output of these values is about 0.497.
+Therefore, we can say that approximately 49.7% of
+the variation in price is explained by this simple linear model.
