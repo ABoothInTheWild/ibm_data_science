@@ -1,0 +1,122 @@
+Hello and welcome to this video on
+accessing databases using SQL Magic.
+In this video, you will learn what Magic Statements are,
+the difference between line magics and cell magics,
+some popularly used magic statements,
+and how to use SQL Magic in
+Jupyter Notebooks access databases.
+What are magic statements in Jupyter Notebooks?
+Magic commands or magic functions are special commands in
+Jupyter Notebooks that provide special functionalities.
+They are not valid Python code
+but affect the behavior of the notebook.
+They are designed to solve various common problems
+in standard data analysis.
+There are two types of magic statements
+in Jupyter notebooks,
+line magics and cell magics.
+Line magics in Jupyter notebooks
+are commands that are prefixed with
+a single percentage character
+and operate on a single line of input.
+They are like command line calls in a terminal shell.
+On the other hand, cell magics are prefixed with
+two percentage characters and
+operate on multiple lines of input.
+They can even transform the entire cell or
+execute the cell in a different programming language.
+Some popularly used Line Magics
+in Jupyter notebooks, %pwd.
+This command prints the current working directory.
+Percentage LS, this command
+lists all files in the current directory.
+Percentage history.
+This command shows the command history.
+Percentage reset. This command resets the namespace by
+removing all names defined by the user. Percentage who.
+This command lists all variables in the namespace.
+Percentage, whos.
+This command provides more detailed information
+about all variables in the namespace.
+Percentage matplotlib inline.
+This command makes matplotlib plots
+appear within the notebook.
+Percentage timeit,
+which times the execution of a single statement.
+To get a list of all available Line Magics you
+can use the percentage LS magic command.
+You can use multiple line magics
+in a single cell in a Jupyter Notebook.
+Each line magic should be on its own line.
+For example, percentage pwd, percentage is.
+This will print the current working directory
+and then list all files in the current directory.
+Remember, line magics operate on a single line of input.
+You can use as many as you need in
+a single cell if each is on its own line.
+Some line magic statements can
+also be used as cell magic statements,
+which would change the way they respond.
+For instance, percentage timeit would
+generate response with the time
+required to execute a single statement.
+Whereas percentage percentage timeit
+times the execution of the entire cell.
+Another example where cell magics are
+uniquely applicable is writefile.
+Since percentage percentage writefile,
+my file.text writes the contents
+of the cell to myfile text.
+Cell magics are not just limited to
+Python, they allow you to run code in other languages too.
+Let's see some examples.
+Percentage, percentage HTML cell magic
+allows you to write HTML code in your cell,
+and it will be rendered accordingly.
+For example, the use of HTML code displays the text,
+Hello World as a heading,
+percentage percentage Javascript, or
+percentage percentage JS Cell magic
+allows you to write Javascript code in your cell.
+For example, the use of Javascript code generates
+a web page pop-up with the display message, Hello World.
+Percentage percentage bash cell magic
+allows you to write bash commands.
+For example, the use of
+bash script statement echo generates the text,
+Hello world, as will be received in a terminal.
+Before you can use SQL Magic,
+however, you will need to install some dependencies.
+First, install the iPython_SQL library,
+which allows SQL magic.
+You can do this by running exclamation pip,
+install- iPython SQL in a code cell of a notebook.
+Next to use the SQL Magic in Jupyter Notebook,
+you need to load the SQL extension
+using percentage load_ext SQL.
+Then you can run SQL queries by
+entering Percentage SQL or
+Percentage Percentage SQL depending
+on whether you want to use line or cell magic.
+Before running the queries however,
+you need to establish a connection between
+the SQL server and the SQL Magic module of the notebook.
+As an example, let us explore the use of
+SQL Magic with the SQL Lite3 database server.
+We first need to establish a connection to a database,
+say HR.db using SQL Lite3.
+Next, you load
+the external SQL module using %load_extsql.
+Now you need to establish a connection for
+the SQL magic module to the SQL server being accessed.
+This is done using the statement %sql sqlite:\\\HR.db.
+Now you can use SQL magic
+for executing any kind of queries on the table.
+A sample is shown here for displaying the contents
+of employee table in the HR database.
+Let's list the concepts you have learned.
+Now you can describe magic statements,
+differentiate line magics, and cell magics.
+Discuss some popularly used magic statements,
+explain the use of SQL Magic in
+Jupyter notebooks to access databases.

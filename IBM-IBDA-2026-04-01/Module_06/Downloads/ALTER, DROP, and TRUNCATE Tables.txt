@@ -1,0 +1,59 @@
+>> Hello and welcome to alter, drop and truncate tables.
+After watching this video, you will be able to describe the alter table, drop
+table and truncate statements, explain the syntax, and use the statements in queries.
+You use the alter table statement to add or
+remove columns from a table, to modify the data type of columns,
+to add or remove keys, and to add or remove constraints.
+The syntax of the alter table statement is shown here.
+You start with alter table followed by the name of the table
+that you want to alter differently to the create table statement.
+Though you do not use parentheses to enclose the parameters for
+the alter table statement, each row in the alter table statement specifies
+one change that you want to make to the table.
+For example, to add a telephone number column to the author table
+in the library database to store the authors telephone number,
+use the following alter table author add column telephone number
+bigint semicolon in this example, the data type for
+the column is bigint, which can hold a number up to 19 digits long.
+You can also use the alter table statement to modify the data type of a column.
+To do this, use the modify clause specifying the new data type for
+the column.
+For example, using a numeric data type for telephone number means that you
+cannot include parentheses, plus signs or dashes as part of the number.
+You can change the column to use the CHAR data type to overcome this.
+This code shows how to alter the author table,
+ALTER TABLE author MODIFY telephone underscore number CHAR 20.
+Altering the data type of a column containing existing data can cause
+problems though, if the existing data is not compatible with a new data type.
+For example, changing a column from the car data type to a numeric data
+type will not work if the column already contains non numeric data.
+If you try to do this, you will see an error message in the notification log and
+the statement will not run if your spec changes and
+you no longer need this extra column, you can again use the alter tables statement,
+this time with the drop column clause to remove the column as shown.
+Alter table author drop column telephone number similar to
+using drop column to delete a column from a table,
+you use the drop table statement to delete a table from a database.
+If you delete a table that contains data,
+by default the data will be deleted alongside the table.
+The syntax for
+the DROP TABLE statement is DROP TABLE table underscore name semicolon.
+You use this statement,
+DROP TABLE author semicolon to remove the table from the database.
+Sometimes you might want to just delete the data in a table rather than deleting
+the table itself.
+While you can use the delete statement without a where clause.
+To do this, it is generally quicker and more efficient to truncate the table.
+Instead, you use the truncate table statement to delete all of the rows in
+a table.
+The syntax of this statement is TRUNCATE TABLE table underscore name
+IMMEDIATE semicolon.
+The immediate specifies to process the statement immediately and
+that it cannot be undone.
+To truncate the author table, you use this statement,
+TRUNCATE TABLE author IMMEDIATE semicolon.
+In this video, you learned that the alter table statement changes the structure of
+an existing table.
+For example, to add, modify, or drop columns,
+the drop table statement deletes an existing table, and
+the truncate table statement deletes all rows of data in a table.

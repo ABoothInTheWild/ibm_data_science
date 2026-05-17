@@ -1,0 +1,58 @@
+Hello and welcome. In this video you will learn how to write
+queries that access more than one table. There are several ways to access
+multiple tables in the same query, namely, using sub-queries,
+implicit join, and join operators such as inner join and
+outer join. In this video,
+we'll examine the first two options. The third option is covered in
+more detail in other videos. Let's consider the Employees and
+Departments tables from a previous video. The Employees table contains
+several columns for categories such as Employee id, first
+name, last name, and salary to name a few. The Departments table
+contains a department ID, department name, manager ID,
+and location ID. Some sample data from these tables is shown here. We
+will utilize these tables for the examples in this video. In a previous video,
+we learned how to use sub-queries. Now, let's use sub-queries to
+work with multiple tables. If we want to retrieve only the employee
+records from the Employees table for which a Department ID exists
+in the Departments table, we can use a subquery as select star
+from Employees where Department ID in Select Department ID Department
+from Departments. Here the outer query accesses the Employees table,
+and the sub-query on the Departments table is used for filtering the result
+set of the outer query. Let's say we want to retrieve only
+the list of employees from a specific location. We do not have any location information
+in the Employees table, but the Departments table has
+a column called Location id. Therefore, we can use a sub-query from the Departments
+table as input to the Employee table query as follow, select * from employees
+where DEP_ID in select DEP_ID_DEP from departments where LOC_ID=L0002.
+Now let's retrieve the department ID and
+department name for employees who earn more than $70,000. To do so, we will need a sub-query
+on the Employees table to satisfy the salary criteria, and
+then feed it as input to an outer query on the Departments table in order to
+get the matching department info. Select department ID department
+department name from departments where department ID department
+n select department ID from employees where salary is greater than 70,000. We
+can also access multiple tables by specifying them in the from clause
+of the query. Consider the example select * from employees, departments.
+Here we specify two tables in the from clause. This results in
+a table join, but note we are not explicitly using the join operator. The resulting
+join in this example is called a full join
+because every row in the first table is joined with every row in the second table. If you examine
+the results set, you will see more rows than in both tables individually.
+We can use additional operands to limit the result set. Let's
+look at an example where we limit the result set to only rows
+with matching department IDs. Select * from employees, departments where
+employees.DET_ID= departments.DEPT_ID_DET. Notice that in the where clause we
+prefix the name of the column with the name of the table. This is to fully qualify the column name,
+since it's possible that different tables could have some column names
+that are exactly the same. Since the table names
+can sometimes be long, we can use shorter aliases for
+table names as shown here. Select* from employees E, departments D where E.DEP_ID=D.DEP_ID_DEP.
+Here we define the alias E for Employees table and D for
+Departments table, and then use these aliases in the where
+clause. If we wanted to see the department name for each employee, we would enter the
+code as follows. Select EMP_ID, DEP_NAME from employees E, departments D where
+E.DEP_ID= D.DEP_ID_DEP. Similar to before, the column names
+in the select clause can also be prefixed by aliases,
+as shown in the query. Select E.EMP_ID, D.DEP_ID_DEP from employees E, departments
+D where E.DEP_ID=D.DEP_ID_DEP. In this lesson, we have shown you
+how to work with multiple tables using sub-queries and implicit joins. Thanks for watching.

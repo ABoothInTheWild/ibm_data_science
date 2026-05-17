@@ -1,0 +1,57 @@
+Hello and welcome to retrieving data with a SELECT statement.
+In this video, we will learn about retrieving data from
+a relational database table by selecting columns of a table.
+At the end of this lesson,
+you will be able to retrieve data from a relational database table,
+to find the use of a predicate,
+identify the syntax of the SELECT statement using the WHERE clause, and
+list the comparison operators supported by a relational database management system.
+The main purpose of a database management system,
+is not just to store the data but also facilitate retrieval of the data.
+So, after creating a relational database table and inserting data into the table,
+we want to see the data.
+To see the data, we use the SELECT statement.
+The SELECT statement is a data manipulation language statement.
+Data Manipulation Language statements or DML statements are used to read and modify data.
+The SELECT statement is called a query,
+and the output we get from executing this query is called a result set or a result table.
+In its simplest form, a SELECT statement is select star from table name.
+Based on the book entity example,
+we would create the table using
+the entity name book and the entity attributes as the columns of the table.
+The data would be added to the book table by adding
+rows to the table using the insert statement.
+In the book entity example, select star from book gives the result set of four rows.
+All the data rows for all columns in the table book are displayed.
+In addition, you can also retrieve all the rows for all columns by
+specifying the column names individually in the SELECT statement.
+You don't always have to retrieve all the columns in a table.
+You can retrieve just a subset of columns.
+If you want, you can retrieve just two columns from the table book.
+For example book_id and title.
+In this case, the select statement is select book_id, title from book.
+In this case, only the two columns display for each of the four rows.
+Also notice that the order of the columns displayed
+always matches the order in the SELECT statement.
+However, what if we want to know the title of the book whose book_id is B1.
+Relational operation helps us in restricting
+the result set by allowing us to use the clause WHERE.
+The WHERE clause always requires a predicate.
+A predicate is conditioned evaluates to true, false or unknown.
+Predicates are used in the search condition of the WHERE clause.
+So, if we need to know the title of the book whose book_id is B1,
+we use the WHERE clause with the predicate book_id equals B1.
+Select book_id title from book where book_id equals B1.
+Notice the result set is now restricted to
+just one row whose condition evaluates to true.
+The previous example used comparison operator equal to in the WHERE clause.
+There are other comparison operators supported by
+a relational database management system: equal to,
+greater than, less than,
+greater than or equal to,
+less than or equal to, and not equal to.
+Now you can retrieve data and select columns from a relational database table,
+define the use of a predicate,
+identify the syntax of the SELECT statement using the WHERE clause, and
+list the comparison operators supported by a relational database management system.
+Thanks for watching this video.

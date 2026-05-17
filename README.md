@@ -10,6 +10,7 @@ This repository is organized by class sessions, with each class containing compr
 
 * **[IBM-IBSC-2025-10-01](./IBM-IBSC-2025-10-01/)** - Data Science course materials for October 2025 session
 * **[IBM-IBSC-2026-01-28](./IBM-IBSC-2026-01-28/)** - Data Science course materials for January 2026 session
+* **[IBM-IBDA-2026-04-08](./IBM-IBSC-2026-04-08/)** - Data Science course materials for April 2026 session
 
 ## Course Content Overview
 

@@ -1,0 +1,64 @@
+Hello and welcome.
+In this video you'll learn how to write sub queries or nested
+select statements.
+Sub queries or sub selects are like regular queries but placed within parentheses
+and nested inside another query.
+This allows you to form more powerful queries than would have
+been otherwise possible.
+An example of a nested query is shown in this example the sub query is
+inside the Where clause of another query.
+Consider the employees table from the previous video.
+The first few rows of data are shown here.
+The table contains several columns, including an
+employee ID first name, last name, salary, etc.
+We will now go over some examples involving this
+table.
+Let's consider a scenario which may necessitate the use of sub queries.
+Let's say we want to retrieve the list of employees who earn more than the average salary.
+To do so we could try this code: select star from
+employees where salary is greater than average salary.
+However, running this query will result in an error like the one shown, indicating
+an invalid use of the aggregate function.
+One of the limitations of built-in aggregate
+functions like the average function is that they
+cannot always be evaluated in the where clause.
+So, to evaluate a function like average in the
+Where clause, we could make use of a sub-select expression like the one shown here: select
+employee ID, first name, last name, salary from employees
+where salary is less than, open parenthesis, select
+average salary from employees, close parenthesis.
+Notice that the average function is evaluated in the first part of the sub
+query, allowing us to circumvent the limitation of evaluating it directly in the where clause
+The subselect doesn't just have to go in the WHERE clause, it can also go in other parts
+of the query such as in the list of columns to be selected.
+Such sub queries are called
+Column Expressions.
+Now let's look at a scenario where we might want to use a Column Expression.
+Say we wanted to compare the salary of each employee with the average salary.
+We could try a query like: select employee ID, salary,
+average salary, as average salary from employees.
+Running this query will result in an error, indicating that no Group by Clause is specified.
+We can circumvent this error by using the average function in a sub query placed in
+the list of the columns.
+For example select employee ID, salary, open left parenthesis,
+select average salary from employees, close right
+parenthesis, as average salary from employees.
+Another option is to make the sub query be part of the From clause.
+Sub queries like these are sometimes called Derived Tables or Table
+Expressions because the outer query uses the results of the sub query as a data source.
+Let's look at an example to create a table expression
+that contains non-sensitive employee information select star from select employee ID, first
+name, last name, Department ID from employees, as
+employee for all.
+The derived table in the sub query does not include sensitive fields like date of
+birth or salary.
+This example is a trivial one and we could just as easily have included the columns in
+the outer query, however such derived tables can
+prove to be powerful in more complex situations,
+such as when working with multiple tables and doing
+joins.
+In this video you have seen how subqueries and nested queries can be used to form richer
+queries and how they can overcome some of the limitations of aggregate functions.
+You also learn to use subqueries in the Where clause, in the list of columns, and
+in the From clause.
+Thanks for watching this video!
