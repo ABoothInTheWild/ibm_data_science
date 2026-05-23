@@ -110,7 +110,7 @@ The module is organized as a **progressive path** from data ingestion and cleani
 
 ---
 
-## The Data Analysts Modeling Toolkit
+## The Data Analyst's Modeling Toolkit
 
 Think of this module as building your **analysis and modeling toolkit**, not just running a single script.
 
