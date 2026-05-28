@@ -1,0 +1,97 @@
+Welcome.
+After watching this video, you will be able to:
+Describe the importance and requirements of
+each process in the lifecycle of a machine learning model.
+And, name the processes that are more time-consuming than others.
+Now, let’s go through the Lifecycle of a Machine Learning Model
+in a project that I am currently working on.
+To help increase business revenue, I have been tasked with creating and deploying a
+model that recommends similar products to what the customer has already bought.
+I have worked together with the client to come up with an end-user’s pain point:
+“As a beauty product customer, I would like to receive recommendations for
+other products based on my purchase history so that I will be able to address my skincare needs
+and improve the overall health of my skin.”
+Defining the problem or stating the situation is very important, because I
+want to make sure the machine learning solution I am providing is aligned with the client’s needs.
+Now, that I understand the client’s needs, the next step is to begin data collection. I should
+determine what kind of data the company has and identify the sources it will come from.
+This could be user data such as demographics, purchase history,
+and anything related to completed transactions.
+I can also get the product data, that is, the inventory of products and what they do,
+their ingredients, how popular they are, their customer ratings, and so on.
+Further, I may look at other data that includes information such as a user’s saved products,
+liked products, search history, most visited products, and so on.
+Then, I will go ahead and do some major transforming by wrangling, aggregating,
+joining, merging, and mapping the data onto one central source.
+This reduces the need to deal with multiple databases every time we need to pull data.
+The next step in the process is data preparation. Most of the time,
+data from multiple sources will contain errors, different formatting, and missing data.
+This process overlaps with the Data Collection process as they can be done in tandem.
+The area of focus here is preparing a somewhat final version of the data.
+I will need to make sure that
+the data is cleaned to filter out irrelevant data,
+extreme values are removed to avoid influencing the data set,
+missing values are removed or randomly generated,
+depending on what the missing data may mean, and that
+each data column is in the proper format.
+For example, dates should be in date formats and strings should be properly identified.
+I may also need to create additional features.
+For example, I may need to calculate the average duration between transactions for each user
+and find which products they buy the most.
+Or, I may need a feature that identifies what kind of skin
+issues each product targets and assign them to each user.
+I can create plots to visually identify patterns,
+validate the data based on information that the beauty product subject matter expert has given me,
+and do some correlation analysis to identify what variables or features are very important
+to the users’ buying habits and needs. This is called Exploratory data analysis.
+I can also identify how I plan on splitting the data for training and testing.
+For example, do I want to randomly split the data or use the most recent transaction as a test set?
+In this example, I decided to put the most recent transaction in the test set and make
+sure that there was at least one transaction by that the same user in the training set.
+In the Model Development step, I will go ahead and build a Machine Learning model.
+Realistically, I try to leverage as many pre-existing frameworks and resources as possible,
+so I don’t create anything from scratch.
+For this task, I will use a technique called content-based filtering.
+This technique finds the similarity between products, based on product content.
+For example, if someone is using a cleanser with lots of water, it is likely that the user has
+dry skin and will want a moisturizer that is highly moisturizing as well.
+One of the steps I might take here is to create a similarity score of
+the products a user has purchased and rank them to other products.
+I might recommend the most similar product
+while bearing in mind that there may be other factors that could come into play. For example,
+I might notice that the user has searched for products without particular ingredients,
+so I want to make sure that we are not
+recommending a product that they absolutely won’t use.
+I will also use a technique called Collaborative Filtering that uses the user’s data.
+Here, I am creating similarities between two users based on how they view a product.
+For example, I can create a similarity, based on how two users rate their product.
+First, I group users into a bucket
+based on their characteristics.
+This could be age, region, and skin type, products the users rated, and or purchased.
+Then, I can take the average ratings for existing members
+and assume that the new user will be somewhere around the average, and
+recommend a product based on what others have rated highly.
+The final model will be a combination of the two techniques.
+After I am done building the model, I will go ahead and test that the model is performing well
+and that recommendations are representing what the users want.
+This is called the Model Evaluation step;
+the initial stages of Model Evaluation will involve me tuning the model and
+doing some testing on the data set I had kept earlier for testing.
+Once I am satisfied with the results,
+I will further evaluate the model
+by experimenting with the recommendations on a group of users and asking for their feedback.
+The feedback will include asking the group of users to rate the recommendations,
+and collecting data on the number of people who clicked
+and bought the recommended products, along with any other necessary metrics.
+Now that I am done with building and testing, the model is ready to go to production.
+For this project, it will be a part of the beauty product app and website.
+While this is the last step, I still need to track the deployed model’s
+performance to make sure it continues to do the job that the business requires.
+Future iterations may include retraining the model based on new information
+in order to expand its capabilities.
+In this video, you learned that:
+Each of the steps of the Machine Learning Model Lifecycle
+is important to the success of the solution.
+After deployment, continuous monitoring and improvement is required
+to ensure that the quality of the solution is maintained.
+Thank you for watching.

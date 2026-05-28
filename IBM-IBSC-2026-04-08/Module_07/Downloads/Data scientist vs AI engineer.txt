@@ -1,0 +1,130 @@
+For many years, data science has been called the sexiest job of the 21st century, but in
+recent years, it seems like there's a new job vying for that title, the AI engineer.
+So who even are these new kids on the block?
+Are they just data scientists in disguise?
+What's up y'all?
+I'm Isaac Key, and I'm a former data scientist turned AI engineer at IBM.
+To answer these questions, I'm going to lay out four key areas in which the work of a
+data scientist differs from an AI engineer, specifically a generative AI engineer.
+But before I dive into these differences, we first have to understand more about what's
+happening in the industry.
+So traditionally, data scientists have always used AI models to do their analysis.
+So what's changed?
+Well, with the advent of generative AI, the boundaries of what AI can do are being pushed
+in ways that we've never seen before.
+And so these breakthroughs have been so groundbreaking that generative AI has split off into its
+own distinct field, and we call that AI engineering.
+Okay, so now that we understand the landscape, let's dive into the differences.
+The first area of difference lies in the use cases.
+So at a very high level, think of a data scientist as a data storyteller.
+They take massive amounts of messy real world data, and they use mathematical models to
+translate this data into insights.
+On the other hand, think of an AI engineer as an AI system builder.
+They use foundation models to build generative AI systems that help to transform business
+processes.
+So since data scientists are fantastic storytellers, they use a lot of descriptive analytics to
+describe the past.
+One example of this is through what's called exploratory data analysis, or EDA, which is
+all about graphing the data and doing statistical inference.
+They can also do this through what's called clustering, which group similar data points
+based off of similar characteristics, such as, say, doing customer segmentation.
+Now every good story has a reader trying to figure out what's going to come next, and
+that's where predictive use cases comes in.
+As opposed to a book, however, a data scientist does not have the end already written, so
+they have to use what are called machine learning models to make their predictions.
+An example of this is called regression models, which predict a numeric value such as, say,
+a temperature or a revenue.
+Another type of these models are classification models, which predict a categorical value
+such as a success or a failure.
+So putting on the AI engineering hat now, one of the main use cases that AI engineers
+work on are called prescriptive use cases, which are all about choosing the best course
+of action.
+An example of this is a technique called decision optimization, which enables businesses to
+assess a set of possible actions and then choose the most optimal path based off a set
+of requirements or standards.
+Another example of a prescriptive use case is through creating what are called recommendation
+engines.
+As an example, this can involve suggesting targeted marketing campaigns for a select
+customer base.
+In addition to prescriptive use cases, there are also generative use cases, hence the name
+generative AI.
+Now foundation models, which I will touch on more in a bit, enable the creation of what
+are called intelligent assistants, for example, a coding assistant or a digital advisor.
+They also enable the creation of chatbots, as an example, which enable conversational
+search through information retrieval and the summarization of various content.
+So after we have a use case identified, we need data.
+Now people say that data is a new oil because like oil, you have to search for and find
+the right data and then use the right processes to transform it into various products, which
+then power various processes.
+For a data scientist, the oil of choice is often structured data, aka tabular data.
+Do note that data scientists still work with unstructured data, but not as much as AI engineers.
+Now these tables are often in the order of hundreds to hundreds of thousands of observations,
+and they require a lot of cleaning and preprocessing before the data can be modeled.
+Some of the cleaning involved, for example, involves removing outliers or joining and
+filtering on a new table, or even creating new features altogether.
+This clean data is then used to train various machine learning models.
+Now on the other hand, an AI engineer, for them, the oil of choice is mainly unstructured
+data such as text, images, videos, audio files, etc.
+Let's take a text-based foundation model called an LLM, or Large Language Model, as an example.
+These models require anywhere between billions to trillions of tokens of text to be trained
+on, which is a lot larger scale compared to traditional machine learning models.
+This leads me to the next area of difference, which is the underlying models.
+So the data science toolbox consists of hundreds of different models and different algorithms
+that they can choose from.
+Due to the nature of these models, each different use case requires gathering a different dataset,
+and thus requires training a different model.
+And so as a result, the scope of these individual models is a lot more narrow, meaning that
+it's harder for them to generalize past the domain of data that they've been trained on.
+And generally speaking, these models are a lot smaller in size in terms of the number
+of parameters, they take less compute power to train and do inference, and they require
+less time to train, anywhere between seconds to hours.
+Now on the other hand, the generative AI toolbox is a lot less cluttered, and it really only
+contains one type of model, and that is called the foundation model.
+Now foundation models are revolutionary because they allow for one single type of model to
+generalize to a wide range of tasks without having to be retrained.
+Thus their scope is called more wide.
+And due to the sophistication of these models, they are a lot larger in size, often billions
+of parameters, they require a lot more compute power to train, we're talking hundreds to
+thousands of GPUs, and they require a lot more training time.
+Now we're talking anywhere between weeks to months.
+Due to the differences in the intrinsic nature between traditional machine learning models
+and foundation models, this also means that the underlying processes and techniques that
+are used to develop solutions with these also differ.
+So a typical data science process will look something like this.
+You start off with a use case, and then from that use case, you pick the right data.
+Then after that data is prepared, you use it to train and validate a model using techniques
+such as feature engineering, cross-validation, or hyperparameter tuning, as an example.
+This model then is deployed at some endpoint, for example in the cloud, to do real-time
+prediction and inference.
+Now on the other hand, the generative AI process also starts off with a use case, but then
+we can skip directly to working with a pre-trained model.
+And what makes this possible is a phenomenon called AI democratization, which is a big
+fancy word that simply means making AI more widely accessible to everyday users.
+Some of the best foundation models out there are published to open-source communities such
+as Hugging Face, and since these models are so generalizable and so powerful out of the
+box, they make it easy for developers to get started.
+AI engineers interact with these foundation models via natural language instructions to
+prompt them to do various tasks, and this process is known as prompt engineering.
+Now prompt engineering can be used in conjunction with different frameworks to then build
+larger AI systems.
+An example of these frameworks include, as one, chaining different prompts together,
+or doing what's called parameter-efficient fine-tuning, or PEFT, on domain-specific data,
+or doing retrieval-augmented generation, aka RAG, to ground answers in truth, or even
+by creating autonomous agents to reason through very complex multi-step problems.
+So these are just a few of the examples of the building blocks that can be used to build
+larger AI applications.
+The last step is to then embed the AI in a larger system or workflow.
+This can take on the form of creating assistants or virtual agents, building a larger application
+with a UI, or even doing some sort of automation.
+So okay, let's take a step back and let's look at all the differences at a very high level.
+As we can see, the breakthroughs in generative AI underpin many of the differences in the
+use cases, data, models, and processes that data scientists and AI engineers work on.
+It's important to note that there is still overlap between the two fields.
+For example, data scientists will still work on prescriptive use cases, or an AI engineer
+will still work with structured data.
+Regardless of these differences, both of these fields are continuing to evolve at a blazing
+fast pace with new research papers, new models, new tools coming out every single day.
+With data, AI, and a creative mind, really anything is possible with these.
+Thank you for tuning in.
+I hope this was helpful.
+Until next time, peace.

@@ -1,0 +1,28 @@
+Welcome to Machine Learning Model Lifecycle.
+After watching this video, you will be able to:
+List the processes within the lifecycle of a Machine Learning product.
+Hello!
+My name is Isioma.
+I work as a Machine Learning Engineer at a leading company.
+We sell machine learning solutions that enhance the user experience for people shopping for
+beauty products.
+Today, I will walk you through a Machine Learning project from start to finish.
+Let’s begin by looking at the processes in the Lifecycle of a Machine Learning Model.
+First, define the problem or state the situation.
+Next, move to data collection,
+then to data preparation,
+then to model development and evaluation, and finally
+to model deployment.
+In reality, the model lifecycle is iterative, which means that we tend to go back and forth
+between these processes.
+For example, if you find some problems with your models that are deployed in production,
+you may need to go back to data collection, or even the problem definition step, and then
+re-iterate the subsequent processes.
+Data collection and preparation is called the Extract, Transform, and Load, or ETL process.
+The ETL process involves collecting data from various sources,
+then cleaning, transforming, and storing it into a new single place.
+The data is then accessible to the machine learning engineer, allowing them to perform
+tasks like building a machine learning model.
+In this video, you learned that:
+The processes involved in a Machine Learning Model Lifecycle are Problem Definition, Data
+Collection, Data Preparation, Model Development and Evaluation, and Model Deployment.
