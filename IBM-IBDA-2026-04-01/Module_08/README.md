@@ -131,7 +131,7 @@ The module is organized as a **progressive path** from plot libraries and fundam
 
 ---
 
-## The Data Scientist’s Visualization Toolkit
+## The Data Analyst’s Visualization Toolkit
 
 Think of this module as building your **visualization toolkit**, not just copying one chart.
 
