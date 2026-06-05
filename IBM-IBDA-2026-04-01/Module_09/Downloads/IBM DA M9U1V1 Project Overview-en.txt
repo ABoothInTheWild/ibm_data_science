@@ -1,0 +1,68 @@
+Welcome to the project overview video.
+For this capstone project, you will assume the role of an Associate Data Analyst at a
+technology consulting organization.
+Your primary task is to analyze the data and obtain valuable insights into current and
+future technological trends using the latest Stack Overflow Developer Survey dataset.
+These insights will play a key role in guiding strategic business decisions.
+In this project, you will analyze data to answer key questions about the use of technology.
+You will analyze trends in programming languages, databases, platforms, and frameworks, focusing
+on those technologies professionals currently use and those they aim to learn in the future.
+Through careful analysis, you will extract insights that highlight emerging patterns
+and shifts in the tech landscape.
+These findings will then be presented to various stakeholders in your organization for informed
+decision making.
+Throughout this project, you will use industry standard tools and software.
+This project aims to extract, transform, analyze data from a relational database using
+SQL and Python.
+You will utilize Python's data analysis libraries such as Pandas and NumPy to explore the data.
+The extracted data will be processed and visualized using Jupyter Notebook.
+You will create a dashboard using IBM Cognos Analytics or Google Looker Studio.
+Finally, you will present the insights in a comprehensive PowerPoint presentation.
+The dataset for Stack Overflow Developer Survey includes responses from developers worldwide,
+detailing the technologies they currently work with and those they wish to work with
+in the future.
+You'll be provided with a filtered and pre-processed version of this data to ensure consistency
+in your analysis.
+You will begin the project by collecting data using API access and web scraping techniques.
+After gathering the data, you will engage in various data wrangling tasks, including
+handling duplicates, identifying and addressing missing values, and normalizing the data.
+After ensuring data is accurate and ready for analysis, you will perform Exploratory
+Data Analysis or EDA.
+At this stage, you will examine the distribution of responses and identify patterns in developer
+preferences and technology trends.
+This involves plotting distribution curves and histograms, detecting outliers that may
+skew your analysis, and exploring correlations between various features in the dataset.
+Once you have a solid grasp of the data, you will engage in data visualization, creating
+visualizations that effectively display trends and relationships.
+You will create various types of visualization, such as histograms, scatter plots, pie charts,
+and bar charts to make your findings visually engaging and easy to interpret.
+Following the visual analysis, you will build interactive dashboards using IBM Cognos Analytics
+or Google Looker Studio.
+The dashboards are divided into three distinct parts, each focusing on different aspects
+of technology usage and trends.
+These parts include Current Technology Usage Dashboard, Future Technology Trends Dashboard,
+Demographics Dashboard.
+Once your dashboards are complete, you will export them as PDF files and upload them.
+This step ensures you have a professional link to share with peers and evaluators while
+also maintaining a record of your project for your portfolio.
+Through these processes, you will develop your analytical skills and create impactful
+visualizations that effectively communicate key insights into technology usage and trends.
+Throughout this course, you will be assessed on your data analysis skills, including data
+collection, data wrangling, exploratory data analysis, and data visualization.
+The final project will undergo a peer-graded assessment to evaluate whether you have included
+the correct dashboards and visualizations, accurately represented metrics, and used appropriate
+chart types.
+Clear titles, labels, and the correct use of color coding are essential for achieving
+high scores.
+This capstone project will test your data analysis skills and ability to communicate
+data findings effectively.
+The project will conclude with a final PowerPoint presentation, where you will deliver a well-structured
+report outlining the insights drawn from your analysis.
+This presentation will emphasize best practices in visual communication and data storytelling,
+ensuring your findings make a lasting impact on strategic decision-making.
+By the end of this project, you will gain hands-on experience in data wrangling, visualization,
+and dashboard creation using industry-standard tools.
+These skills are critical for distinguishing yourself as a data analyst in the competitive
+tech landscape.
+We hope you share our excitement as we begin this journey.
+Good luck, and let's start uncovering the insights hidden within the technology landscape.
