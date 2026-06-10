@@ -1,7 +1,7 @@
 # Module 9: Data Collection, Wrangling, EDA & Capstone (SpaceX)
 
 **Author:** Alexander Booth
-**Date:** April 2026
+**Date:** June 2026
 **Cohort:** IBM-IBSC April 08, 2026
 
 ---
