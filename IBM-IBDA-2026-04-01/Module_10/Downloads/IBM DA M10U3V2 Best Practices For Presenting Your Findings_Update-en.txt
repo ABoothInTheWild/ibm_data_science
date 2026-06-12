@@ -1,0 +1,51 @@
+Welcome to the video on best practices for presenting your findings.
+After completing this video, you will be able to
+Discuss the important factors to remember while presenting your findings to audience
+Identify the best practices while delivering your message to keep the attention of your
+audience
+Okay, you've spent weeks, maybe months, studying the data and the time has come to
+report your findings.
+The questions have been answered, and you feel good about the story.
+How will you speak to your audience so they leave with the intended message?
+Delivering data-driven presentations may seem easy, but there are a few important factors
+to remember in accurately conveying your message.
+Make sure charts and graphs are not too small and are clearly labeled.
+Use the data only as supporting evidence, share only one point from each chart or graph,
+and eliminate data that does not support the key message.
+Have you ever sat through a presentation and the information being presented was difficult
+to read or understand?
+While this may seem apparent, small charts and labels can be easily overlooked.
+Make sure to test the visualizations by sitting at different distances, similar to your audience,
+and if the data cannot be seen clearly, then maybe a redesign should be considered.
+When preparing the report, you may feel the only way to explain the findings is to pack
+the slides with data.
+While this may seem sensible as a data analyst, your audience will probably not appreciate
+the intricacies of the data and just see a pile of numbers.
+To resolve this issue, begin by forming the key messages that need to be conveyed to the
+audience and build the story around these messages.
+After forming the outline, go back and insert the data to support your findings.
+By not relying heavily on the data and using this method to create the presentation, you
+will create a story that is engaging and interesting to your audience.
+Presenting your data using charts and graphs is the best way to get your message across
+to the audience.
+However, if you are supplying too much information, it can be confusing.
+For example, looking at this pie chart, can you decipher what the key message is and what
+the presenter is trying to convey?
+In the example, the chart has so much information it is hard to determine what point the presenter
+is trying to make and what the focus should be for the audience.
+By sticking with one idea and not summarizing multiple points into one visualization, you
+are able to accurately convey the idea to the audience and avoid any confusion.
+Data analysts can spend months researching data, however, some items that seem interesting
+to the analyst may not be relevant to the project.
+Trying to explain every little detail to your audience and not recognizing irrelevant data
+could damage the key message.
+By eliminating this unnecessary data and highlighting only data points that support your key ideas,
+you will keep the presentation clear and concise.
+In this video, we learned that ensure charts and graphs are easily readable and labeled.
+Avoid cluttering slides with excessive data points.
+Avoid including irrelevant data in the presentation, show only the information that strengthens
+the central message.
+Structure the presentation around a story that highlights the main findings, making
+it engaging and relatable for the audience.
+Simplify complex data to make it accessible and understandable, ensuring the audience
+can easily follow the key insights.
