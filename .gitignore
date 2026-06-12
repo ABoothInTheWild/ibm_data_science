@@ -1,3 +1,8 @@
+# Large capstone datasets (downloaded at runtime by the Module 10 labs; too big to commit)
+survey-data.csv
+survey-data.sqlite
+survey-results-public.sqlite
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

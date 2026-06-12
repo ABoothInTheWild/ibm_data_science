@@ -1,154 +1,118 @@
-# Module 9: Capstone Project — Part 1
+# Module 10: Capstone Project — Part 2
 
-## Data Collection, Wrangling, and Exploratory Data Analysis
+## Data Visualization, Dashboards, and Presenting Your Findings
 
 **Author:** Alexander Booth
 **Date:** June 2026
+**Cohort:** IBM Data Analyst (IBDA), April 2026
 
 ---
 
 ## Capstone at a Glance
 
-Module 9 is the **IBM Data Analyst capstone**: you act as an **Associate Data Analyst** at a technology consulting firm and analyze the **Stack Overflow Developer Survey** to surface trends in languages, databases, platforms, and frameworks—what developers use today and what they want to learn next.
-
-The capstone runs across multiple phases. **This module is Part 1.** Every lab here builds skills you will reuse in later capstone deliverables.
+Module 10 is the **second half of the IBM Data Analyst capstone**. Continuing the **Associate Data Analyst** scenario from Module 9, you take the cleaned **Stack Overflow Developer Survey** data and turn it into **visualizations, dashboards, and a stakeholder presentation** about what developers use today and what they want to learn next.
 
 | Phase | Focus | Where it lives |
 | ----- | ----- | -------------- |
-| **Part 1** (this module) | Collect, wrangle, and explore the survey data in Jupyter | Lessons 9.01–9.15 |
-| **Part 2** (upcoming) | Visualize trends; build dashboards in IBM Cognos Analytics or Google Looker Studio | Module 10 |
-| **Part 3** (upcoming) | Present findings in a PowerPoint report for stakeholders | Final capstone delivery |
+| **Part 1** | Collect, wrangle, and explore the survey data in Jupyter | Module 9 (Lessons 9.01–9.15) |
+| **Part 2** (this module) | Visualize trends with Matplotlib/Seaborn; build dashboards in Google Looker Studio | Lessons 10.02–10.09 |
+| **Part 3** (this module) | Present findings in a PowerPoint report for stakeholders | Lesson 10.10 + capstone deck |
 
-**Part 1 deliverable mindset:** leave Module 9 with a **cleaned, explored dataset** (e.g. `survey-data-cleaned.csv`) and a clear understanding of compensation, satisfaction, remote work, and technology patterns—ready for charts and dashboards in Part 2.
+**Part 2/3 deliverable mindset:** leave Module 10 with a **set of clear, honest charts**, a **dashboard**, and a **findings presentation**—all built on the cleaned dataset from Part 1.
 
-See `Downloads/IBM DA M9U1V1 Project Overview-en.txt` for the full project brief.
+See Module 9's `README.md` for Part 1 (collection, wrangling, and EDA), which this module builds directly on.
 
 ---
 
 ## Overview
 
-Part 1 focuses on **getting data into Python and preparing it for analysis**: from **HTTP requests**, **APIs**, and **web scraping** through **data wrangling** (duplicates, missing values, normalization, encoding, feature engineering) to **exploratory data analysis (EDA)**—distributions, outliers, and correlations. The **Stack Overflow Developer Survey** is the capstone dataset throughout.
+Part 2 focuses on **communicating** what the data shows. You build the full range of chart types in Python—**histograms, box plots, scatter and bubble plots, pie charts, stacked charts, line charts, and bar charts**—first from data stored in an **SQLite database** (queried with SQL) and then directly from a **Pandas DataFrame**. You then move from notebooks to **Google Looker Studio** dashboards and a **PowerPoint findings report**.
 
 The core takeaway:
 
-> Raw survey data is not dashboard-ready. Part 1 of the capstone gives you the pipeline to **collect data from the web**, **clean and transform it with Pandas**, and **explore it with statistics and visualizations**—so Part 2 visualizations and Part 3 presentations rest on data you understand and trust.
+> A cleaned dataset only creates value when its insights are *seen and understood*. Part 2 of the capstone gives you the toolkit to **choose the right chart for each question**, **build interactive dashboards**, and **present findings clearly**—so decision-makers can act on developer technology trends.
 
 ---
 
-## Why Part 1 Matters
+## Why Part 2 Matters
 
-The capstone assumes you can move from messy source data to analysis-ready tables. In Part 1 you:
+The capstone is graded on whether stakeholders can understand your conclusions. In Part 2 you:
 
-* **Collect it reliably** — Use HTTP and REST APIs to request structured data, and web scraping (`requests`, BeautifulSoup) when data lives in HTML tables or pages (as in the project overview's API + scraping workflow).
-* **Understand it first** — `head()`, `info()`, `describe()`, and dtype checks reveal shape, missing values, and which columns are numeric vs. categorical before you clean or chart.
-* **Wrangle it deliberately** — Duplicates, missing values, inconsistent labels, and skewed compensation can invalidate every downstream dashboard; imputation, standardization, one-hot encoding, and log transforms address these systematically.
-* **Explore before you visualize** — EDA with histograms, box plots, heatmaps, and correlation matrices surfaces outliers, regional differences, and relationships (e.g. experience vs. job satisfaction) that will drive your Part 2 chart choices.
+* **Match the chart to the question** — Histograms and box plots for **distributions**, scatter and bubble plots for **relationships**, pie and stacked charts for **composition**, line and bar charts for **trends and comparisons**.
+* **Work from real storage** — Several labs read the survey from an **SQLite database** via SQL queries (`pd.read_sql_query`), mirroring how analysts pull data from an RDBMS before charting it.
+* **Handle messy survey fields** — Survey columns need care before plotting: `Age` is a set of text buckets (mapped to numeric midpoints), `YearsCodePro` mixes numbers with `"Less than 1 year"`/`"More than 50 years"`, and technology columns (languages, databases, tools) are **multi-select** strings that must be split and exploded before counting.
+* **Go from notebook to dashboard to deck** — Looker Studio turns the cleaned data into interactive, shareable dashboards; the findings report turns charts into a narrative for stakeholders.
 
-**The Part 1 end goal:** a cleaned, explored Stack Overflow dataset with documented insights—the foundation for the **Current Technology Usage**, **Future Technology Trends**, and **Demographics** dashboards described in the capstone brief.
-
----
-
-## What Part 1 Covers
-
-Lessons are organized as a **progressive capstone prep path** from data collection through wrangling to exploratory analysis.
-
-### 1. Data Collection Foundations
-
-* **HTTP and Requests** — How the web works (client, server, URL, request/response); using Python's `requests` library for GET/POST; reading status codes, headers, and body content.
-* **Accessing APIs** — Structured data via REST endpoints; parsing JSON responses into Pandas DataFrames; storing results (e.g. Excel/CSV).
-* **Web Scraping** — Downloading HTML with `requests`; parsing with BeautifulSoup; extracting links, images, and table data; writing scraped output to CSV.
-
-### 2. Exploring a New Dataset
-
-* **Dataset structure** — Loading CSVs with `read_csv()`; previewing rows; summarizing columns with `info()` and `describe()`.
-* **Data types** — Identifying `object`, `int64`, `float64`, and mixed-type columns; understanding why dtypes matter for cleaning and analysis.
-
-### 3. Data Wrangling
-
-* **Duplicates** — Finding duplicate rows with `duplicated()`; analyzing duplicate patterns; removing duplicates with `drop_duplicates()` while preserving data integrity.
-* **Missing values** — Detecting nulls with `isnull()`; visualizing gaps (e.g. heatmaps); imputing categorical columns with mode and numeric columns with median/mean.
-* **Normalization** — Min-Max scaling and Z-score standardization on compensation fields; log transforms to reduce skew; forward-fill for sequential categorical gaps.
-* **Broader wrangling** — Standardizing inconsistent labels (e.g. country names); one-hot encoding (`get_dummies`); feature engineering (e.g. `ExperienceLevel` from `YearsCodePro`); median imputation and scaling in an integrated wrangling workflow.
-
-### 4. Exploratory Data Analysis (EDA)
-
-* **Handling missing data in EDA** — Imputing key columns (`JobSat`, `RemoteWork`, `EdLevel`) so analysis is not blocked by nulls.
-* **Key variable analysis** — Value counts and distributions for employment, satisfaction, experience, and languages.
-* **Job satisfaction & experience** — Grouping `YearsCodePro` into ranges; median satisfaction by experience; KDE and count plots.
-* **Remote work & demographics** — Remote work by employment type and region; cross-tabs of education vs. employment.
-* **Programming languages** — Comparing `LanguageHaveWorkedWith` vs. `LanguageWantToWorkWith`; top languages by country/region.
-* **Distributions** — KDE plots, grouped bar charts, and heatmaps for categorical and numeric variables.
-* **Outliers** — Standard-deviation thresholds and **IQR** bounds on `ConvertedCompYearly`; box plots; building a cleaned DataFrame for further analysis.
-* **Correlation** — Pearson and Spearman coefficients; correlation heatmaps and scatter plots linking compensation, `WorkExp`, and `JobSatPoints_1`.
-
-### 5. How Part 1 Connects to the Full Capstone
-
-Part 1 labs map directly to the first stages of the project overview:
-
-* **Collect** (9.01–9.03) — HTTP, APIs, and web scraping mirror how capstone data is gathered before analysis.
-* **Explore & wrangle** (9.04–9.09) — Prepare the Stack Overflow survey: duplicates, missing values, normalization, encoding, feature engineering.
-* **EDA** (9.12–9.15) — Distributions, outliers, and correlations inform which metrics and chart types you will use in Part 2 dashboards.
-* **Part 2 preview** — Visualization and three dashboards (Current Usage, Future Trends, Demographics) in Cognos or Looker Studio.
-* **Part 3 preview** — Peer-graded PowerPoint presentation with clear titles, labels, and chart choices.
+**The Part 2 end goal:** dashboards and a presentation covering **Current Technology Usage**, **Future Technology Trends**, and **Demographics**, as described in the capstone brief.
 
 ---
 
-## Labs and Notebooks (Capstone Part 1)
+## What Part 2 Covers
 
-All hands-on notebooks are configured for the **`dev`** conda kernel. Pip install cells are commented out; run labs top-to-bottom after selecting the dev kernel. Work through lessons in order where possible—they follow the capstone workflow from collection to EDA.
+Lessons progress from **plotting in Python** (SQL-sourced and DataFrame-sourced) through **dashboarding** to **presenting findings**.
 
-### 9.01 — HTTP and Requests
+### 1. Visualizing Data from a Database (SQL → Pandas → Matplotlib)
 
-* **Review of Accessing APIs / HTTP** (`PY0101EN-5 3_Requests_HTTP.ipynb`) — Overview of HTTP (URL, request, response); using the `requests` module for GET requests with parameters and POST requests. Supporting file: `example1.txt`.
+* **Working with an RDBMS** — Load the survey into **SQLite**, list tables, describe schemas, and run **`GROUP BY`** queries; pull just the columns you need into Pandas with `pd.read_sql_query` before plotting.
+* **All four visualization goals** — Distribution, relationship, composition, and comparison, demonstrated end-to-end on the survey data.
 
-### 9.02 — Collecting Data with APIs
+### 2. Core Chart Types in Python
 
-* **Collecting Job Data Using APIs** (`Collecting_job_data_using_APIs-Lab.ipynb`) — Collect job posting data via a Jobs API (Flask backend); store results in Excel/CSV. Local datasets: `job-postings.csv`, `job-postings.xlsx`, `technology-job-postings.csv`, `technology-job-postings.xlsx`.
+* **Histograms** — Distribution of a single variable (compensation, coding experience); overlay by group; bin counts and skew (compensation is capped at the 99th percentile so a few extreme values don't flatten the chart).
+* **Box plots** — Median, quartiles, IQR, and outliers; converting the categorical `Age` field to numeric for a box plot.
+* **Scatter plots** — Relationships between two numeric variables (age vs. job satisfaction, compensation vs. satisfaction), with a **Seaborn regression line** (`sns.regplot`) to show the trend.
+* **Bubble plots** — A third dimension via bubble size (e.g., age or respondent count) layered onto a scatter plot.
+* **Pie charts** — Composition of a whole; **top-5** databases, developer roles, operating systems, languages, collaboration tools, AI tools, web frameworks, and embedded technologies (splitting multi-select columns first).
+* **Stacked charts** — Composition *and* comparison at once; job-satisfaction components, compensation, databases, languages, and platforms stacked across age groups and employment types.
+* **Line charts** — Trends across an ordered axis; median compensation by age group and by years of experience; job satisfaction by experience level.
+* **Bar charts** — Distribution, composition, and comparison; horizontal (`MainBranch`), vertical top-5 (desired languages), grouped (compensation by age), and respondent counts by country.
 
-### 9.03 — Web Scraping
+### 3. Dashboards in Google Looker Studio
 
-* **Web Scraping Lab** (`Web-Scraping-Review-Lab.ipynb`) — Download pages with `requests`; scrape links, image URLs, and HTML tables from a live site.
-* **Web Scraping Lab Solution** (`Web-Scraping-Lab-Solution.ipynb`) — Reference solution: extract table data and write to CSV. Output example: `popular-language.csv`.
+* **Getting started with Looker Studio** — Connect data and build a first dashboard (`10.09/getting-started-looker.pdf`).
+* **Word clouds in Looker Studio** — Add a community word-cloud visualization (`10.09/word-cloud-looker.pdf`).
 
-### 9.04 — Exploring the Dataset
+### 4. Presenting Your Findings (Part 3)
 
-* **Lab: Exploring the Dataset** (`M1ExploreDataSet-lab_V2.ipynb`) — Load the Stack Overflow survey data; summarize characteristics; identify column data types. Dataset: `survey-data-with-duplicate.csv` (URL-hosted).
+* **Elements of a successful data findings report** — What a findings report is and why effective reporting matters (`Downloads/IBM DA M10U3V1 ...`).
+* **Best practices for presenting your findings** — How to present to an audience: clear titles, labels, and chart choices (`Downloads/IBM DA M10U3V2 ...`).
+* **Capstone presentation** — Fill in the provided PowerPoint template (`First Name Last Name M10U3 Capstone project.pptx`) for the peer-graded review.
 
-### 9.06 — Duplicates
+---
 
-* **Finding Duplicates Lab** (`Hands-on Lab Finding Duplicates_v2.ipynb`) — Identify duplicate rows; analyze response patterns across key columns; visualize and strategically remove duplicates.
-* **Removing Duplicates** (`Hands-on Lab 7 Removing Duplicates_v2.ipynb`) — Remove duplicate rows; impute missing values in `EdLevel` and `ConvertedCompYearly`; preview cleaned data. Dataset: `survey-data-duplicates.csv`.
+## Labs and Notebooks (Capstone Part 2)
 
-### 9.07 — Missing Values
+All hands-on notebooks are configured for the **`dev`** conda kernel. `pip install` cells are commented out, and each lab downloads its dataset at runtime via a small `urllib` helper (the large survey files are **not** committed to the repo). Run labs top-to-bottom after selecting the `dev` kernel; work through the chart types in order.
 
-* **Finding Missing Values** (`Hands-on Lab 8 Finding Missing Values.ipynb`) — Detect missing values across columns; heatmap visualization; quantify and impute `EdLevel` with the mode; plot distribution after imputation.
-* **Impute Missing Values** (`Hands-on Lab 9 Imput Missing Values.ipynb`) — Remove duplicates; impute `RemoteWork`; describe compensation-related columns. Dataset: `survey-data-duplicates.csv`.
+### 10.02 — Data Visualization (RDBMS)
 
-### 9.08 — Normalization
+* **Lab 16 — Data Visualization** (`Lab 16 Data Visualization.ipynb`) — Load the survey CSV, write it to an **SQLite** database, and use SQL queries to drive one of each chart type: histogram (`CompTotal`), box plot (`Age`), scatter (`Age` vs `WorkExp`), bubble (`TimeSearching` vs frustrations, size = `Age`), pie (top-5 `DatabaseWantToWorkWith`), stacked bar (median `TimeSearching`/`TimeAnswering`), line (median `CompTotal` by age), and horizontal bar (`MainBranch`).
 
-* **Data Normalization Techniques** (`Hands-on Lab 10 Normalizing Data.ipynb`) — Handle duplicates and missing `CodingActivities`; Min-Max and Z-score normalization on `ConvertedCompYearly`; visualize normalized distributions.
+### 10.03 — Histograms and Box Plots
 
-### 9.09 — Integrated Data Wrangling
+* **Lab 17 — Histogram** (`Lab 17 Data Visualization - Histogram.ipynb`) — Histograms from the SQLite survey database: distribution of `CompTotal` and `YearsCodePro`, comparison of `CompTotal` and `TimeSearching` by age group, composition of top databases and `RemoteWork`, and `JobSat` by experience band.
+* **Lab 18 — Box Plot** (`Lab 18 Box Plot.ipynb`) — Box plots of compensation and other fields by category, pulled from the SQLite database (worked reference lab).
 
-* **Data Wrangling Lab** (`M2DataWrangling-lab-v2.ipynb`) — End-to-end wrangling on `survey-data.csv`: structure exploration, country standardization, one-hot encoding `Employment`, imputation, Min-Max/Z-score/log transforms, and `ExperienceLevel` feature engineering.
+### 10.04 — Scatter and Bubble Plots
 
-### 9.12 — Exploratory Data Analysis
+* **Lab 19 — Scatter Plot** (`Lab 19 Scatter Plot.ipynb`) — Scatter relationships (age vs. satisfaction, compensation vs. satisfaction), a **Seaborn `regplot`** trend line, a bubble plot, and group comparisons by employment type and country. Dataset loaded directly from the survey URL.
+* **Lab 20 — Bubble Plots** (`Lab 20 Bubble Plots.ipynb`) — Bubble plots across demographics and technology preferences: participation frequency, compensation vs. satisfaction, languages/collaboration tools by age, developer roles, web frameworks, and admired languages by country (bubble size = count or age).
 
-* **Lab: Exploratory Data Analysis** (`Hands-on Lab Exploratory Data Analysis.ipynb`) — Impute critical columns; analyze experience vs. job satisfaction; remote work and language trends by region; education vs. employment cross-tabs; save `survey-data-cleaned.csv`.
+### 10.05 — Pie and Stacked Charts
 
-### 9.13 — Data Distributions
+* **Lab 21 — Pie Charts** (`Lab 21 Pie Charts.ipynb`) — Top-5 composition pies for databases, developer roles, operating systems, languages, collaboration tools, admired languages, AI tools, web frameworks, and embedded technologies.
+* **Lab 22 — Stacked Charts** (`Lab 22 Stacked Charts.ipynb`) — Stacked bars for job-satisfaction components by age group and employment status, compensation + satisfaction by age, and preferred databases / admired languages / platforms by group.
 
-* **Finding How The Data Is Distributed** (`Lab 13 Finding How The Data is Distributed.ipynb`) — Structure and missing-data handling; value counts; KDE of `JobSat`; language comparison bar chart; remote work heatmap by region; Pearson/Spearman correlation; export `survey-data-distributed.csv`.
+### 10.06 — Line and Bar Charts
 
-### 9.14 — Outliers
+* **Lab 23 — Line Charts** (`Lab 23 Line Charts.ipynb`) — Trend lines: median `ConvertedCompYearly` by age group and for ages 25–45, and job satisfaction across years of experience.
+* **Lab 24 — Bar Charts** (`Lab 24 Bar Charts.ipynb`) — A full pass through distribution, relationship, composition, and comparison: histogram, box plot, scatter, bubble, and horizontal/vertical/grouped/stacked bars (`MainBranch`, `LanguageWantToWorkWith`, `DatabaseHaveWorkedWith`, compensation by age, respondents by country).
 
-* **Finding Outliers** (`Lab 14 Finding Outliers.ipynb`) — Industry distribution; high-compensation outliers (3σ rule); IQR detection and box plots; `df_clean` without compensation outliers; age mapping and correlation heatmap.
+### 10.09 — Dashboards (Google Looker Studio)
 
-### 9.15 — Correlation
+* **Getting Started with Looker** (`10.09/getting-started-looker.pdf`) and **Word Cloud in Looker** (`10.09/word-cloud-looker.pdf`) — Build the capstone dashboards.
 
-* **Finding Correlation** (`Lab 15 Finding Correlation.ipynb`) — Compensation histograms; median pay for full-time employees; box plots by country; IQR-cleaned data; heatmap and scatter plots for `ConvertedCompYearly`, `WorkExp`, and `JobSatPoints_1`.
-
-### 9.16 — Live Session
+### 10.10 — Live Session
 
 * Placeholder for live session materials (`.gitkeep`).
 
@@ -158,51 +122,47 @@ All hands-on notebooks are configured for the **`dev`** conda kernel. Pip instal
 
 | Dataset | Used in | Notes |
 | ------- | ------- | ----- |
-| `survey-data.csv` | 9.09, 9.12–9.15 | Primary cleaned survey (URL-hosted) |
-| `survey-data-duplicates.csv` | 9.06 (Removing), 9.07, 9.08 | Includes duplicate rows for wrangling labs |
-| `survey-data-with-duplicate.csv` | 9.04, 9.06 (Finding) | Exploration and duplicate-detection practice |
-| `job-postings.csv` / `.xlsx` | 9.02 | API-collected job data |
-| `technology-job-postings.csv` / `.xlsx` | 9.02 | Technology-focused job postings |
-| `popular-language.csv` | 9.03 | Web-scraped language popularity |
-| `survey-data-cleaned.csv` | 9.12 (output) | EDA lab export |
-| `survey-data-distributed.csv` | 9.13 (output) | Distribution lab export |
+| `survey-data.csv` | 10.02, 10.04–10.06 | Cleaned Stack Overflow survey (URL-hosted; downloaded at runtime) |
+| `survey-results-public.sqlite` | 10.03 (Labs 17, 18) | Full public survey as an SQLite database (downloaded at runtime) |
+| `survey-data.sqlite` | 10.02 | Created by Lab 16 from the CSV |
+
+> The survey CSV (~160 MB) and SQLite database (~210 MB) are **downloaded at runtime** and are git-ignored, so they are not stored in the repository.
 
 ---
 
 ## Supporting Materials
 
-* **Downloads** — `IBM DA M9U1V1 Project Overview-en.txt`: full capstone brief (all parts). Part 1 aligns with data collection, wrangling, and EDA; the overview also describes Part 2 dashboards and Part 3 presentation requirements.
+* **Looker Studio guides** (`10.09/`) — Step-by-step PDFs for building dashboards and a word-cloud visualization.
+* **Downloads** — Transcripts on **Elements of a Successful Data Findings Report** and **Best Practices for Presenting Your Findings**.
+* **Capstone presentation template** — `First Name Last Name M10U3 Capstone project.pptx` for the Part 3 peer-graded deliverable.
 
 ---
 
-## Key Takeaways (Part 1)
+## Key Takeaways (Part 2)
 
-* **Capstone role** — You are preparing the **Stack Overflow Developer Survey** for a technology consulting engagement; Part 1 is the analytical foundation.
-* **Collection** — **HTTP** and **`requests`** for web resources; **APIs** for structured JSON/CSV data; **web scraping** when data is embedded in HTML.
-* **Exploration** — Always start with **`head()`**, **`info()`**, **`describe()`**, and **dtype** review before cleaning.
-* **Wrangling** — **`drop_duplicates()`**, **`isnull()` / `fillna()`**, **IQR/outlier removal**, **Min-Max / Z-score / log transforms**, **`get_dummies()`**, and **feature engineering** turn messy survey data into analysis-ready tables.
-* **EDA** — **Distributions** (histograms, KDE, box plots), **cross-tabs**, **heatmaps**, and **correlation** (Pearson/Spearman) reveal satisfaction, compensation, remote work, and technology patterns for Part 2.
-* **What's next** — Part 2: dashboards in **Cognos** or **Looker Studio**. Part 3: **PowerPoint** presentation and peer review.
+* **Chart selection** — Distribution → **histogram/box**; relationship → **scatter/bubble**; composition → **pie/stacked**; trend & comparison → **line/bar**.
+* **SQL + Pandas** — Pull survey data from **SQLite** with `pd.read_sql_query`, then visualize with **Matplotlib**/**Seaborn**.
+* **Prep before plotting** — Map categorical `Age` to numeric midpoints, coerce `YearsCodePro` to numbers, and **split/explode** multi-select technology columns before counting.
+* **From notebook to stakeholder** — Move charts into **Looker Studio** dashboards and a **PowerPoint** findings report with clear titles, labels, and an honest story.
 
 ---
 
-## Part 1 Completion Checklist
+## Part 2 Completion Checklist
 
-Before moving to capstone visualization and dashboards, you should be able to:
+Before finishing the capstone, you should be able to:
 
-* [ ] Load and describe the Stack Overflow survey (`info`, `describe`, dtypes)
-* [ ] Collect supplementary data via HTTP, API, or scraping (9.01–9.03)
-* [ ] Remove duplicates and impute missing values in key columns
-* [ ] Normalize or transform skewed fields (e.g. `ConvertedCompYearly`)
-* [ ] Identify outliers and produce a cleaned DataFrame for analysis
-* [ ] Summarize distributions and correlations that will inform dashboard metrics
-* [ ] Export a cleaned dataset (e.g. `survey-data-cleaned.csv`) for Part 2
+* [ ] Pull survey data from an SQLite database with SQL and load it into Pandas
+* [ ] Build each core chart type (histogram, box, scatter, bubble, pie, stacked, line, bar)
+* [ ] Convert categorical/text survey fields to numeric and split multi-select columns
+* [ ] Add a regression line to a scatter plot with Seaborn
+* [ ] Build a dashboard in Google Looker Studio
+* [ ] Produce a findings presentation (PowerPoint) for the peer-graded review
 
 ---
 
-## Part 1 — Laying the Capstone Groundwork
+## Part 2 — Telling the Capstone Story
 
-Think of this module as the **data foundation** for the capstone—not a separate set of exercises.
+Think of this module as the **communication layer** of the capstone—where analysis becomes insight that others can act on.
 
-The goal is not to memorize every Pandas method.
-The goal is to **collect data from real sources**, **clean it with defensible choices**, and **explore it thoroughly**—so Part 2 dashboards and Part 3 presentations answer real business questions about technology trends with data you understand and trust.
+The goal is not to memorize every Matplotlib call.
+The goal is to **choose the right visualization for each question**, **build dashboards stakeholders can explore**, and **present findings clearly and honestly**—so the technology trends you uncovered in Part 1 drive real decisions.
