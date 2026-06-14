@@ -1,0 +1,9 @@
+Activity instructions
+
+List at least two data points that are required for analyzing trends and patterns that will help you forecast your product inventory for the current year.
+
+Refer to the data table in the reading and identify two errors or issues that could impact the accuracy of your findings.
+Refer to the data table in the reading and identify two correlations that you notice in the dataset.
+Briefly explain two observations or insights that you can take away from the provided visualization. You can also refer to the dataset provided in the reading.
+
+“Data has value through the stories that it tells. Your audience must be able to trust you, understand you, and relate to your findings and insights.” Refer to the Unit 3 media set video “Overview of communicating and sharing data analysis findings” and identify two practices that can help your audience trust, understand, and relate to you.
