@@ -9,8 +9,6 @@
 
 This module is about **turning analysis into insight**—taking prepared data and making it understandable through charts, dashboards, and data stories. You start in **Excel** (basic charts, advanced charts, and a simple dashboard), then move to two dedicated business intelligence tools: **IBM Cognos Analytics** and **Google Looker Studio**. The emphasis is less on memorizing menus and more on **choosing the right chart, building a coherent dashboard, and telling a clear data story**.
 
-> For the conceptual spine of the module, see **`Module 3 - Big Ideas in Data Visualization and Dashboards.pdf`** (bundled at the module root)—a nine-point companion covering communication, chart selection, dashboards, layout, storytelling, and why the principles outlast any one tool.
-
 The core takeaway:
 
 > Analysis only matters if people can understand it. This module teaches you how to **visualize** results and assemble them into **dashboards**—in Excel and in BI tools—so your findings drive decisions.
@@ -87,7 +85,6 @@ The numbered subfolders follow the course order. **PDFs** are the step-by-step l
 | **3.07** | `3.7-getting-started-cognos.pdf`, `3.7-dashboard-cognos.pdf`, `3.7-advanced-dashboard-cognos.pdf` — IBM Cognos Analytics: setup/navigation, building dashboard visualizations, and advanced capabilities. Dataset: `CustomerLoyaltyProgram.csv`. |
 | **3.08** | `3.8-getting-started-looker.pdf`, `3.8-visualizations-looker.pdf`, `3.8-advanced-charts-looker.pdf` — Google Looker Studio: setup, configuring visualizations, and (optional) advanced community charts. Dataset: `CustomerLoyaltyProgram.csv`. |
 | **3.09** | `3.9-cognos-lab.pdf`, `3.9-looker-lab.pdf` — the **final assignment** (car-dealership Sales + Service dashboards) in Cognos and Looker. Datasets in `Automotive_Industry/` (XLSX) and `Looker_Dataset/` (CSV), plus `CarSalesByModelStart.xlsx`. |
-| **`Module 3 - Big Ideas in Data Visualization and Dashboards.pdf`** | Conceptual companion (authored for this cohort): nine big ideas tying the module together, from "visualization is communication" to "turn data into insight, and insight into action." |
 | **`IBM Data Analyst M3U3 Live session presentation.pdf`** | Slide deck for the Module 3 live session—a guided demo of Excel PivotChart visuals and Cognos/Looker dashboards on the car-dealership dataset. |
 | **3.10 - Live Session** | Placeholder folder for live session materials (the deck above lives at the module root). |
 | **Downloads** | Text transcripts/notes (`.txt`) for the video topics—useful for review without opening a PDF. |
@@ -117,4 +114,4 @@ The **`Downloads`** directory holds **text companion notes** aligned with the co
 
 Think of this module as building your **visualization and communication toolkit**, not as learning one chart wizard.
 
-The goal is not to memorize every menu in Excel, Cognos, or Looker. The goal is to **choose the right visual, assemble a coherent dashboard, and tell a clear data story**—so the analysis you do in the rest of the course actually lands with the people who need it. As the *Big Ideas* companion puts it: the tool is temporary, the thinking is permanent.
+The goal is not to memorize every menu in Excel, Cognos, or Looker. The goal is to **choose the right visual, assemble a coherent dashboard, and tell a clear data story**—so the analysis you do in the rest of the course actually lands with the people who need it. The tool is temporary; the thinking is permanent.
