@@ -35,7 +35,7 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Data quality — introduction, issues and inconsistencies, removing duplicates and inaccurate data
 * Excel features for cleaning data; data quality, privacy, and ethics basics
 
-### Module 03: Data Visualization and Dashboards with Excel and Cognos Analytics
+### Module 03: Data Visualization and Dashboards with Excel, Cognos, and Looker
 
 * Introduction to charts; creating basic charts in Excel
 * Advanced chart types — treemaps, scatter charts, histograms, filled maps, sparklines, PivotCharts
@@ -43,6 +43,8 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Using dashboards to present data results; using visualizations to tell a data story
 * IBM Cognos Analytics — introduction and sign-up, navigating the interface
 * Creating a simple dashboard in Cognos; advanced Cognos dashboard capabilities
+* Google Looker Studio — getting started, creating visualizations, and advanced charts
+* Hands-on Cognos and Looker labs using a shared automotive industry dataset
 
 ### Module 04: Python Fundamentals
 
