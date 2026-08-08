@@ -18,14 +18,14 @@ This comprehensive data science course covers the full spectrum of data science 
 * Git and version control basics
 * Orientation downloads and resources
 
-### Module 01: Data Science Methodology
+### [Module 01: Big Ideas in Data Science Methodology](./Module_01/README.md)
 
 * Introduction to the data science process
 * From requirements to data collection
 * Understanding, preparation, modeling, and evaluation
 * Live session materials included
 
-### Module 02: Python Fundamentals
+### [Module 02: Python Basics for Data Science](./Module_02/README.md)
 
 * Python basics: Hello World, types, expressions, variables
 * String operations
@@ -38,13 +38,13 @@ This comprehensive data science course covers the full spectrum of data science 
 * Working with different file types (CSV, JSON, XML, Excel, images, etc.)
 * Web scraping introduction
 
-### Module 03: Web Scraping
+### [Module 03: Extracting and Visualizing Data](./Module_03/README.md)
 
 * Web scraping techniques and best practices
 * Review labs and practice exercises
 * Final assignments covering library usage and web scraping
 
-### Module 04: Databases and SQL
+### [Module 04: Databases and SQL for Data Science](./Module_04/README.md)
 
 * SQL fundamentals
 * Database operations
@@ -52,14 +52,14 @@ This comprehensive data science course covers the full spectrum of data science 
 * Real-world data practice
 * Final database project
 
-### Module 05: Data Analysis and Visualization
+### [Module 05: Analyzing Data with Python](./Module_05/README.md)
 
 * Data analysis techniques
 * Visualization tools and libraries
 * Multiple practice sessions with datasets
 * Live session labs
 
-### Module 06: Data Science Tools
+### [Module 06: Data Visualization](./Module_06/README.md)
 
 * Advanced data science libraries
 * Data manipulation and analysis
@@ -67,14 +67,14 @@ This comprehensive data science course covers the full spectrum of data science 
 * JSON data handling
 * Live session materials
 
-### Module 07: Statistical Analysis
+### [Module 07: Machine Learning — Regression & Classification](./Module_07/README.md)
 
 * Statistical concepts and methods
 * Data analysis techniques
 * Reference materials and PDFs
 * Live session exercises
 
-### Module 08: Machine Learning
+### [Module 08: Machine Learning — Trees, Ensembles, Clustering & Model Evaluation](./Module_08/README.md)
 
 * Machine learning fundamentals
 * Supervised and unsupervised learning
@@ -83,7 +83,7 @@ This comprehensive data science course covers the full spectrum of data science 
 * Multiple practice sessions
 * Live session labs
 
-### Module 09: Advanced Topics and Projects
+### [Module 09: Data Collection, Wrangling, EDA & Capstone (SpaceX)](./Module_09/README.md)
 
 * GitHub instructions and version control
 * Advanced data science projects
@@ -91,12 +91,14 @@ This comprehensive data science course covers the full spectrum of data science 
 * Final project preparation
 * Live session materials
 
-### Module 10: Capstone and Final Projects
+### [Module 10: Interactive Analytics, Dashboards, Predictive Modeling & Capstone Delivery](./Module_10/README.md)
 
 * Capstone project resources
 * Final assignments
 * Project templates and examples
 * Live session presentations
+
+Each module listed above links to its own "Big Ideas" README — the authored summary of that module's core concepts, labs, and takeaways.
 
 ## File Organization
 
@@ -131,4 +133,4 @@ This comprehensive data science course covers the full spectrum of data science 
 * Some modules may reference external datasets or resources
 * Live session folders contain both solved and unsolved versions of labs
 * Final assignments are typically located in the later modules (9, 10)
-* This course is currently in progress - additional modules will be added as the course progresses
+* This cohort has concluded; the materials above are the final, complete set

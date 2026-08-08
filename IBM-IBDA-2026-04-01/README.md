@@ -10,7 +10,7 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 
 ### Module 0: Orientation
 
-### Module 01: Introduction to Data Analytics
+### [Module 01: Introduction to Data Analytics](./Module_01/README.md)
 
 * The modern data ecosystem — key players and their roles
 * Defining data analysis; types of analytics (descriptive, diagnostic, predictive, prescriptive)
@@ -24,7 +24,7 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Communicating and sharing results; data storytelling; introduction to visualization and dashboarding software
 * Career opportunities, paths into the profession, and practitioner viewpoints
 
-### Module 02: Excel Basics for Data Analysis
+### [Module 02: Excel Basics for Data Analysis](./Module_02/README.md)
 
 * Introduction to spreadsheets and common applications
 * Spreadsheet basics — viewing, entering, editing, copying, filling, and formatting data
@@ -35,7 +35,7 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Data quality — introduction, issues and inconsistencies, removing duplicates and inaccurate data
 * Excel features for cleaning data; data quality, privacy, and ethics basics
 
-### Module 03: Data Visualization and Dashboards with Excel, Cognos, and Looker
+### [Module 03: Data Visualization and Dashboards](./Module_03/README.md)
 
 * Introduction to charts; creating basic charts in Excel
 * Advanced chart types — treemaps, scatter charts, histograms, filled maps, sparklines, PivotCharts
@@ -46,7 +46,7 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Google Looker Studio — getting started, creating visualizations, and advanced charts
 * Hands-on Cognos and Looker labs using a shared automotive industry dataset
 
-### Module 04: Python Fundamentals
+### [Module 04: Python Basics for Data Analysts](./Module_04/README.md)
 
 * Python basics: Hello World, types, expressions, variables
 * String operations
@@ -59,13 +59,13 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Working with different file types (CSV, JSON, XML, Excel, images, etc.)
 * Web scraping introduction
 
-### Module 05: Web Scraping
+### [Module 05: Extracting and Visualizing Data](./Module_05/README.md)
 
 * Web scraping techniques and best practices
 * Review labs and practice exercises
 * Final assignments covering library usage and web scraping
 
-### Module 06: Databases and SQL
+### [Module 06: Databases and SQL for Data Analysts](./Module_06/README.md)
 
 * SQL fundamentals
 * Database operations
@@ -73,14 +73,14 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Real-world data practice
 * Final database project
 
-### Module 07: Data Analysis and Visualization
+### [Module 07: Analyzing Data with Python](./Module_07/README.md)
 
 * Data analysis techniques
 * Visualization tools and libraries
 * Multiple practice sessions with datasets
 * Live session labs
 
-### Module 08: Data Analyst Tools
+### [Module 08: Data Visualization](./Module_08/README.md)
 
 * Advanced data analytics libraries
 * Data manipulation and analysis
@@ -88,7 +88,7 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * JSON data handling
 * Live session materials
 
-### Module 09: Advanced Topics and Projects
+### [Module 09: Capstone Project — Part 1](./Module_09/README.md)
 
 * GitHub instructions and version control
 * Advanced data science projects
@@ -96,12 +96,14 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Final project preparation
 * Live session materials
 
-### Module 10: Capstone and Final Projects
+### [Module 10: Capstone Project — Part 2](./Module_10/README.md)
 
 * Capstone project resources
 * Final assignments
 * Project templates and examples
 * Live session presentations
+
+Each linked module above points to its own "Big Ideas" README — the authored summary of that module's core concepts, labs, and takeaways.
 
 ## File Organization
 
@@ -136,4 +138,4 @@ This comprehensive data analyst course covers the full spectrum of data analytic
 * Some modules may reference external datasets or resources
 * Live session folders contain both solved and unsolved versions of labs
 * Final assignments are typically located in the later modules (9, 10)
-* This course is currently in progress - additional modules will be added as the course progresses
+* This cohort has concluded; the materials above are the final, complete set

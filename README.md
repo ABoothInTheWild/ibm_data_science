@@ -1,6 +1,6 @@
 # IBM Data Science Program
 
-This repository contains course materials, labs, exercises, and resources for the IBM Data Science (**IBSC**) and IBM Data Analyst (**IBDA**) courses facilitated by the Head Program Instructor.
+This repository is the complete, historical archive of the IBM Data Science (**IBSC**) and IBM Data Analyst (**IBDA**) bootcamps facilitated by the Head Program Instructor. The IBM program has concluded — no further cohorts are planned — so this repo holds the finished course materials, labs, exercises, and resources for all four cohorts that ran.
 
 ## Repository Structure
 
@@ -46,6 +46,6 @@ Each class folder contains its own README with specific details about that sessi
 
 ## Notes
 
-* This repository will expand as additional classes are added
+* This is a closed archive — the IBM program has ended and no new cohorts will be added
 * Live session materials are included in each module
 * Solutions and practice files are organized by module number
